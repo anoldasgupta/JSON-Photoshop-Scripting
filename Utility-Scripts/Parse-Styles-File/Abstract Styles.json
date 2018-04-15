@@ -1,0 +1,598 @@
+{
+    "patterns":
+    [
+        {
+            "version": 1,
+            "imageMode": "RGB",
+            "height": 128,
+            "width": 128,
+            "name": "Stucco",
+            "ID": "aa3b4390-d92b-11d5-88f4-9a5486193fa3"
+        },
+        {
+            "version": 1,
+            "imageMode": "Lab",
+            "height": 128,
+            "width": 128,
+            "name": "Carpet",
+            "ID": "9cea38bf-d92b-11d5-88f4-9a5486193fa3"
+        },
+        {
+            "version": 1,
+            "imageMode": "RGB",
+            "height": 445,
+            "width": 452,
+            "name": "Pattern 17",
+            "ID": "93a06d01-9d23-11d5-903f-bcb8a7469a7e"
+        },
+        {
+            "version": 1,
+            "imageMode": "RGB",
+            "height": 269,
+            "width": 269,
+            "name": "abstract-orange",
+            "ID": "ba0f163a-9c84-11d5-8346-dd727105bd36"
+        },
+        {
+            "version": 1,
+            "imageMode": "RGB",
+            "height": 600,
+            "width": 600,
+            "name": "artistic strokes",
+            "ID": "f5c056f7-b299-11d5-a639-8e9fe804f63c"
+        },
+        {
+            "version": 1,
+            "imageMode": "RGB",
+            "height": 200,
+            "width": 200,
+            "name": "purple pastels",
+            "ID": "97c1dee1-e65c-11d5-b157-9b5d7fe2128d"
+        },
+        {
+            "version": 1,
+            "imageMode": "RGB",
+            "height": 200,
+            "width": 200,
+            "name": "tan yellow orange dry brush",
+            "ID": "53b83834-e65d-11d5-b157-9b5d7fe2128d"
+        }
+    ],
+    "styles":
+    [
+        {
+            "name": "$$$/Presets/Styles/AbstractStyles_asl/WhiteGridonOrange=White Grid on Orange",
+            "ID": "4f9c74db-d6b0-11d5-936b-a692817fa7d2",
+            "documentMode":
+            {
+            },
+            "blendOptions":
+            {
+            },
+            "layerEffects":
+            {
+                "scale": 100,
+                "masterFXSwitch": true,
+                "bevelEmboss":
+                {
+                    "enabled": true,
+                    "highlightMode": "screen",
+                    "highlightColor":
+                    {
+                        "red": 255,
+                        "green": 255,
+                        "blue": 255
+                    },
+                    "highlightOpacity": 75,
+                    "shadowMode": "multiply",
+                    "shadowColor":
+                    {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    },
+                    "shadowOpacity": 75,
+                    "bevelTechnique": "softMatte",
+                    "bevelStyle": "innerBevel",
+                    "useGlobalAngle": true,
+                    "localLightingAngle": 120,
+                    "localLightingAltitude": 30,
+                    "strengthRatio": 100,
+                    "blur": 5,
+                    "bevelDirection": "stampIn",
+                    "transparencyShape":
+                    {
+                        "name": "Linear",
+                        "curve":
+                        [
+                            {
+                                "horizontal": 0,
+                                "vertical": 0
+                            },
+                            {
+                                "horizontal": 255,
+                                "vertical": 255
+                            }
+                        ]
+                    },
+                    "antialiasGloss": false,
+                    "softness": 0,
+                    "useShape": false,
+                    "useTexture": true,
+                    "invertTexture": false,
+                    "align": true,
+                    "scale": 75,
+                    "textureDepth": 59,
+                    "pattern":
+                    {
+                        "name": "abstract-orange",
+                        "ID": "ba0f163a-9c84-11d5-8346-dd727105bd36"
+                    },
+                    "phase":
+                    {
+                        "horizontal": 54,
+                        "vertical": 57
+                    }
+                },
+                "patternFill":
+                {
+                    "enabled": true,
+                    "mode": "normal",
+                    "opacity": 100,
+                    "pattern":
+                    {
+                        "name": "abstract-orange",
+                        "ID": "ba0f163a-9c84-11d5-8346-dd727105bd36"
+                    },
+                    "scale": 100,
+                    "align": true,
+                    "phase":
+                    {
+                        "horizontal": 0,
+                        "vertical": 0
+                    }
+                }
+            }
+        },
+        {
+            "name": "$$$/Presets/Styles/AbstractStyles_asl/RoseImpressions=Rose Impressions",
+            "ID": "4fc8d700-d6b0-11d5-936b-a692817fa7d2",
+            "documentMode":
+            {
+            },
+            "blendOptions":
+            {
+            },
+            "layerEffects":
+            {
+                "scale": 100,
+                "masterFXSwitch": true,
+                "bevelEmboss":
+                {
+                    "enabled": true,
+                    "highlightMode": "screen",
+                    "highlightColor":
+                    {
+                        "red": 255,
+                        "green": 255,
+                        "blue": 255
+                    },
+                    "highlightOpacity": 75,
+                    "shadowMode": "multiply",
+                    "shadowColor":
+                    {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    },
+                    "shadowOpacity": 75,
+                    "bevelTechnique": "softMatte",
+                    "bevelStyle": "innerBevel",
+                    "useGlobalAngle": true,
+                    "localLightingAngle": 120,
+                    "localLightingAltitude": 30,
+                    "strengthRatio": 100,
+                    "blur": 5,
+                    "bevelDirection": "stampIn",
+                    "transparencyShape":
+                    {
+                        "name": "Linear",
+                        "curve":
+                        [
+                            {
+                                "horizontal": 0,
+                                "vertical": 0
+                            },
+                            {
+                                "horizontal": 255,
+                                "vertical": 255
+                            }
+                        ]
+                    },
+                    "antialiasGloss": false,
+                    "softness": 0,
+                    "useShape": false,
+                    "useTexture": true,
+                    "invertTexture": false,
+                    "align": true,
+                    "scale": 100,
+                    "textureDepth": 100,
+                    "pattern":
+                    {
+                        "name": "Pattern 17",
+                        "ID": "93a06d01-9d23-11d5-903f-bcb8a7469a7e"
+                    },
+                    "phase":
+                    {
+                        "horizontal": 0,
+                        "vertical": 0
+                    }
+                },
+                "patternFill":
+                {
+                    "enabled": true,
+                    "mode": "normal",
+                    "opacity": 100,
+                    "pattern":
+                    {
+                        "name": "Pattern 17",
+                        "ID": "93a06d01-9d23-11d5-903f-bcb8a7469a7e"
+                    },
+                    "scale": 100,
+                    "align": true,
+                    "phase":
+                    {
+                        "horizontal": 0,
+                        "vertical": 0
+                    }
+                }
+            }
+        },
+        {
+            "name": "$$$/Presets/Styles/AbstractStyles_asl/PurpleandBlack=Purple and Black",
+            "ID": "aa3b4392-d92b-11d5-88f4-9a5486193fa3",
+            "documentMode":
+            {
+            },
+            "layerEffects":
+            {
+                "scale": 100,
+                "masterFXSwitch": true,
+                "bevelEmboss":
+                {
+                    "enabled": true,
+                    "highlightMode": "screen",
+                    "highlightColor":
+                    {
+                        "red": 255,
+                        "green": 255,
+                        "blue": 255
+                    },
+                    "highlightOpacity": 75,
+                    "shadowMode": "multiply",
+                    "shadowColor":
+                    {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    },
+                    "shadowOpacity": 75,
+                    "bevelTechnique": "softMatte",
+                    "bevelStyle": "innerBevel",
+                    "useGlobalAngle": true,
+                    "localLightingAngle": 120,
+                    "localLightingAltitude": 30,
+                    "strengthRatio": 100,
+                    "blur": 5,
+                    "bevelDirection": "stampIn",
+                    "transparencyShape":
+                    {
+                        "name": "Linear",
+                        "curve":
+                        [
+                            {
+                                "horizontal": 0,
+                                "vertical": 0
+                            },
+                            {
+                                "horizontal": 255,
+                                "vertical": 255
+                            }
+                        ]
+                    },
+                    "antialiasGloss": false,
+                    "softness": 0,
+                    "useShape": false,
+                    "useTexture": true,
+                    "invertTexture": false,
+                    "align": true,
+                    "scale": 100,
+                    "textureDepth": 100,
+                    "pattern":
+                    {
+                        "name": "Carpet",
+                        "ID": "9cea38bf-d92b-11d5-88f4-9a5486193fa3"
+                    },
+                    "phase":
+                    {
+                        "horizontal": 0,
+                        "vertical": 0
+                    }
+                },
+                "solidFill":
+                {
+                    "enabled": true,
+                    "mode": "normal",
+                    "opacity": 35,
+                    "color":
+                    {
+                        "red": 51.0038910505837,
+                        "green": 0,
+                        "blue": 153
+                    }
+                },
+                "patternFill":
+                {
+                    "enabled": true,
+                    "mode": "normal",
+                    "opacity": 100,
+                    "pattern":
+                    {
+                        "name": "Stucco",
+                        "ID": "aa3b4390-d92b-11d5-88f4-9a5486193fa3"
+                    },
+                    "scale": 100,
+                    "align": true,
+                    "phase":
+                    {
+                        "horizontal": 0,
+                        "vertical": 0
+                    }
+                }
+            }
+        },
+        {
+            "name": "$$$/Presets/Styles/AbstractStyles_asl/PaintBrushStrokes=Paint Brush Strokes",
+            "ID": "7ab51fc1-db65-11d5-9d8f-f9369d19a198",
+            "documentMode":
+            {
+            },
+            "layerEffects":
+            {
+                "scale": 100,
+                "masterFXSwitch": true,
+                "bevelEmboss":
+                {
+                    "enabled": true,
+                    "highlightMode": "screen",
+                    "highlightColor":
+                    {
+                        "red": 255,
+                        "green": 255,
+                        "blue": 255
+                    },
+                    "highlightOpacity": 75,
+                    "shadowMode": "multiply",
+                    "shadowColor":
+                    {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    },
+                    "shadowOpacity": 75,
+                    "bevelTechnique": "softMatte",
+                    "bevelStyle": "innerBevel",
+                    "useGlobalAngle": true,
+                    "localLightingAngle": 120,
+                    "localLightingAltitude": 30,
+                    "strengthRatio": 100,
+                    "blur": 5,
+                    "bevelDirection": "stampIn",
+                    "transparencyShape":
+                    {
+                        "name": "Linear",
+                        "curve":
+                        [
+                            {
+                                "horizontal": 0,
+                                "vertical": 0
+                            },
+                            {
+                                "horizontal": 255,
+                                "vertical": 255
+                            }
+                        ]
+                    },
+                    "antialiasGloss": false,
+                    "softness": 0,
+                    "useShape": false,
+                    "useTexture": false
+                },
+                "solidFill":
+                {
+                    "enabled": true,
+                    "mode": "normal",
+                    "opacity": 35,
+                    "color":
+                    {
+                        "red": 51.0038910505837,
+                        "green": 0,
+                        "blue": 153
+                    }
+                },
+                "patternFill":
+                {
+                    "enabled": true,
+                    "mode": "normal",
+                    "opacity": 100,
+                    "pattern":
+                    {
+                        "name": "artistic strokes",
+                        "ID": "f5c056f7-b299-11d5-a639-8e9fe804f63c"
+                    },
+                    "scale": 100,
+                    "align": true,
+                    "phase":
+                    {
+                        "horizontal": 0,
+                        "vertical": 0
+                    }
+                }
+            }
+        },
+        {
+            "name": "$$$/Presets/Styles/AbstractStyles_asl/PurpleandMagenta=Purple and Magenta",
+            "ID": "91836373-e708-11d5-b157-9b5d7fe2128d",
+            "documentMode":
+            {
+            },
+            "layerEffects":
+            {
+                "scale": 100,
+                "masterFXSwitch": true,
+                "bevelEmboss":
+                {
+                    "enabled": true,
+                    "highlightMode": "screen",
+                    "highlightColor":
+                    {
+                        "red": 255,
+                        "green": 255,
+                        "blue": 255
+                    },
+                    "highlightOpacity": 75,
+                    "shadowMode": "multiply",
+                    "shadowColor":
+                    {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    },
+                    "shadowOpacity": 75,
+                    "bevelTechnique": "softMatte",
+                    "bevelStyle": "innerBevel",
+                    "useGlobalAngle": true,
+                    "localLightingAngle": 120,
+                    "localLightingAltitude": 30,
+                    "strengthRatio": 100,
+                    "blur": 5,
+                    "bevelDirection": "stampIn",
+                    "transparencyShape":
+                    {
+                        "name": "Linear",
+                        "curve":
+                        [
+                            {
+                                "horizontal": 0,
+                                "vertical": 0
+                            },
+                            {
+                                "horizontal": 255,
+                                "vertical": 255
+                            }
+                        ]
+                    },
+                    "antialiasGloss": false,
+                    "softness": 0,
+                    "useShape": false,
+                    "useTexture": false
+                },
+                "patternFill":
+                {
+                    "enabled": true,
+                    "mode": "normal",
+                    "opacity": 100,
+                    "pattern":
+                    {
+                        "name": "purple pastels",
+                        "ID": "97c1dee1-e65c-11d5-b157-9b5d7fe2128d"
+                    },
+                    "scale": 100,
+                    "align": true,
+                    "phase":
+                    {
+                        "horizontal": 0,
+                        "vertical": 0
+                    }
+                }
+            }
+        },
+        {
+            "name": "$$$/Presets/Styles/AbstractStyles_asl/YellowandOrange=Yellow and Orange",
+            "ID": "91836374-e708-11d5-b157-9b5d7fe2128d",
+            "documentMode":
+            {
+            },
+            "layerEffects":
+            {
+                "scale": 100,
+                "masterFXSwitch": true,
+                "bevelEmboss":
+                {
+                    "enabled": true,
+                    "highlightMode": "screen",
+                    "highlightColor":
+                    {
+                        "red": 255,
+                        "green": 255,
+                        "blue": 255
+                    },
+                    "highlightOpacity": 75,
+                    "shadowMode": "multiply",
+                    "shadowColor":
+                    {
+                        "red": 0,
+                        "green": 0,
+                        "blue": 0
+                    },
+                    "shadowOpacity": 75,
+                    "bevelTechnique": "softMatte",
+                    "bevelStyle": "innerBevel",
+                    "useGlobalAngle": true,
+                    "localLightingAngle": 120,
+                    "localLightingAltitude": 30,
+                    "strengthRatio": 100,
+                    "blur": 5,
+                    "bevelDirection": "stampIn",
+                    "transparencyShape":
+                    {
+                        "name": "Linear",
+                        "curve":
+                        [
+                            {
+                                "horizontal": 0,
+                                "vertical": 0
+                            },
+                            {
+                                "horizontal": 255,
+                                "vertical": 255
+                            }
+                        ]
+                    },
+                    "antialiasGloss": false,
+                    "softness": 0,
+                    "useShape": false,
+                    "useTexture": false
+                },
+                "patternFill":
+                {
+                    "enabled": true,
+                    "mode": "normal",
+                    "opacity": 100,
+                    "pattern":
+                    {
+                        "name": "tan yellow orange dry brush",
+                        "ID": "53b83834-e65d-11d5-b157-9b5d7fe2128d"
+                    },
+                    "scale": 100,
+                    "align": true,
+                    "phase":
+                    {
+                        "horizontal": 0,
+                        "vertical": 0
+                    }
+                }
+            }
+        }
+    ]
+}

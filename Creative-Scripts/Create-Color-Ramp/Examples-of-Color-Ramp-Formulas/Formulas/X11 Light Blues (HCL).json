@@ -1,0 +1,7 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "X11 Light Blues (HCL)",
+		"indexedColors": "distributeColors ([ \"x11/light slate blue\", \"x11/light sky blue\", \"x11/light steel blue 1\" ], [ 0, 255 ], x, \"hcl\")"
+	}
+}

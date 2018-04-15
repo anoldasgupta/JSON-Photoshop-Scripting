@@ -1,0 +1,7 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Light to Dark Blue (HCL)",
+		"indexedColors": "distributeColors ([ rgb (173, 216, 230), rgb (0, 0, 139) ], [ 0, 255 ], x, \"hcl\")"
+	}
+}

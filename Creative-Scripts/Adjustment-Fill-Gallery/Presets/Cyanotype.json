@@ -1,0 +1,560 @@
+﻿{
+	"Colorize":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Colorize",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"colorize": true,
+						"adjustment":
+						[
+							{
+								"hue": 205,
+								"saturation": 33,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Contrast",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 50,
+						"useLegacy": false
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Selective Color | Yellow Highlights",
+				"type":
+				{
+					"selectiveColor":
+					{
+						"method": "relative",
+						"colorCorrection":
+						[
+							{
+								"colors": "whites",
+								"cyan": 0,
+								"magenta": 0,
+								"yellowColor": 100,
+								"black": 0
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"Cyan":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer | Cyan Filter",
+				"type":
+				{
+					"channelMixer":
+					{
+						"monochromatic": true,
+						"gray":
+						{
+							"red": 0,
+							"green": 50,
+							"blue": 50
+						}
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "overlay",
+				"opacity": 100,
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Cyanotype",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 210,
+										"saturation": 73,
+										"brightness": 84
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 205,
+										"saturation": 53,
+										"brightness": 76
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 60,
+										"saturation": 25,
+										"brightness": 75
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	],
+	"Deep":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 256,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 10
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 54,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 97
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "softLight",
+				"opacity": 80,
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Cyanotype",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 210,
+										"saturation": 80,
+										"brightness": 70
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 170,
+										"saturation": 50,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Deep",
+				"mode": "overlay",
+				"opacity": 50,
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 215,
+							"saturation": 100,
+							"brightness": 50
+						}
+					}
+				}
+			}
+		}
+	],
+	"Light":
+	[
+		{
+			"contentLayer":
+			{
+				"name": "Dark Vignette",
+				"mode": "overlay",
+				"opacity": 50,
+				"type":
+				{
+					"gradientLayer":
+					{
+						"type": "radial",
+						"angle": 90,
+						"scale": 150,
+						"reverse": true,
+						"dither": true,
+						"gradient":
+						{
+							"name": "Vignette",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 0,
+										"green": 0,
+										"blue": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 252,
+										"green": 252,
+										"blue": 252
+									}
+								}
+							],
+							"transparency":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"opacity": 50
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"opacity": 0
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Cyanotype",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 220,
+										"saturation": 83,
+										"brightness": 19
+									}
+								},
+								{
+									"location": 1024,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 210,
+										"saturation": 80,
+										"brightness": 41
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 200,
+										"saturation": 54,
+										"brightness": 65
+									}
+								},
+								{
+									"location": 3072,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 185,
+										"saturation": 30,
+										"brightness": 83
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 150,
+										"saturation": 9,
+										"brightness": 97
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Saturation | Increase",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": 10,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Neutral | Soft Light",
+				"mode": "softLight",
+				"opacity": 25,
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 0
+					}
+				}
+			}
+		}
+	],
+	"Strong":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 256,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 10
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 55,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 97
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "overlay",
+				"opacity": 80,
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Cyanotype",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 220,
+										"saturation": 90,
+										"brightness": 75
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 180,
+										"saturation": 50,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Paper",
+				"mode": "color",
+				"opacity": 33,
+				"blendRange":
+				[
+					{
+						"channel": "gray",
+						"srcBlackMin": 0,
+						"srcBlackMax": 0,
+						"srcWhiteMin": 0,
+						"srcWhiteMax": 255,
+						"destBlackMin": 0,
+						"destBlackMax": 0,
+						"destWhiteMin": 255,
+						"destWhiteMax": 255
+					}
+				],
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 50,
+							"saturation": 40,
+							"brightness": 80
+						}
+					}
+				}
+			}
+		}
+	]
+}

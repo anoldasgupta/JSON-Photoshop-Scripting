@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Fantasy (HCL)",
+		"colorModel": "HCL",
+		"components":
+		[
+			"-20 + (x / 255) * 110",
+			"128",
+			"100"
+		],
+		"floatRange": false
+	}
+}

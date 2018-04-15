@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Deep Pink to Spring Green",
+		"colorModel": "RGB",
+		"components":
+		[
+			"pow (cos ((x - 0) * PI / 2), 2)",
+			"pow (cos ((x - 1) * PI / 2), 2)",
+			"pow (cos ((x - 1/2) * PI / 2), 2)"
+		],
+		"floatRange": true
+	}
+}

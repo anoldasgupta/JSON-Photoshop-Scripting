@@ -1,0 +1,225 @@
+﻿{
+	"Dreamy [CS4]":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Invert | Color",
+				"mode": "color",
+				"type":
+				{
+					"invert": null
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Vibrance & Saturation | Overlay",
+				"mode": "overlay",
+				"type":
+				{
+					"vibrance":
+					{
+						"vibrance": 100,
+						"saturation": 100
+					}
+				}
+			}
+		}
+	],
+	"Fancy [CS4]":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Color",
+				"mode": "color",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Fancy",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"color":
+									{
+										"red": 183,
+										"green": 21,
+										"blue": 27
+									},
+									"type": "userStop",
+									"location": 0,
+									"midpoint": 50
+								},
+								{
+									"color":
+									{
+										"red": 230,
+										"green": 65,
+										"blue": 75
+									},
+									"type": "userStop",
+									"location": 606,
+									"midpoint": 50
+								},
+								{
+									"color":
+									{
+										"red": 233,
+										"green": 137,
+										"blue": 123
+									},
+									"type": "userStop",
+									"location": 1229,
+									"midpoint": 50
+								},
+								{
+									"color":
+									{
+										"red": 124,
+										"green": 120,
+										"blue": 184
+									},
+									"type": "userStop",
+									"location": 1925,
+									"midpoint": 50
+								},
+								{
+									"color":
+									{
+										"red": 0,
+										"green": 176,
+										"blue": 176
+									},
+									"type": "userStop",
+									"location": 2621,
+									"midpoint": 50
+								},
+								{
+									"color":
+									{
+										"red": 123,
+										"green": 118,
+										"blue": 182
+									},
+									"type": "userStop",
+									"location": 3236,
+									"midpoint": 50
+								}
+							]
+						},
+						"dither": true,
+						"reverse": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Vibrance & Saturation | Hard Light",
+				"mode": "hardLight",
+				"type":
+				{
+					"vibrance":
+					{
+						"vibrance": 100,
+						"saturation": 50
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Neutral | Overlay",
+				"opacity": 50,
+				"mode": "overlay",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 0
+					}
+				}
+			}
+		}
+	],
+	"Mystical":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Curves",
+				"mode": "hardLight",
+				"type":
+				{
+					"curves":
+					{
+						"adjustment":
+						[
+							{
+								"channel": "composite",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 152,
+										"vertical": 103
+									},
+									{
+										"horizontal": 255,
+										"vertical": 255
+									}
+								]
+							},
+							{
+								"channel": "green",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 127,
+										"vertical": 178
+									},
+									{
+										"horizontal": 255,
+										"vertical": 0
+									}
+								]
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Neutral | Overlay",
+				"mode": "overlay",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 0
+					}
+				}
+			}
+		}
+	]
+}

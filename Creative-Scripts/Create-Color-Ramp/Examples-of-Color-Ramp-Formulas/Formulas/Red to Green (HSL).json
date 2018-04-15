@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Red to Green (HSL)",
+		"colorModel": "HSL",
+		"components":
+		[
+			"(x / 255) * 120",
+			"100",
+			"50"
+		],
+		"floatRange": false
+	}
+}

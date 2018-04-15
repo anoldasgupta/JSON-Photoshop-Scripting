@@ -1,0 +1,449 @@
+﻿{
+	"posterEffects":
+	{
+		"Obama Hope (Pattern Fill)":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background - Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Half Background - Red",
+							"type": { "solidColorLayer": { "color": { "red": 215, "green": 26, "blue": 33 } } },
+							"group": true
+						}
+					},
+					"mask":
+					{
+						"type": { "rectangularSelection": [ [ 50, 0, 100, 100 ], "percentUnit" ] }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency Expanded - Dark Blue",
+							"type": { "solidColorLayer": { "color": { "red": 0, "green": 50, "blue": 77 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 5 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency - Beige",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": null }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Beige & Light Blue Stripes",
+							"type":
+							{
+								"patternLayer":
+								{
+									"pattern":
+									{
+										"name": "Obama Hope Stripes 2px",
+										"ID": "15d5f294-8507-11e5-a0cc-e2d503184d34"
+									}
+								}
+							}
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 221 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 201 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Red",
+							"type": { "solidColorLayer": { "color": { "red": 215, "green": 26, "blue": 33 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 151 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Dark Blue",
+							"type": { "solidColorLayer": { "color": { "red": 0, "green": 50, "blue": 77 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 101 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Frame - Beige",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "frame": 16 }
+					}
+				}
+			],
+			"grayscale": "maxRGB"
+		},
+		"Obama Hope (Pattern Mask)":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background - Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Half Background - Red",
+							"type": { "solidColorLayer": { "color": { "red": 215, "green": 26, "blue": 33 } } },
+							"group": true
+						}
+					},
+					"mask":
+					{
+						"type": { "rectangularSelection": [ [ 50, 0, 100, 100 ], "percentUnit" ] }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency Expanded - Dark Blue",
+							"type": { "solidColorLayer": { "color": { "red": 0, "green": 50, "blue": 77 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 5 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency - Beige",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": null }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Beige",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 221 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Stripes Pattern - Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } },
+							"group": true
+						}
+					},
+					"mask":
+					{
+						"type":
+						{
+							"pattern":
+							{
+								"name": "Horizontal Stripes 2px",
+								"ID": "15d5f298-8507-11e5-a0cc-e2d503184d34"
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 201 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Red",
+							"type": { "solidColorLayer": { "color": { "red": 215, "green": 26, "blue": 33 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 151 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Dark Blue",
+							"type": { "solidColorLayer": { "color": { "red": 0, "green": 50, "blue": 77 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 101 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Frame - Beige",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "frame": 16 }
+					}
+				}
+			],
+			"grayscale": "maxRGB"
+		},
+		"Obama Hope (Pattern Clipping)":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background - Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Half Background - Red",
+							"type": { "solidColorLayer": { "color": { "red": 215, "green": 26, "blue": 33 } } },
+							"group": true
+						}
+					},
+					"mask":
+					{
+						"type": { "rectangularSelection": [ [ 50, 0, 100, 100 ], "percentUnit" ] }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency Expanded - Dark Blue",
+							"type": { "solidColorLayer": { "color": { "red": 0, "green": 50, "blue": 77 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 5 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency - Beige",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": null }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Stripes Pattern - Transparent",
+							"type":
+							{
+								"patternLayer":
+								{
+									"pattern":
+									{
+										"name": "Horizontal Stripes 2px with Transparency",
+										"ID": "15d5f296-8507-11e5-a0cc-e2d503184d34"
+									}
+								}
+							}
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 221 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } },
+							"group": true
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 201 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Red",
+							"type": { "solidColorLayer": { "color": { "red": 215, "green": 26, "blue": 33 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 151 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Dark Blue",
+							"type": { "solidColorLayer": { "color": { "red": 0, "green": 50, "blue": 77 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 101 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Frame - Beige",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "frame": 16 }
+					}
+				}
+			],
+			"grayscale": "maxRGB"
+		}
+	},
+	"patternsFileBinary": "8BPT\u0000\u0001\u0000\u0000\u0000\u0003\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0003\u0000\u0004\u0000\u0001\u0000\u0000\u0000\u0017\u0000O\u0000b\u0000a\u0000m\u0000a\u0000 \u0000H\u0000o\u0000p\u0000e\u0000 \u0000S\u0000t\u0000r\u0000i\u0000p\u0000e\u0000s\u0000 \u00002\u0000p\u0000x\u0000\u0000$15d5f294-8507-11e5-a0cc-e2d503184d34\u0000\u0000\u0000\u0003\u0000\u0000\u0000Ù\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000qýýq\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000\u0096åå\u0096\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000\u009F©©\u009F\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0001\u0000\u0000\u0000)\u0000H\u0000o\u0000r\u0000i\u0000z\u0000o\u0000n\u0000t\u0000a\u0000l\u0000 \u0000S\u0000t\u0000r\u0000i\u0000p\u0000e\u0000s\u0000 \u00002\u0000p\u0000x\u0000 \u0000w\u0000i\u0000t\u0000h\u0000 \u0000T\u0000r\u0000a\u0000n\u0000s\u0000p\u0000a\u0000r\u0000e\u0000n\u0000c\u0000y\u0000\u0000$15d5f296-8507-11e5-a0cc-e2d503184d34\u0000\u0000\u0000\u0003\u0000\u0000\u0000º\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000ÿ\u0000\u0000ÿ\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0001\u0000\u0000\u0000\u0017\u0000H\u0000o\u0000r\u0000i\u0000z\u0000o\u0000n\u0000t\u0000a\u0000l\u0000 \u0000S\u0000t\u0000r\u0000i\u0000p\u0000e\u0000s\u0000 \u00002\u0000p\u0000x\u0000\u0000$15d5f298-8507-11e5-a0cc-e2d503184d34\u0000\u0000\u0000\u0003\u0000\u0000\u0000\u009B\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000\u0000ÿÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+}

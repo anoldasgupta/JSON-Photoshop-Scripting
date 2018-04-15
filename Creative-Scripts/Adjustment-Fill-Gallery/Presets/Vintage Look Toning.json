@@ -1,0 +1,300 @@
+﻿{
+	"Vintage Brown":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 58,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "overlay",
+				"opacity": 50,
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Vintage19",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 130,
+										"green": 23,
+										"blue": 23
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 185,
+										"green": 117,
+										"blue": 52
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 243,
+										"green": 255,
+										"blue": 194
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	],
+	"Vintage Green":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 58,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "overlay",
+				"opacity": 100,
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Vintage12",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 0,
+										"green": 64,
+										"blue": 91
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 225,
+										"green": 234,
+										"blue": 177
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	],
+	"Vintage Purple":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 52,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "overlay",
+				"opacity": 67,
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Vintage20",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 25,
+										"green": 25,
+										"blue": 25
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 137,
+										"green": 78,
+										"blue": 138
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 216,
+										"green": 231,
+										"blue": 156
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Yellow to Blue (HCL)",
+		"colorModel": "HCL",
+		"components":
+		[
+			"1/9 + 1/6 + (x / 2)",
+			"0.5",
+			"1 - pow (x, 1.5)"
+		],
+		"floatRange": true
+	}
+}

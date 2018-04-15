@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Peach (HCL)",
+		"colorModel": "HCL",
+		"components":
+		[
+			"(x / 255) * 60",
+			"64",
+			"(x / 255) * 100"
+		],
+		"floatRange": false
+	}
+}

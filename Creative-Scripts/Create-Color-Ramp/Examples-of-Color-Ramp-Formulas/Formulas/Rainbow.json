@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Rainbow",
+		"colorModel": "HSB",
+		"components":
+		[
+			"x",
+			"1",
+			"1"
+		],
+		"floatRange": true
+	}
+}

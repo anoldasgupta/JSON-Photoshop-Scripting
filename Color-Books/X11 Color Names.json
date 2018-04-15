@@ -1,0 +1,5503 @@
+﻿{
+    "bookID": 1001,
+    "bookName": "X11 Color Names",
+    "colorNamePrefix": "X11 ",
+    "colorNameSuffix": "",
+    "bookDescription": "",
+    "colorsPerPage": 9,
+    "keyColorIndex": 8,
+    "colorSpace": "RGB",
+    "colors":
+    [
+        {
+            "colorName": "Alice Blue",
+            "colorKey": "X11000",
+            "rawComponents":
+            [
+                240,
+                248,
+                255
+            ]
+        },
+        {
+            "colorName": "Antique White",
+            "colorKey": "X11001",
+            "rawComponents":
+            [
+                250,
+                235,
+                215
+            ]
+        },
+        {
+            "colorName": "Antique White 1",
+            "colorKey": "X11002",
+            "rawComponents":
+            [
+                255,
+                239,
+                219
+            ]
+        },
+        {
+            "colorName": "Antique White 2",
+            "colorKey": "X11003",
+            "rawComponents":
+            [
+                238,
+                223,
+                204
+            ]
+        },
+        {
+            "colorName": "Antique White 3",
+            "colorKey": "X11004",
+            "rawComponents":
+            [
+                205,
+                192,
+                176
+            ]
+        },
+        {
+            "colorName": "Antique White 4",
+            "colorKey": "X11005",
+            "rawComponents":
+            [
+                139,
+                131,
+                120
+            ]
+        },
+        {
+            "colorName": "Aquamarine",
+            "colorKey": "X11006",
+            "rawComponents":
+            [
+                127,
+                255,
+                212
+            ]
+        },
+        {
+            "colorName": "Aquamarine 1",
+            "colorKey": "X11007",
+            "rawComponents":
+            [
+                127,
+                255,
+                212
+            ]
+        },
+        {
+            "colorName": "Aquamarine 2",
+            "colorKey": "X11008",
+            "rawComponents":
+            [
+                118,
+                238,
+                198
+            ]
+        },
+        {
+            "colorName": "Aquamarine 3",
+            "colorKey": "X11009",
+            "rawComponents":
+            [
+                102,
+                205,
+                170
+            ]
+        },
+        {
+            "colorName": "Aquamarine 4",
+            "colorKey": "X11010",
+            "rawComponents":
+            [
+                69,
+                139,
+                116
+            ]
+        },
+        {
+            "colorName": "Azure",
+            "colorKey": "X11011",
+            "rawComponents":
+            [
+                240,
+                255,
+                255
+            ]
+        },
+        {
+            "colorName": "Azure 1",
+            "colorKey": "X11012",
+            "rawComponents":
+            [
+                240,
+                255,
+                255
+            ]
+        },
+        {
+            "colorName": "Azure 2",
+            "colorKey": "X11013",
+            "rawComponents":
+            [
+                224,
+                238,
+                238
+            ]
+        },
+        {
+            "colorName": "Azure 3",
+            "colorKey": "X11014",
+            "rawComponents":
+            [
+                193,
+                205,
+                205
+            ]
+        },
+        {
+            "colorName": "Azure 4",
+            "colorKey": "X11015",
+            "rawComponents":
+            [
+                131,
+                139,
+                139
+            ]
+        },
+        {
+            "colorName": "Beige",
+            "colorKey": "X11016",
+            "rawComponents":
+            [
+                245,
+                245,
+                220
+            ]
+        },
+        {
+            "colorName": "Bisque",
+            "colorKey": "X11017",
+            "rawComponents":
+            [
+                255,
+                228,
+                196
+            ]
+        },
+        {
+            "colorName": "Bisque 1",
+            "colorKey": "X11018",
+            "rawComponents":
+            [
+                255,
+                228,
+                196
+            ]
+        },
+        {
+            "colorName": "Bisque 2",
+            "colorKey": "X11019",
+            "rawComponents":
+            [
+                238,
+                213,
+                183
+            ]
+        },
+        {
+            "colorName": "Bisque 3",
+            "colorKey": "X11020",
+            "rawComponents":
+            [
+                205,
+                183,
+                158
+            ]
+        },
+        {
+            "colorName": "Bisque 4",
+            "colorKey": "X11021",
+            "rawComponents":
+            [
+                139,
+                125,
+                107
+            ]
+        },
+        {
+            "colorName": "Black",
+            "colorKey": "X11022",
+            "rawComponents":
+            [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "colorName": "Blanched Almond",
+            "colorKey": "X11023",
+            "rawComponents":
+            [
+                255,
+                235,
+                205
+            ]
+        },
+        {
+            "colorName": "Blue",
+            "colorKey": "X11024",
+            "rawComponents":
+            [
+                0,
+                0,
+                255
+            ]
+        },
+        {
+            "colorName": "Blue 1",
+            "colorKey": "X11025",
+            "rawComponents":
+            [
+                0,
+                0,
+                255
+            ]
+        },
+        {
+            "colorName": "Blue 2",
+            "colorKey": "X11026",
+            "rawComponents":
+            [
+                0,
+                0,
+                238
+            ]
+        },
+        {
+            "colorName": "Blue 3",
+            "colorKey": "X11027",
+            "rawComponents":
+            [
+                0,
+                0,
+                205
+            ]
+        },
+        {
+            "colorName": "Blue 4",
+            "colorKey": "X11028",
+            "rawComponents":
+            [
+                0,
+                0,
+                139
+            ]
+        },
+        {
+            "colorName": "Blue Violet",
+            "colorKey": "X11029",
+            "rawComponents":
+            [
+                138,
+                43,
+                226
+            ]
+        },
+        {
+            "colorName": "Brown",
+            "colorKey": "X11030",
+            "rawComponents":
+            [
+                165,
+                42,
+                42
+            ]
+        },
+        {
+            "colorName": "Brown 1",
+            "colorKey": "X11031",
+            "rawComponents":
+            [
+                255,
+                64,
+                64
+            ]
+        },
+        {
+            "colorName": "Brown 2",
+            "colorKey": "X11032",
+            "rawComponents":
+            [
+                238,
+                59,
+                59
+            ]
+        },
+        {
+            "colorName": "Brown 3",
+            "colorKey": "X11033",
+            "rawComponents":
+            [
+                205,
+                51,
+                51
+            ]
+        },
+        {
+            "colorName": "Brown 4",
+            "colorKey": "X11034",
+            "rawComponents":
+            [
+                139,
+                35,
+                35
+            ]
+        },
+        {
+            "colorName": "Burlywood",
+            "colorKey": "X11035",
+            "rawComponents":
+            [
+                222,
+                184,
+                135
+            ]
+        },
+        {
+            "colorName": "Burlywood 1",
+            "colorKey": "X11036",
+            "rawComponents":
+            [
+                255,
+                211,
+                155
+            ]
+        },
+        {
+            "colorName": "Burlywood 2",
+            "colorKey": "X11037",
+            "rawComponents":
+            [
+                238,
+                197,
+                145
+            ]
+        },
+        {
+            "colorName": "Burlywood 3",
+            "colorKey": "X11038",
+            "rawComponents":
+            [
+                205,
+                170,
+                125
+            ]
+        },
+        {
+            "colorName": "Burlywood 4",
+            "colorKey": "X11039",
+            "rawComponents":
+            [
+                139,
+                115,
+                85
+            ]
+        },
+        {
+            "colorName": "Cadet Blue",
+            "colorKey": "X11040",
+            "rawComponents":
+            [
+                95,
+                158,
+                160
+            ]
+        },
+        {
+            "colorName": "Cadet Blue 1",
+            "colorKey": "X11041",
+            "rawComponents":
+            [
+                152,
+                245,
+                255
+            ]
+        },
+        {
+            "colorName": "Cadet Blue 2",
+            "colorKey": "X11042",
+            "rawComponents":
+            [
+                142,
+                229,
+                238
+            ]
+        },
+        {
+            "colorName": "Cadet Blue 3",
+            "colorKey": "X11043",
+            "rawComponents":
+            [
+                122,
+                197,
+                205
+            ]
+        },
+        {
+            "colorName": "Cadet Blue 4",
+            "colorKey": "X11044",
+            "rawComponents":
+            [
+                83,
+                134,
+                139
+            ]
+        },
+        {
+            "colorName": "Chartreuse",
+            "colorKey": "X11045",
+            "rawComponents":
+            [
+                127,
+                255,
+                0
+            ]
+        },
+        {
+            "colorName": "Chartreuse 1",
+            "colorKey": "X11046",
+            "rawComponents":
+            [
+                127,
+                255,
+                0
+            ]
+        },
+        {
+            "colorName": "Chartreuse 2",
+            "colorKey": "X11047",
+            "rawComponents":
+            [
+                118,
+                238,
+                0
+            ]
+        },
+        {
+            "colorName": "Chartreuse 3",
+            "colorKey": "X11048",
+            "rawComponents":
+            [
+                102,
+                205,
+                0
+            ]
+        },
+        {
+            "colorName": "Chartreuse 4",
+            "colorKey": "X11049",
+            "rawComponents":
+            [
+                69,
+                139,
+                0
+            ]
+        },
+        {
+            "colorName": "Chocolate",
+            "colorKey": "X11050",
+            "rawComponents":
+            [
+                210,
+                105,
+                30
+            ]
+        },
+        {
+            "colorName": "Chocolate 1",
+            "colorKey": "X11051",
+            "rawComponents":
+            [
+                255,
+                127,
+                36
+            ]
+        },
+        {
+            "colorName": "Chocolate 2",
+            "colorKey": "X11052",
+            "rawComponents":
+            [
+                238,
+                118,
+                33
+            ]
+        },
+        {
+            "colorName": "Chocolate 3",
+            "colorKey": "X11053",
+            "rawComponents":
+            [
+                205,
+                102,
+                29
+            ]
+        },
+        {
+            "colorName": "Chocolate 4",
+            "colorKey": "X11054",
+            "rawComponents":
+            [
+                139,
+                69,
+                19
+            ]
+        },
+        {
+            "colorName": "Coral",
+            "colorKey": "X11055",
+            "rawComponents":
+            [
+                255,
+                127,
+                80
+            ]
+        },
+        {
+            "colorName": "Coral 1",
+            "colorKey": "X11056",
+            "rawComponents":
+            [
+                255,
+                114,
+                86
+            ]
+        },
+        {
+            "colorName": "Coral 2",
+            "colorKey": "X11057",
+            "rawComponents":
+            [
+                238,
+                106,
+                80
+            ]
+        },
+        {
+            "colorName": "Coral 3",
+            "colorKey": "X11058",
+            "rawComponents":
+            [
+                205,
+                91,
+                69
+            ]
+        },
+        {
+            "colorName": "Coral 4",
+            "colorKey": "X11059",
+            "rawComponents":
+            [
+                139,
+                62,
+                47
+            ]
+        },
+        {
+            "colorName": "Cornflower Blue",
+            "colorKey": "X11060",
+            "rawComponents":
+            [
+                100,
+                149,
+                237
+            ]
+        },
+        {
+            "colorName": "Cornsilk",
+            "colorKey": "X11061",
+            "rawComponents":
+            [
+                255,
+                248,
+                220
+            ]
+        },
+        {
+            "colorName": "Cornsilk 1",
+            "colorKey": "X11062",
+            "rawComponents":
+            [
+                255,
+                248,
+                220
+            ]
+        },
+        {
+            "colorName": "Cornsilk 2",
+            "colorKey": "X11063",
+            "rawComponents":
+            [
+                238,
+                232,
+                205
+            ]
+        },
+        {
+            "colorName": "Cornsilk 3",
+            "colorKey": "X11064",
+            "rawComponents":
+            [
+                205,
+                200,
+                177
+            ]
+        },
+        {
+            "colorName": "Cornsilk 4",
+            "colorKey": "X11065",
+            "rawComponents":
+            [
+                139,
+                136,
+                120
+            ]
+        },
+        {
+            "colorName": "Cyan",
+            "colorKey": "X11066",
+            "rawComponents":
+            [
+                0,
+                255,
+                255
+            ]
+        },
+        {
+            "colorName": "Cyan 1",
+            "colorKey": "X11067",
+            "rawComponents":
+            [
+                0,
+                255,
+                255
+            ]
+        },
+        {
+            "colorName": "Cyan 2",
+            "colorKey": "X11068",
+            "rawComponents":
+            [
+                0,
+                238,
+                238
+            ]
+        },
+        {
+            "colorName": "Cyan 3",
+            "colorKey": "X11069",
+            "rawComponents":
+            [
+                0,
+                205,
+                205
+            ]
+        },
+        {
+            "colorName": "Cyan 4",
+            "colorKey": "X11070",
+            "rawComponents":
+            [
+                0,
+                139,
+                139
+            ]
+        },
+        {
+            "colorName": "Dark Blue",
+            "colorKey": "X11071",
+            "rawComponents":
+            [
+                0,
+                0,
+                139
+            ]
+        },
+        {
+            "colorName": "Dark Cyan",
+            "colorKey": "X11072",
+            "rawComponents":
+            [
+                0,
+                139,
+                139
+            ]
+        },
+        {
+            "colorName": "Dark Goldenrod",
+            "colorKey": "X11073",
+            "rawComponents":
+            [
+                184,
+                134,
+                11
+            ]
+        },
+        {
+            "colorName": "Dark Goldenrod 1",
+            "colorKey": "X11074",
+            "rawComponents":
+            [
+                255,
+                185,
+                15
+            ]
+        },
+        {
+            "colorName": "Dark Goldenrod 2",
+            "colorKey": "X11075",
+            "rawComponents":
+            [
+                238,
+                173,
+                14
+            ]
+        },
+        {
+            "colorName": "Dark Goldenrod 3",
+            "colorKey": "X11076",
+            "rawComponents":
+            [
+                205,
+                149,
+                12
+            ]
+        },
+        {
+            "colorName": "Dark Goldenrod 4",
+            "colorKey": "X11077",
+            "rawComponents":
+            [
+                139,
+                101,
+                8
+            ]
+        },
+        {
+            "colorName": "Dark Gray",
+            "colorKey": "X11078",
+            "rawComponents":
+            [
+                169,
+                169,
+                169
+            ]
+        },
+        {
+            "colorName": "Dark Green",
+            "colorKey": "X11079",
+            "rawComponents":
+            [
+                0,
+                100,
+                0
+            ]
+        },
+        {
+            "colorName": "Dark Khaki",
+            "colorKey": "X11081",
+            "rawComponents":
+            [
+                189,
+                183,
+                107
+            ]
+        },
+        {
+            "colorName": "Dark Magenta",
+            "colorKey": "X11082",
+            "rawComponents":
+            [
+                139,
+                0,
+                139
+            ]
+        },
+        {
+            "colorName": "Dark Olive Green",
+            "colorKey": "X11083",
+            "rawComponents":
+            [
+                85,
+                107,
+                47
+            ]
+        },
+        {
+            "colorName": "Dark Olive Green 1",
+            "colorKey": "X11084",
+            "rawComponents":
+            [
+                202,
+                255,
+                112
+            ]
+        },
+        {
+            "colorName": "Dark Olive Green 2",
+            "colorKey": "X11085",
+            "rawComponents":
+            [
+                188,
+                238,
+                104
+            ]
+        },
+        {
+            "colorName": "Dark Olive Green 3",
+            "colorKey": "X11086",
+            "rawComponents":
+            [
+                162,
+                205,
+                90
+            ]
+        },
+        {
+            "colorName": "Dark Olive Green 4",
+            "colorKey": "X11087",
+            "rawComponents":
+            [
+                110,
+                139,
+                61
+            ]
+        },
+        {
+            "colorName": "Dark Orange",
+            "colorKey": "X11088",
+            "rawComponents":
+            [
+                255,
+                140,
+                0
+            ]
+        },
+        {
+            "colorName": "Dark Orange 1",
+            "colorKey": "X11089",
+            "rawComponents":
+            [
+                255,
+                127,
+                0
+            ]
+        },
+        {
+            "colorName": "Dark Orange 2",
+            "colorKey": "X11090",
+            "rawComponents":
+            [
+                238,
+                118,
+                0
+            ]
+        },
+        {
+            "colorName": "Dark Orange 3",
+            "colorKey": "X11091",
+            "rawComponents":
+            [
+                205,
+                102,
+                0
+            ]
+        },
+        {
+            "colorName": "Dark Orange 4",
+            "colorKey": "X11092",
+            "rawComponents":
+            [
+                139,
+                69,
+                0
+            ]
+        },
+        {
+            "colorName": "Dark Orchid",
+            "colorKey": "X11093",
+            "rawComponents":
+            [
+                153,
+                50,
+                204
+            ]
+        },
+        {
+            "colorName": "Dark Orchid 1",
+            "colorKey": "X11094",
+            "rawComponents":
+            [
+                191,
+                62,
+                255
+            ]
+        },
+        {
+            "colorName": "Dark Orchid 2",
+            "colorKey": "X11095",
+            "rawComponents":
+            [
+                178,
+                58,
+                238
+            ]
+        },
+        {
+            "colorName": "Dark Orchid 3",
+            "colorKey": "X11096",
+            "rawComponents":
+            [
+                154,
+                50,
+                205
+            ]
+        },
+        {
+            "colorName": "Dark Orchid 4",
+            "colorKey": "X11097",
+            "rawComponents":
+            [
+                104,
+                34,
+                139
+            ]
+        },
+        {
+            "colorName": "Dark Red",
+            "colorKey": "X11098",
+            "rawComponents":
+            [
+                139,
+                0,
+                0
+            ]
+        },
+        {
+            "colorName": "Dark Salmon",
+            "colorKey": "X11099",
+            "rawComponents":
+            [
+                233,
+                150,
+                122
+            ]
+        },
+        {
+            "colorName": "Dark Sea Green",
+            "colorKey": "X11100",
+            "rawComponents":
+            [
+                143,
+                188,
+                143
+            ]
+        },
+        {
+            "colorName": "Dark Sea Green 1",
+            "colorKey": "X11101",
+            "rawComponents":
+            [
+                193,
+                255,
+                193
+            ]
+        },
+        {
+            "colorName": "Dark Sea Green 2",
+            "colorKey": "X11102",
+            "rawComponents":
+            [
+                180,
+                238,
+                180
+            ]
+        },
+        {
+            "colorName": "Dark Sea Green 3",
+            "colorKey": "X11103",
+            "rawComponents":
+            [
+                155,
+                205,
+                155
+            ]
+        },
+        {
+            "colorName": "Dark Sea Green 4",
+            "colorKey": "X11104",
+            "rawComponents":
+            [
+                105,
+                139,
+                105
+            ]
+        },
+        {
+            "colorName": "Dark Slate Blue",
+            "colorKey": "X11105",
+            "rawComponents":
+            [
+                72,
+                61,
+                139
+            ]
+        },
+        {
+            "colorName": "Dark Slate Gray",
+            "colorKey": "X11106",
+            "rawComponents":
+            [
+                47,
+                79,
+                79
+            ]
+        },
+        {
+            "colorName": "Dark Slate Gray 1",
+            "colorKey": "X11107",
+            "rawComponents":
+            [
+                151,
+                255,
+                255
+            ]
+        },
+        {
+            "colorName": "Dark Slate Gray 2",
+            "colorKey": "X11108",
+            "rawComponents":
+            [
+                141,
+                238,
+                238
+            ]
+        },
+        {
+            "colorName": "Dark Slate Gray 3",
+            "colorKey": "X11109",
+            "rawComponents":
+            [
+                121,
+                205,
+                205
+            ]
+        },
+        {
+            "colorName": "Dark Slate Gray 4",
+            "colorKey": "X11110",
+            "rawComponents":
+            [
+                82,
+                139,
+                139
+            ]
+        },
+        {
+            "colorName": "Dark Turquoise",
+            "colorKey": "X11116",
+            "rawComponents":
+            [
+                0,
+                206,
+                209
+            ]
+        },
+        {
+            "colorName": "Dark Violet",
+            "colorKey": "X11117",
+            "rawComponents":
+            [
+                148,
+                0,
+                211
+            ]
+        },
+        {
+            "colorName": "Deep Pink",
+            "colorKey": "X11118",
+            "rawComponents":
+            [
+                255,
+                20,
+                147
+            ]
+        },
+        {
+            "colorName": "Deep Pink 1",
+            "colorKey": "X11119",
+            "rawComponents":
+            [
+                255,
+                20,
+                147
+            ]
+        },
+        {
+            "colorName": "Deep Pink 2",
+            "colorKey": "X11120",
+            "rawComponents":
+            [
+                238,
+                18,
+                137
+            ]
+        },
+        {
+            "colorName": "Deep Pink 3",
+            "colorKey": "X11121",
+            "rawComponents":
+            [
+                205,
+                16,
+                118
+            ]
+        },
+        {
+            "colorName": "Deep Pink 4",
+            "colorKey": "X11122",
+            "rawComponents":
+            [
+                139,
+                10,
+                80
+            ]
+        },
+        {
+            "colorName": "Deep Sky Blue",
+            "colorKey": "X11123",
+            "rawComponents":
+            [
+                0,
+                191,
+                255
+            ]
+        },
+        {
+            "colorName": "Deep Sky Blue 1",
+            "colorKey": "X11124",
+            "rawComponents":
+            [
+                0,
+                191,
+                255
+            ]
+        },
+        {
+            "colorName": "Deep Sky Blue 2",
+            "colorKey": "X11125",
+            "rawComponents":
+            [
+                0,
+                178,
+                238
+            ]
+        },
+        {
+            "colorName": "Deep Sky Blue 3",
+            "colorKey": "X11126",
+            "rawComponents":
+            [
+                0,
+                154,
+                205
+            ]
+        },
+        {
+            "colorName": "Deep Sky Blue 4",
+            "colorKey": "X11127",
+            "rawComponents":
+            [
+                0,
+                104,
+                139
+            ]
+        },
+        {
+            "colorName": "Dim Gray",
+            "colorKey": "X11128",
+            "rawComponents":
+            [
+                105,
+                105,
+                105
+            ]
+        },
+        {
+            "colorName": "Dodger Blue",
+            "colorKey": "X11130",
+            "rawComponents":
+            [
+                30,
+                144,
+                255
+            ]
+        },
+        {
+            "colorName": "Dodger Blue 1",
+            "colorKey": "X11131",
+            "rawComponents":
+            [
+                30,
+                144,
+                255
+            ]
+        },
+        {
+            "colorName": "Dodger Blue 2",
+            "colorKey": "X11132",
+            "rawComponents":
+            [
+                28,
+                134,
+                238
+            ]
+        },
+        {
+            "colorName": "Dodger Blue 3",
+            "colorKey": "X11133",
+            "rawComponents":
+            [
+                24,
+                116,
+                205
+            ]
+        },
+        {
+            "colorName": "Dodger Blue 4",
+            "colorKey": "X11134",
+            "rawComponents":
+            [
+                16,
+                78,
+                139
+            ]
+        },
+        {
+            "colorName": "Firebrick",
+            "colorKey": "X11135",
+            "rawComponents":
+            [
+                178,
+                34,
+                34
+            ]
+        },
+        {
+            "colorName": "Firebrick 1",
+            "colorKey": "X11136",
+            "rawComponents":
+            [
+                255,
+                48,
+                48
+            ]
+        },
+        {
+            "colorName": "Firebrick 2",
+            "colorKey": "X11137",
+            "rawComponents":
+            [
+                238,
+                44,
+                44
+            ]
+        },
+        {
+            "colorName": "Firebrick 3",
+            "colorKey": "X11138",
+            "rawComponents":
+            [
+                205,
+                38,
+                38
+            ]
+        },
+        {
+            "colorName": "Firebrick 4",
+            "colorKey": "X11139",
+            "rawComponents":
+            [
+                139,
+                26,
+                26
+            ]
+        },
+        {
+            "colorName": "Floral White",
+            "colorKey": "X11140",
+            "rawComponents":
+            [
+                255,
+                250,
+                240
+            ]
+        },
+        {
+            "colorName": "Forest Green",
+            "colorKey": "X11141",
+            "rawComponents":
+            [
+                34,
+                139,
+                34
+            ]
+        },
+        {
+            "colorName": "Gainsboro",
+            "colorKey": "X11142",
+            "rawComponents":
+            [
+                220,
+                220,
+                220
+            ]
+        },
+        {
+            "colorName": "Ghost White",
+            "colorKey": "X11143",
+            "rawComponents":
+            [
+                248,
+                248,
+                255
+            ]
+        },
+        {
+            "colorName": "Gold",
+            "colorKey": "X11144",
+            "rawComponents":
+            [
+                255,
+                215,
+                0
+            ]
+        },
+        {
+            "colorName": "Gold 1",
+            "colorKey": "X11145",
+            "rawComponents":
+            [
+                255,
+                215,
+                0
+            ]
+        },
+        {
+            "colorName": "Gold 2",
+            "colorKey": "X11146",
+            "rawComponents":
+            [
+                238,
+                201,
+                0
+            ]
+        },
+        {
+            "colorName": "Gold 3",
+            "colorKey": "X11147",
+            "rawComponents":
+            [
+                205,
+                173,
+                0
+            ]
+        },
+        {
+            "colorName": "Gold 4",
+            "colorKey": "X11148",
+            "rawComponents":
+            [
+                139,
+                117,
+                0
+            ]
+        },
+        {
+            "colorName": "Goldenrod",
+            "colorKey": "X11149",
+            "rawComponents":
+            [
+                218,
+                165,
+                32
+            ]
+        },
+        {
+            "colorName": "Goldenrod 1",
+            "colorKey": "X11150",
+            "rawComponents":
+            [
+                255,
+                193,
+                37
+            ]
+        },
+        {
+            "colorName": "Goldenrod 2",
+            "colorKey": "X11151",
+            "rawComponents":
+            [
+                238,
+                180,
+                34
+            ]
+        },
+        {
+            "colorName": "Goldenrod 3",
+            "colorKey": "X11152",
+            "rawComponents":
+            [
+                205,
+                155,
+                29
+            ]
+        },
+        {
+            "colorName": "Goldenrod 4",
+            "colorKey": "X11153",
+            "rawComponents":
+            [
+                139,
+                105,
+                20
+            ]
+        },
+        {
+            "colorName": "Gray",
+            "colorKey": "X11154",
+            "rawComponents":
+            [
+                190,
+                190,
+                190
+            ]
+        },
+        {
+            "colorName": "Gray 0",
+            "colorKey": "X11155",
+            "rawComponents":
+            [
+                0,
+                0,
+                0
+            ]
+        },
+        {
+            "colorName": "Gray 1",
+            "colorKey": "X11156",
+            "rawComponents":
+            [
+                3,
+                3,
+                3
+            ]
+        },
+        {
+            "colorName": "Gray 2",
+            "colorKey": "X11157",
+            "rawComponents":
+            [
+                5,
+                5,
+                5
+            ]
+        },
+        {
+            "colorName": "Gray 3",
+            "colorKey": "X11158",
+            "rawComponents":
+            [
+                8,
+                8,
+                8
+            ]
+        },
+        {
+            "colorName": "Gray 4",
+            "colorKey": "X11159",
+            "rawComponents":
+            [
+                10,
+                10,
+                10
+            ]
+        },
+        {
+            "colorName": "Gray 5",
+            "colorKey": "X11160",
+            "rawComponents":
+            [
+                13,
+                13,
+                13
+            ]
+        },
+        {
+            "colorName": "Gray 6",
+            "colorKey": "X11161",
+            "rawComponents":
+            [
+                15,
+                15,
+                15
+            ]
+        },
+        {
+            "colorName": "Gray 7",
+            "colorKey": "X11162",
+            "rawComponents":
+            [
+                18,
+                18,
+                18
+            ]
+        },
+        {
+            "colorName": "Gray 8",
+            "colorKey": "X11163",
+            "rawComponents":
+            [
+                20,
+                20,
+                20
+            ]
+        },
+        {
+            "colorName": "Gray 9",
+            "colorKey": "X11164",
+            "rawComponents":
+            [
+                23,
+                23,
+                23
+            ]
+        },
+        {
+            "colorName": "Gray 10",
+            "colorKey": "X11165",
+            "rawComponents":
+            [
+                26,
+                26,
+                26
+            ]
+        },
+        {
+            "colorName": "Gray 11",
+            "colorKey": "X11166",
+            "rawComponents":
+            [
+                28,
+                28,
+                28
+            ]
+        },
+        {
+            "colorName": "Gray 12",
+            "colorKey": "X11167",
+            "rawComponents":
+            [
+                31,
+                31,
+                31
+            ]
+        },
+        {
+            "colorName": "Gray 13",
+            "colorKey": "X11168",
+            "rawComponents":
+            [
+                33,
+                33,
+                33
+            ]
+        },
+        {
+            "colorName": "Gray 14",
+            "colorKey": "X11169",
+            "rawComponents":
+            [
+                36,
+                36,
+                36
+            ]
+        },
+        {
+            "colorName": "Gray 15",
+            "colorKey": "X11170",
+            "rawComponents":
+            [
+                38,
+                38,
+                38
+            ]
+        },
+        {
+            "colorName": "Gray 16",
+            "colorKey": "X11171",
+            "rawComponents":
+            [
+                41,
+                41,
+                41
+            ]
+        },
+        {
+            "colorName": "Gray 17",
+            "colorKey": "X11172",
+            "rawComponents":
+            [
+                43,
+                43,
+                43
+            ]
+        },
+        {
+            "colorName": "Gray 18",
+            "colorKey": "X11173",
+            "rawComponents":
+            [
+                46,
+                46,
+                46
+            ]
+        },
+        {
+            "colorName": "Gray 19",
+            "colorKey": "X11174",
+            "rawComponents":
+            [
+                48,
+                48,
+                48
+            ]
+        },
+        {
+            "colorName": "Gray 20",
+            "colorKey": "X11175",
+            "rawComponents":
+            [
+                51,
+                51,
+                51
+            ]
+        },
+        {
+            "colorName": "Gray 21",
+            "colorKey": "X11176",
+            "rawComponents":
+            [
+                54,
+                54,
+                54
+            ]
+        },
+        {
+            "colorName": "Gray 22",
+            "colorKey": "X11177",
+            "rawComponents":
+            [
+                56,
+                56,
+                56
+            ]
+        },
+        {
+            "colorName": "Gray 23",
+            "colorKey": "X11178",
+            "rawComponents":
+            [
+                59,
+                59,
+                59
+            ]
+        },
+        {
+            "colorName": "Gray 24",
+            "colorKey": "X11179",
+            "rawComponents":
+            [
+                61,
+                61,
+                61
+            ]
+        },
+        {
+            "colorName": "Gray 25",
+            "colorKey": "X11180",
+            "rawComponents":
+            [
+                64,
+                64,
+                64
+            ]
+        },
+        {
+            "colorName": "Gray 26",
+            "colorKey": "X11181",
+            "rawComponents":
+            [
+                66,
+                66,
+                66
+            ]
+        },
+        {
+            "colorName": "Gray 27",
+            "colorKey": "X11182",
+            "rawComponents":
+            [
+                69,
+                69,
+                69
+            ]
+        },
+        {
+            "colorName": "Gray 28",
+            "colorKey": "X11183",
+            "rawComponents":
+            [
+                71,
+                71,
+                71
+            ]
+        },
+        {
+            "colorName": "Gray 29",
+            "colorKey": "X11184",
+            "rawComponents":
+            [
+                74,
+                74,
+                74
+            ]
+        },
+        {
+            "colorName": "Gray 30",
+            "colorKey": "X11185",
+            "rawComponents":
+            [
+                77,
+                77,
+                77
+            ]
+        },
+        {
+            "colorName": "Gray 31",
+            "colorKey": "X11186",
+            "rawComponents":
+            [
+                79,
+                79,
+                79
+            ]
+        },
+        {
+            "colorName": "Gray 32",
+            "colorKey": "X11187",
+            "rawComponents":
+            [
+                82,
+                82,
+                82
+            ]
+        },
+        {
+            "colorName": "Gray 33",
+            "colorKey": "X11188",
+            "rawComponents":
+            [
+                84,
+                84,
+                84
+            ]
+        },
+        {
+            "colorName": "Gray 34",
+            "colorKey": "X11189",
+            "rawComponents":
+            [
+                87,
+                87,
+                87
+            ]
+        },
+        {
+            "colorName": "Gray 35",
+            "colorKey": "X11190",
+            "rawComponents":
+            [
+                89,
+                89,
+                89
+            ]
+        },
+        {
+            "colorName": "Gray 36",
+            "colorKey": "X11191",
+            "rawComponents":
+            [
+                92,
+                92,
+                92
+            ]
+        },
+        {
+            "colorName": "Gray 37",
+            "colorKey": "X11192",
+            "rawComponents":
+            [
+                94,
+                94,
+                94
+            ]
+        },
+        {
+            "colorName": "Gray 38",
+            "colorKey": "X11193",
+            "rawComponents":
+            [
+                97,
+                97,
+                97
+            ]
+        },
+        {
+            "colorName": "Gray 39",
+            "colorKey": "X11194",
+            "rawComponents":
+            [
+                99,
+                99,
+                99
+            ]
+        },
+        {
+            "colorName": "Gray 40",
+            "colorKey": "X11195",
+            "rawComponents":
+            [
+                102,
+                102,
+                102
+            ]
+        },
+        {
+            "colorName": "Gray 41",
+            "colorKey": "X11196",
+            "rawComponents":
+            [
+                105,
+                105,
+                105
+            ]
+        },
+        {
+            "colorName": "Gray 42",
+            "colorKey": "X11197",
+            "rawComponents":
+            [
+                107,
+                107,
+                107
+            ]
+        },
+        {
+            "colorName": "Gray 43",
+            "colorKey": "X11198",
+            "rawComponents":
+            [
+                110,
+                110,
+                110
+            ]
+        },
+        {
+            "colorName": "Gray 44",
+            "colorKey": "X11199",
+            "rawComponents":
+            [
+                112,
+                112,
+                112
+            ]
+        },
+        {
+            "colorName": "Gray 45",
+            "colorKey": "X11200",
+            "rawComponents":
+            [
+                115,
+                115,
+                115
+            ]
+        },
+        {
+            "colorName": "Gray 46",
+            "colorKey": "X11201",
+            "rawComponents":
+            [
+                117,
+                117,
+                117
+            ]
+        },
+        {
+            "colorName": "Gray 47",
+            "colorKey": "X11202",
+            "rawComponents":
+            [
+                120,
+                120,
+                120
+            ]
+        },
+        {
+            "colorName": "Gray 48",
+            "colorKey": "X11203",
+            "rawComponents":
+            [
+                122,
+                122,
+                122
+            ]
+        },
+        {
+            "colorName": "Gray 49",
+            "colorKey": "X11204",
+            "rawComponents":
+            [
+                125,
+                125,
+                125
+            ]
+        },
+        {
+            "colorName": "Gray 50",
+            "colorKey": "X11205",
+            "rawComponents":
+            [
+                127,
+                127,
+                127
+            ]
+        },
+        {
+            "colorName": "Gray 51",
+            "colorKey": "X11206",
+            "rawComponents":
+            [
+                130,
+                130,
+                130
+            ]
+        },
+        {
+            "colorName": "Gray 52",
+            "colorKey": "X11207",
+            "rawComponents":
+            [
+                133,
+                133,
+                133
+            ]
+        },
+        {
+            "colorName": "Gray 53",
+            "colorKey": "X11208",
+            "rawComponents":
+            [
+                135,
+                135,
+                135
+            ]
+        },
+        {
+            "colorName": "Gray 54",
+            "colorKey": "X11209",
+            "rawComponents":
+            [
+                138,
+                138,
+                138
+            ]
+        },
+        {
+            "colorName": "Gray 55",
+            "colorKey": "X11210",
+            "rawComponents":
+            [
+                140,
+                140,
+                140
+            ]
+        },
+        {
+            "colorName": "Gray 56",
+            "colorKey": "X11211",
+            "rawComponents":
+            [
+                143,
+                143,
+                143
+            ]
+        },
+        {
+            "colorName": "Gray 57",
+            "colorKey": "X11212",
+            "rawComponents":
+            [
+                145,
+                145,
+                145
+            ]
+        },
+        {
+            "colorName": "Gray 58",
+            "colorKey": "X11213",
+            "rawComponents":
+            [
+                148,
+                148,
+                148
+            ]
+        },
+        {
+            "colorName": "Gray 59",
+            "colorKey": "X11214",
+            "rawComponents":
+            [
+                150,
+                150,
+                150
+            ]
+        },
+        {
+            "colorName": "Gray 60",
+            "colorKey": "X11215",
+            "rawComponents":
+            [
+                153,
+                153,
+                153
+            ]
+        },
+        {
+            "colorName": "Gray 61",
+            "colorKey": "X11216",
+            "rawComponents":
+            [
+                156,
+                156,
+                156
+            ]
+        },
+        {
+            "colorName": "Gray 62",
+            "colorKey": "X11217",
+            "rawComponents":
+            [
+                158,
+                158,
+                158
+            ]
+        },
+        {
+            "colorName": "Gray 63",
+            "colorKey": "X11218",
+            "rawComponents":
+            [
+                161,
+                161,
+                161
+            ]
+        },
+        {
+            "colorName": "Gray 64",
+            "colorKey": "X11219",
+            "rawComponents":
+            [
+                163,
+                163,
+                163
+            ]
+        },
+        {
+            "colorName": "Gray 65",
+            "colorKey": "X11220",
+            "rawComponents":
+            [
+                166,
+                166,
+                166
+            ]
+        },
+        {
+            "colorName": "Gray 66",
+            "colorKey": "X11221",
+            "rawComponents":
+            [
+                168,
+                168,
+                168
+            ]
+        },
+        {
+            "colorName": "Gray 67",
+            "colorKey": "X11222",
+            "rawComponents":
+            [
+                171,
+                171,
+                171
+            ]
+        },
+        {
+            "colorName": "Gray 68",
+            "colorKey": "X11223",
+            "rawComponents":
+            [
+                173,
+                173,
+                173
+            ]
+        },
+        {
+            "colorName": "Gray 69",
+            "colorKey": "X11224",
+            "rawComponents":
+            [
+                176,
+                176,
+                176
+            ]
+        },
+        {
+            "colorName": "Gray 70",
+            "colorKey": "X11225",
+            "rawComponents":
+            [
+                179,
+                179,
+                179
+            ]
+        },
+        {
+            "colorName": "Gray 71",
+            "colorKey": "X11226",
+            "rawComponents":
+            [
+                181,
+                181,
+                181
+            ]
+        },
+        {
+            "colorName": "Gray 72",
+            "colorKey": "X11227",
+            "rawComponents":
+            [
+                184,
+                184,
+                184
+            ]
+        },
+        {
+            "colorName": "Gray 73",
+            "colorKey": "X11228",
+            "rawComponents":
+            [
+                186,
+                186,
+                186
+            ]
+        },
+        {
+            "colorName": "Gray 74",
+            "colorKey": "X11229",
+            "rawComponents":
+            [
+                189,
+                189,
+                189
+            ]
+        },
+        {
+            "colorName": "Gray 75",
+            "colorKey": "X11230",
+            "rawComponents":
+            [
+                191,
+                191,
+                191
+            ]
+        },
+        {
+            "colorName": "Gray 76",
+            "colorKey": "X11231",
+            "rawComponents":
+            [
+                194,
+                194,
+                194
+            ]
+        },
+        {
+            "colorName": "Gray 77",
+            "colorKey": "X11232",
+            "rawComponents":
+            [
+                196,
+                196,
+                196
+            ]
+        },
+        {
+            "colorName": "Gray 78",
+            "colorKey": "X11233",
+            "rawComponents":
+            [
+                199,
+                199,
+                199
+            ]
+        },
+        {
+            "colorName": "Gray 79",
+            "colorKey": "X11234",
+            "rawComponents":
+            [
+                201,
+                201,
+                201
+            ]
+        },
+        {
+            "colorName": "Gray 80",
+            "colorKey": "X11235",
+            "rawComponents":
+            [
+                204,
+                204,
+                204
+            ]
+        },
+        {
+            "colorName": "Gray 81",
+            "colorKey": "X11236",
+            "rawComponents":
+            [
+                207,
+                207,
+                207
+            ]
+        },
+        {
+            "colorName": "Gray 82",
+            "colorKey": "X11237",
+            "rawComponents":
+            [
+                209,
+                209,
+                209
+            ]
+        },
+        {
+            "colorName": "Gray 83",
+            "colorKey": "X11238",
+            "rawComponents":
+            [
+                212,
+                212,
+                212
+            ]
+        },
+        {
+            "colorName": "Gray 84",
+            "colorKey": "X11239",
+            "rawComponents":
+            [
+                214,
+                214,
+                214
+            ]
+        },
+        {
+            "colorName": "Gray 85",
+            "colorKey": "X11240",
+            "rawComponents":
+            [
+                217,
+                217,
+                217
+            ]
+        },
+        {
+            "colorName": "Gray 86",
+            "colorKey": "X11241",
+            "rawComponents":
+            [
+                219,
+                219,
+                219
+            ]
+        },
+        {
+            "colorName": "Gray 87",
+            "colorKey": "X11242",
+            "rawComponents":
+            [
+                222,
+                222,
+                222
+            ]
+        },
+        {
+            "colorName": "Gray 88",
+            "colorKey": "X11243",
+            "rawComponents":
+            [
+                224,
+                224,
+                224
+            ]
+        },
+        {
+            "colorName": "Gray 89",
+            "colorKey": "X11244",
+            "rawComponents":
+            [
+                227,
+                227,
+                227
+            ]
+        },
+        {
+            "colorName": "Gray 90",
+            "colorKey": "X11245",
+            "rawComponents":
+            [
+                229,
+                229,
+                229
+            ]
+        },
+        {
+            "colorName": "Gray 91",
+            "colorKey": "X11246",
+            "rawComponents":
+            [
+                232,
+                232,
+                232
+            ]
+        },
+        {
+            "colorName": "Gray 92",
+            "colorKey": "X11247",
+            "rawComponents":
+            [
+                235,
+                235,
+                235
+            ]
+        },
+        {
+            "colorName": "Gray 93",
+            "colorKey": "X11248",
+            "rawComponents":
+            [
+                237,
+                237,
+                237
+            ]
+        },
+        {
+            "colorName": "Gray 94",
+            "colorKey": "X11249",
+            "rawComponents":
+            [
+                240,
+                240,
+                240
+            ]
+        },
+        {
+            "colorName": "Gray 95",
+            "colorKey": "X11250",
+            "rawComponents":
+            [
+                242,
+                242,
+                242
+            ]
+        },
+        {
+            "colorName": "Gray 96",
+            "colorKey": "X11251",
+            "rawComponents":
+            [
+                245,
+                245,
+                245
+            ]
+        },
+        {
+            "colorName": "Gray 97",
+            "colorKey": "X11252",
+            "rawComponents":
+            [
+                247,
+                247,
+                247
+            ]
+        },
+        {
+            "colorName": "Gray 98",
+            "colorKey": "X11253",
+            "rawComponents":
+            [
+                250,
+                250,
+                250
+            ]
+        },
+        {
+            "colorName": "Gray 99",
+            "colorKey": "X11254",
+            "rawComponents":
+            [
+                252,
+                252,
+                252
+            ]
+        },
+        {
+            "colorName": "Gray 100",
+            "colorKey": "X11255",
+            "rawComponents":
+            [
+                255,
+                255,
+                255
+            ]
+        },
+        {
+            "colorName": "Green",
+            "colorKey": "X11256",
+            "rawComponents":
+            [
+                0,
+                255,
+                0
+            ]
+        },
+        {
+            "colorName": "Green 1",
+            "colorKey": "X11257",
+            "rawComponents":
+            [
+                0,
+                255,
+                0
+            ]
+        },
+        {
+            "colorName": "Green 2",
+            "colorKey": "X11258",
+            "rawComponents":
+            [
+                0,
+                238,
+                0
+            ]
+        },
+        {
+            "colorName": "Green 3",
+            "colorKey": "X11259",
+            "rawComponents":
+            [
+                0,
+                205,
+                0
+            ]
+        },
+        {
+            "colorName": "Green 4",
+            "colorKey": "X11260",
+            "rawComponents":
+            [
+                0,
+                139,
+                0
+            ]
+        },
+        {
+            "colorName": "Green Yellow",
+            "colorKey": "X11261",
+            "rawComponents":
+            [
+                173,
+                255,
+                47
+            ]
+        },
+        {
+            "colorName": "Honeydew",
+            "colorKey": "X11364",
+            "rawComponents":
+            [
+                240,
+                255,
+                240
+            ]
+        },
+        {
+            "colorName": "Honeydew 1",
+            "colorKey": "X11365",
+            "rawComponents":
+            [
+                240,
+                255,
+                240
+            ]
+        },
+        {
+            "colorName": "Honeydew 2",
+            "colorKey": "X11366",
+            "rawComponents":
+            [
+                224,
+                238,
+                224
+            ]
+        },
+        {
+            "colorName": "Honeydew 3",
+            "colorKey": "X11367",
+            "rawComponents":
+            [
+                193,
+                205,
+                193
+            ]
+        },
+        {
+            "colorName": "Honeydew 4",
+            "colorKey": "X11368",
+            "rawComponents":
+            [
+                131,
+                139,
+                131
+            ]
+        },
+        {
+            "colorName": "Hot Pink",
+            "colorKey": "X11369",
+            "rawComponents":
+            [
+                255,
+                105,
+                180
+            ]
+        },
+        {
+            "colorName": "Hot Pink 1",
+            "colorKey": "X11370",
+            "rawComponents":
+            [
+                255,
+                110,
+                180
+            ]
+        },
+        {
+            "colorName": "Hot Pink 2",
+            "colorKey": "X11371",
+            "rawComponents":
+            [
+                238,
+                106,
+                167
+            ]
+        },
+        {
+            "colorName": "Hot Pink 3",
+            "colorKey": "X11372",
+            "rawComponents":
+            [
+                205,
+                96,
+                144
+            ]
+        },
+        {
+            "colorName": "Hot Pink 4",
+            "colorKey": "X11373",
+            "rawComponents":
+            [
+                139,
+                58,
+                98
+            ]
+        },
+        {
+            "colorName": "Indian Red",
+            "colorKey": "X11374",
+            "rawComponents":
+            [
+                205,
+                92,
+                92
+            ]
+        },
+        {
+            "colorName": "Indian Red 1",
+            "colorKey": "X11375",
+            "rawComponents":
+            [
+                255,
+                106,
+                106
+            ]
+        },
+        {
+            "colorName": "Indian Red 2",
+            "colorKey": "X11376",
+            "rawComponents":
+            [
+                238,
+                99,
+                99
+            ]
+        },
+        {
+            "colorName": "Indian Red 3",
+            "colorKey": "X11377",
+            "rawComponents":
+            [
+                205,
+                85,
+                85
+            ]
+        },
+        {
+            "colorName": "Indian Red 4",
+            "colorKey": "X11378",
+            "rawComponents":
+            [
+                139,
+                58,
+                58
+            ]
+        },
+        {
+            "colorName": "Ivory",
+            "colorKey": "X11379",
+            "rawComponents":
+            [
+                255,
+                255,
+                240
+            ]
+        },
+        {
+            "colorName": "Ivory 1",
+            "colorKey": "X11380",
+            "rawComponents":
+            [
+                255,
+                255,
+                240
+            ]
+        },
+        {
+            "colorName": "Ivory 2",
+            "colorKey": "X11381",
+            "rawComponents":
+            [
+                238,
+                238,
+                224
+            ]
+        },
+        {
+            "colorName": "Ivory 3",
+            "colorKey": "X11382",
+            "rawComponents":
+            [
+                205,
+                205,
+                193
+            ]
+        },
+        {
+            "colorName": "Ivory 4",
+            "colorKey": "X11383",
+            "rawComponents":
+            [
+                139,
+                139,
+                131
+            ]
+        },
+        {
+            "colorName": "Khaki",
+            "colorKey": "X11384",
+            "rawComponents":
+            [
+                240,
+                230,
+                140
+            ]
+        },
+        {
+            "colorName": "Khaki 1",
+            "colorKey": "X11385",
+            "rawComponents":
+            [
+                255,
+                246,
+                143
+            ]
+        },
+        {
+            "colorName": "Khaki 2",
+            "colorKey": "X11386",
+            "rawComponents":
+            [
+                238,
+                230,
+                133
+            ]
+        },
+        {
+            "colorName": "Khaki 3",
+            "colorKey": "X11387",
+            "rawComponents":
+            [
+                205,
+                198,
+                115
+            ]
+        },
+        {
+            "colorName": "Khaki 4",
+            "colorKey": "X11388",
+            "rawComponents":
+            [
+                139,
+                134,
+                78
+            ]
+        },
+        {
+            "colorName": "Lavender",
+            "colorKey": "X11389",
+            "rawComponents":
+            [
+                230,
+                230,
+                250
+            ]
+        },
+        {
+            "colorName": "Lavender Blush",
+            "colorKey": "X11390",
+            "rawComponents":
+            [
+                255,
+                240,
+                245
+            ]
+        },
+        {
+            "colorName": "Lavender Blush 1",
+            "colorKey": "X11391",
+            "rawComponents":
+            [
+                255,
+                240,
+                245
+            ]
+        },
+        {
+            "colorName": "Lavender Blush 2",
+            "colorKey": "X11392",
+            "rawComponents":
+            [
+                238,
+                224,
+                229
+            ]
+        },
+        {
+            "colorName": "Lavender Blush 3",
+            "colorKey": "X11393",
+            "rawComponents":
+            [
+                205,
+                193,
+                197
+            ]
+        },
+        {
+            "colorName": "Lavender Blush 4",
+            "colorKey": "X11394",
+            "rawComponents":
+            [
+                139,
+                131,
+                134
+            ]
+        },
+        {
+            "colorName": "Lawn Green",
+            "colorKey": "X11395",
+            "rawComponents":
+            [
+                124,
+                252,
+                0
+            ]
+        },
+        {
+            "colorName": "Lemon Chiffon",
+            "colorKey": "X11396",
+            "rawComponents":
+            [
+                255,
+                250,
+                205
+            ]
+        },
+        {
+            "colorName": "Lemon Chiffon 1",
+            "colorKey": "X11397",
+            "rawComponents":
+            [
+                255,
+                250,
+                205
+            ]
+        },
+        {
+            "colorName": "Lemon Chiffon 2",
+            "colorKey": "X11398",
+            "rawComponents":
+            [
+                238,
+                233,
+                191
+            ]
+        },
+        {
+            "colorName": "Lemon Chiffon 3",
+            "colorKey": "X11399",
+            "rawComponents":
+            [
+                205,
+                201,
+                165
+            ]
+        },
+        {
+            "colorName": "Lemon Chiffon 4",
+            "colorKey": "X11400",
+            "rawComponents":
+            [
+                139,
+                137,
+                112
+            ]
+        },
+        {
+            "colorName": "Light Blue",
+            "colorKey": "X11401",
+            "rawComponents":
+            [
+                173,
+                216,
+                230
+            ]
+        },
+        {
+            "colorName": "Light Blue 1",
+            "colorKey": "X11402",
+            "rawComponents":
+            [
+                191,
+                239,
+                255
+            ]
+        },
+        {
+            "colorName": "Light Blue 2",
+            "colorKey": "X11403",
+            "rawComponents":
+            [
+                178,
+                223,
+                238
+            ]
+        },
+        {
+            "colorName": "Light Blue 3",
+            "colorKey": "X11404",
+            "rawComponents":
+            [
+                154,
+                192,
+                205
+            ]
+        },
+        {
+            "colorName": "Light Blue 4",
+            "colorKey": "X11405",
+            "rawComponents":
+            [
+                104,
+                131,
+                139
+            ]
+        },
+        {
+            "colorName": "Light Coral",
+            "colorKey": "X11406",
+            "rawComponents":
+            [
+                240,
+                128,
+                128
+            ]
+        },
+        {
+            "colorName": "Light Cyan",
+            "colorKey": "X11407",
+            "rawComponents":
+            [
+                224,
+                255,
+                255
+            ]
+        },
+        {
+            "colorName": "Light Cyan 1",
+            "colorKey": "X11408",
+            "rawComponents":
+            [
+                224,
+                255,
+                255
+            ]
+        },
+        {
+            "colorName": "Light Cyan 2",
+            "colorKey": "X11409",
+            "rawComponents":
+            [
+                209,
+                238,
+                238
+            ]
+        },
+        {
+            "colorName": "Light Cyan 3",
+            "colorKey": "X11410",
+            "rawComponents":
+            [
+                180,
+                205,
+                205
+            ]
+        },
+        {
+            "colorName": "Light Cyan 4",
+            "colorKey": "X11411",
+            "rawComponents":
+            [
+                122,
+                139,
+                139
+            ]
+        },
+        {
+            "colorName": "Light Goldenrod",
+            "colorKey": "X11412",
+            "rawComponents":
+            [
+                238,
+                221,
+                130
+            ]
+        },
+        {
+            "colorName": "Light Goldenrod 1",
+            "colorKey": "X11413",
+            "rawComponents":
+            [
+                255,
+                236,
+                139
+            ]
+        },
+        {
+            "colorName": "Light Goldenrod 2",
+            "colorKey": "X11414",
+            "rawComponents":
+            [
+                238,
+                220,
+                130
+            ]
+        },
+        {
+            "colorName": "Light Goldenrod 3",
+            "colorKey": "X11415",
+            "rawComponents":
+            [
+                205,
+                190,
+                112
+            ]
+        },
+        {
+            "colorName": "Light Goldenrod 4",
+            "colorKey": "X11416",
+            "rawComponents":
+            [
+                139,
+                129,
+                76
+            ]
+        },
+        {
+            "colorName": "Light Goldenrod Yellow",
+            "colorKey": "X11417",
+            "rawComponents":
+            [
+                250,
+                250,
+                210
+            ]
+        },
+        {
+            "colorName": "Light Gray",
+            "colorKey": "X11418",
+            "rawComponents":
+            [
+                211,
+                211,
+                211
+            ]
+        },
+        {
+            "colorName": "Light Green",
+            "colorKey": "X11419",
+            "rawComponents":
+            [
+                144,
+                238,
+                144
+            ]
+        },
+        {
+            "colorName": "Light Pink",
+            "colorKey": "X11421",
+            "rawComponents":
+            [
+                255,
+                182,
+                193
+            ]
+        },
+        {
+            "colorName": "Light Pink 1",
+            "colorKey": "X11422",
+            "rawComponents":
+            [
+                255,
+                174,
+                185
+            ]
+        },
+        {
+            "colorName": "Light Pink 2",
+            "colorKey": "X11423",
+            "rawComponents":
+            [
+                238,
+                162,
+                173
+            ]
+        },
+        {
+            "colorName": "Light Pink 3",
+            "colorKey": "X11424",
+            "rawComponents":
+            [
+                205,
+                140,
+                149
+            ]
+        },
+        {
+            "colorName": "Light Pink 4",
+            "colorKey": "X11425",
+            "rawComponents":
+            [
+                139,
+                95,
+                101
+            ]
+        },
+        {
+            "colorName": "Light Salmon",
+            "colorKey": "X11426",
+            "rawComponents":
+            [
+                255,
+                160,
+                122
+            ]
+        },
+        {
+            "colorName": "Light Salmon 1",
+            "colorKey": "X11427",
+            "rawComponents":
+            [
+                255,
+                160,
+                122
+            ]
+        },
+        {
+            "colorName": "Light Salmon 2",
+            "colorKey": "X11428",
+            "rawComponents":
+            [
+                238,
+                149,
+                114
+            ]
+        },
+        {
+            "colorName": "Light Salmon 3",
+            "colorKey": "X11429",
+            "rawComponents":
+            [
+                205,
+                129,
+                98
+            ]
+        },
+        {
+            "colorName": "Light Salmon 4",
+            "colorKey": "X11430",
+            "rawComponents":
+            [
+                139,
+                87,
+                66
+            ]
+        },
+        {
+            "colorName": "Light Sea Green",
+            "colorKey": "X11431",
+            "rawComponents":
+            [
+                32,
+                178,
+                170
+            ]
+        },
+        {
+            "colorName": "Light Sky Blue",
+            "colorKey": "X11432",
+            "rawComponents":
+            [
+                135,
+                206,
+                250
+            ]
+        },
+        {
+            "colorName": "Light Sky Blue 1",
+            "colorKey": "X11433",
+            "rawComponents":
+            [
+                176,
+                226,
+                255
+            ]
+        },
+        {
+            "colorName": "Light Sky Blue 2",
+            "colorKey": "X11434",
+            "rawComponents":
+            [
+                164,
+                211,
+                238
+            ]
+        },
+        {
+            "colorName": "Light Sky Blue 3",
+            "colorKey": "X11435",
+            "rawComponents":
+            [
+                141,
+                182,
+                205
+            ]
+        },
+        {
+            "colorName": "Light Sky Blue 4",
+            "colorKey": "X11436",
+            "rawComponents":
+            [
+                96,
+                123,
+                139
+            ]
+        },
+        {
+            "colorName": "Light Slate Blue",
+            "colorKey": "X11437",
+            "rawComponents":
+            [
+                132,
+                112,
+                255
+            ]
+        },
+        {
+            "colorName": "Light Slate Gray",
+            "colorKey": "X11438",
+            "rawComponents":
+            [
+                119,
+                136,
+                153
+            ]
+        },
+        {
+            "colorName": "Light Steel Blue",
+            "colorKey": "X11440",
+            "rawComponents":
+            [
+                176,
+                196,
+                222
+            ]
+        },
+        {
+            "colorName": "Light Steel Blue 1",
+            "colorKey": "X11441",
+            "rawComponents":
+            [
+                202,
+                225,
+                255
+            ]
+        },
+        {
+            "colorName": "Light Steel Blue 2",
+            "colorKey": "X11442",
+            "rawComponents":
+            [
+                188,
+                210,
+                238
+            ]
+        },
+        {
+            "colorName": "Light Steel Blue 3",
+            "colorKey": "X11443",
+            "rawComponents":
+            [
+                162,
+                181,
+                205
+            ]
+        },
+        {
+            "colorName": "Light Steel Blue 4",
+            "colorKey": "X11444",
+            "rawComponents":
+            [
+                110,
+                123,
+                139
+            ]
+        },
+        {
+            "colorName": "Light Yellow",
+            "colorKey": "X11445",
+            "rawComponents":
+            [
+                255,
+                255,
+                224
+            ]
+        },
+        {
+            "colorName": "Light Yellow 1",
+            "colorKey": "X11446",
+            "rawComponents":
+            [
+                255,
+                255,
+                224
+            ]
+        },
+        {
+            "colorName": "Light Yellow 2",
+            "colorKey": "X11447",
+            "rawComponents":
+            [
+                238,
+                238,
+                209
+            ]
+        },
+        {
+            "colorName": "Light Yellow 3",
+            "colorKey": "X11448",
+            "rawComponents":
+            [
+                205,
+                205,
+                180
+            ]
+        },
+        {
+            "colorName": "Light Yellow 4",
+            "colorKey": "X11449",
+            "rawComponents":
+            [
+                139,
+                139,
+                122
+            ]
+        },
+        {
+            "colorName": "Lime Green",
+            "colorKey": "X11450",
+            "rawComponents":
+            [
+                50,
+                205,
+                50
+            ]
+        },
+        {
+            "colorName": "Linen",
+            "colorKey": "X11451",
+            "rawComponents":
+            [
+                250,
+                240,
+                230
+            ]
+        },
+        {
+            "colorName": "Magenta",
+            "colorKey": "X11452",
+            "rawComponents":
+            [
+                255,
+                0,
+                255
+            ]
+        },
+        {
+            "colorName": "Magenta 1",
+            "colorKey": "X11453",
+            "rawComponents":
+            [
+                255,
+                0,
+                255
+            ]
+        },
+        {
+            "colorName": "Magenta 2",
+            "colorKey": "X11454",
+            "rawComponents":
+            [
+                238,
+                0,
+                238
+            ]
+        },
+        {
+            "colorName": "Magenta 3",
+            "colorKey": "X11455",
+            "rawComponents":
+            [
+                205,
+                0,
+                205
+            ]
+        },
+        {
+            "colorName": "Magenta 4",
+            "colorKey": "X11456",
+            "rawComponents":
+            [
+                139,
+                0,
+                139
+            ]
+        },
+        {
+            "colorName": "Maroon",
+            "colorKey": "X11457",
+            "rawComponents":
+            [
+                176,
+                48,
+                96
+            ]
+        },
+        {
+            "colorName": "Maroon 1",
+            "colorKey": "X11458",
+            "rawComponents":
+            [
+                255,
+                52,
+                179
+            ]
+        },
+        {
+            "colorName": "Maroon 2",
+            "colorKey": "X11459",
+            "rawComponents":
+            [
+                238,
+                48,
+                167
+            ]
+        },
+        {
+            "colorName": "Maroon 3",
+            "colorKey": "X11460",
+            "rawComponents":
+            [
+                205,
+                41,
+                144
+            ]
+        },
+        {
+            "colorName": "Maroon 4",
+            "colorKey": "X11461",
+            "rawComponents":
+            [
+                139,
+                28,
+                98
+            ]
+        },
+        {
+            "colorName": "Medium Aquamarine",
+            "colorKey": "X11462",
+            "rawComponents":
+            [
+                102,
+                205,
+                170
+            ]
+        },
+        {
+            "colorName": "Medium Blue",
+            "colorKey": "X11463",
+            "rawComponents":
+            [
+                0,
+                0,
+                205
+            ]
+        },
+        {
+            "colorName": "Medium Orchid",
+            "colorKey": "X11464",
+            "rawComponents":
+            [
+                186,
+                85,
+                211
+            ]
+        },
+        {
+            "colorName": "Medium Orchid 1",
+            "colorKey": "X11465",
+            "rawComponents":
+            [
+                224,
+                102,
+                255
+            ]
+        },
+        {
+            "colorName": "Medium Orchid 2",
+            "colorKey": "X11466",
+            "rawComponents":
+            [
+                209,
+                95,
+                238
+            ]
+        },
+        {
+            "colorName": "Medium Orchid 3",
+            "colorKey": "X11467",
+            "rawComponents":
+            [
+                180,
+                82,
+                205
+            ]
+        },
+        {
+            "colorName": "Medium Orchid 4",
+            "colorKey": "X11468",
+            "rawComponents":
+            [
+                122,
+                55,
+                139
+            ]
+        },
+        {
+            "colorName": "Medium Purple",
+            "colorKey": "X11469",
+            "rawComponents":
+            [
+                147,
+                112,
+                219
+            ]
+        },
+        {
+            "colorName": "Medium Purple 1",
+            "colorKey": "X11470",
+            "rawComponents":
+            [
+                171,
+                130,
+                255
+            ]
+        },
+        {
+            "colorName": "Medium Purple 2",
+            "colorKey": "X11471",
+            "rawComponents":
+            [
+                159,
+                121,
+                238
+            ]
+        },
+        {
+            "colorName": "Medium Purple 3",
+            "colorKey": "X11472",
+            "rawComponents":
+            [
+                137,
+                104,
+                205
+            ]
+        },
+        {
+            "colorName": "Medium Purple 4",
+            "colorKey": "X11473",
+            "rawComponents":
+            [
+                93,
+                71,
+                139
+            ]
+        },
+        {
+            "colorName": "Medium Sea Green",
+            "colorKey": "X11474",
+            "rawComponents":
+            [
+                60,
+                179,
+                113
+            ]
+        },
+        {
+            "colorName": "Medium Slate Blue",
+            "colorKey": "X11475",
+            "rawComponents":
+            [
+                123,
+                104,
+                238
+            ]
+        },
+        {
+            "colorName": "Medium Spring Green",
+            "colorKey": "X11476",
+            "rawComponents":
+            [
+                0,
+                250,
+                154
+            ]
+        },
+        {
+            "colorName": "Medium Turquoise",
+            "colorKey": "X11477",
+            "rawComponents":
+            [
+                72,
+                209,
+                204
+            ]
+        },
+        {
+            "colorName": "Medium Violet Red",
+            "colorKey": "X11478",
+            "rawComponents":
+            [
+                199,
+                21,
+                133
+            ]
+        },
+        {
+            "colorName": "Midnight Blue",
+            "colorKey": "X11479",
+            "rawComponents":
+            [
+                25,
+                25,
+                112
+            ]
+        },
+        {
+            "colorName": "Mint Cream",
+            "colorKey": "X11480",
+            "rawComponents":
+            [
+                245,
+                255,
+                250
+            ]
+        },
+        {
+            "colorName": "Misty Rose",
+            "colorKey": "X11481",
+            "rawComponents":
+            [
+                255,
+                228,
+                225
+            ]
+        },
+        {
+            "colorName": "Misty Rose 1",
+            "colorKey": "X11482",
+            "rawComponents":
+            [
+                255,
+                228,
+                225
+            ]
+        },
+        {
+            "colorName": "Misty Rose 2",
+            "colorKey": "X11483",
+            "rawComponents":
+            [
+                238,
+                213,
+                210
+            ]
+        },
+        {
+            "colorName": "Misty Rose 3",
+            "colorKey": "X11484",
+            "rawComponents":
+            [
+                205,
+                183,
+                181
+            ]
+        },
+        {
+            "colorName": "Misty Rose 4",
+            "colorKey": "X11485",
+            "rawComponents":
+            [
+                139,
+                125,
+                123
+            ]
+        },
+        {
+            "colorName": "Moccasin",
+            "colorKey": "X11486",
+            "rawComponents":
+            [
+                255,
+                228,
+                181
+            ]
+        },
+        {
+            "colorName": "Navajo White",
+            "colorKey": "X11487",
+            "rawComponents":
+            [
+                255,
+                222,
+                173
+            ]
+        },
+        {
+            "colorName": "Navajo White 1",
+            "colorKey": "X11488",
+            "rawComponents":
+            [
+                255,
+                222,
+                173
+            ]
+        },
+        {
+            "colorName": "Navajo White 2",
+            "colorKey": "X11489",
+            "rawComponents":
+            [
+                238,
+                207,
+                161
+            ]
+        },
+        {
+            "colorName": "Navajo White 3",
+            "colorKey": "X11490",
+            "rawComponents":
+            [
+                205,
+                179,
+                139
+            ]
+        },
+        {
+            "colorName": "Navajo White 4",
+            "colorKey": "X11491",
+            "rawComponents":
+            [
+                139,
+                121,
+                94
+            ]
+        },
+        {
+            "colorName": "Navy",
+            "colorKey": "X11492",
+            "rawComponents":
+            [
+                0,
+                0,
+                128
+            ]
+        },
+        {
+            "colorName": "Navy Blue",
+            "colorKey": "X11493",
+            "rawComponents":
+            [
+                0,
+                0,
+                128
+            ]
+        },
+        {
+            "colorName": "Old Lace",
+            "colorKey": "X11494",
+            "rawComponents":
+            [
+                253,
+                245,
+                230
+            ]
+        },
+        {
+            "colorName": "Olive Drab",
+            "colorKey": "X11495",
+            "rawComponents":
+            [
+                107,
+                142,
+                35
+            ]
+        },
+        {
+            "colorName": "Olive Drab 1",
+            "colorKey": "X11496",
+            "rawComponents":
+            [
+                192,
+                255,
+                62
+            ]
+        },
+        {
+            "colorName": "Olive Drab 2",
+            "colorKey": "X11497",
+            "rawComponents":
+            [
+                179,
+                238,
+                58
+            ]
+        },
+        {
+            "colorName": "Olive Drab 3",
+            "colorKey": "X11498",
+            "rawComponents":
+            [
+                154,
+                205,
+                50
+            ]
+        },
+        {
+            "colorName": "Olive Drab 4",
+            "colorKey": "X11499",
+            "rawComponents":
+            [
+                105,
+                139,
+                34
+            ]
+        },
+        {
+            "colorName": "Orange",
+            "colorKey": "X11500",
+            "rawComponents":
+            [
+                255,
+                165,
+                0
+            ]
+        },
+        {
+            "colorName": "Orange 1",
+            "colorKey": "X11501",
+            "rawComponents":
+            [
+                255,
+                165,
+                0
+            ]
+        },
+        {
+            "colorName": "Orange 2",
+            "colorKey": "X11502",
+            "rawComponents":
+            [
+                238,
+                154,
+                0
+            ]
+        },
+        {
+            "colorName": "Orange 3",
+            "colorKey": "X11503",
+            "rawComponents":
+            [
+                205,
+                133,
+                0
+            ]
+        },
+        {
+            "colorName": "Orange 4",
+            "colorKey": "X11504",
+            "rawComponents":
+            [
+                139,
+                90,
+                0
+            ]
+        },
+        {
+            "colorName": "Orange Red",
+            "colorKey": "X11505",
+            "rawComponents":
+            [
+                255,
+                69,
+                0
+            ]
+        },
+        {
+            "colorName": "Orange Red 1",
+            "colorKey": "X11506",
+            "rawComponents":
+            [
+                255,
+                69,
+                0
+            ]
+        },
+        {
+            "colorName": "Orange Red 2",
+            "colorKey": "X11507",
+            "rawComponents":
+            [
+                238,
+                64,
+                0
+            ]
+        },
+        {
+            "colorName": "Orange Red 3",
+            "colorKey": "X11508",
+            "rawComponents":
+            [
+                205,
+                55,
+                0
+            ]
+        },
+        {
+            "colorName": "Orange Red 4",
+            "colorKey": "X11509",
+            "rawComponents":
+            [
+                139,
+                37,
+                0
+            ]
+        },
+        {
+            "colorName": "Orchid",
+            "colorKey": "X11510",
+            "rawComponents":
+            [
+                218,
+                112,
+                214
+            ]
+        },
+        {
+            "colorName": "Orchid 1",
+            "colorKey": "X11511",
+            "rawComponents":
+            [
+                255,
+                131,
+                250
+            ]
+        },
+        {
+            "colorName": "Orchid 2",
+            "colorKey": "X11512",
+            "rawComponents":
+            [
+                238,
+                122,
+                233
+            ]
+        },
+        {
+            "colorName": "Orchid 3",
+            "colorKey": "X11513",
+            "rawComponents":
+            [
+                205,
+                105,
+                201
+            ]
+        },
+        {
+            "colorName": "Orchid 4",
+            "colorKey": "X11514",
+            "rawComponents":
+            [
+                139,
+                71,
+                137
+            ]
+        },
+        {
+            "colorName": "Pale Goldenrod",
+            "colorKey": "X11515",
+            "rawComponents":
+            [
+                238,
+                232,
+                170
+            ]
+        },
+        {
+            "colorName": "Pale Green",
+            "colorKey": "X11516",
+            "rawComponents":
+            [
+                152,
+                251,
+                152
+            ]
+        },
+        {
+            "colorName": "Pale Green 1",
+            "colorKey": "X11517",
+            "rawComponents":
+            [
+                154,
+                255,
+                154
+            ]
+        },
+        {
+            "colorName": "Pale Green 2",
+            "colorKey": "X11518",
+            "rawComponents":
+            [
+                144,
+                238,
+                144
+            ]
+        },
+        {
+            "colorName": "Pale Green 3",
+            "colorKey": "X11519",
+            "rawComponents":
+            [
+                124,
+                205,
+                124
+            ]
+        },
+        {
+            "colorName": "Pale Green 4",
+            "colorKey": "X11520",
+            "rawComponents":
+            [
+                84,
+                139,
+                84
+            ]
+        },
+        {
+            "colorName": "Pale Turquoise",
+            "colorKey": "X11521",
+            "rawComponents":
+            [
+                175,
+                238,
+                238
+            ]
+        },
+        {
+            "colorName": "Pale Turquoise 1",
+            "colorKey": "X11522",
+            "rawComponents":
+            [
+                187,
+                255,
+                255
+            ]
+        },
+        {
+            "colorName": "Pale Turquoise 2",
+            "colorKey": "X11523",
+            "rawComponents":
+            [
+                174,
+                238,
+                238
+            ]
+        },
+        {
+            "colorName": "Pale Turquoise 3",
+            "colorKey": "X11524",
+            "rawComponents":
+            [
+                150,
+                205,
+                205
+            ]
+        },
+        {
+            "colorName": "Pale Turquoise 4",
+            "colorKey": "X11525",
+            "rawComponents":
+            [
+                102,
+                139,
+                139
+            ]
+        },
+        {
+            "colorName": "Pale Violet Red",
+            "colorKey": "X11526",
+            "rawComponents":
+            [
+                219,
+                112,
+                147
+            ]
+        },
+        {
+            "colorName": "Pale Violet Red 1",
+            "colorKey": "X11527",
+            "rawComponents":
+            [
+                255,
+                130,
+                171
+            ]
+        },
+        {
+            "colorName": "Pale Violet Red 2",
+            "colorKey": "X11528",
+            "rawComponents":
+            [
+                238,
+                121,
+                159
+            ]
+        },
+        {
+            "colorName": "Pale Violet Red 3",
+            "colorKey": "X11529",
+            "rawComponents":
+            [
+                205,
+                104,
+                137
+            ]
+        },
+        {
+            "colorName": "Pale Violet Red 4",
+            "colorKey": "X11530",
+            "rawComponents":
+            [
+                139,
+                71,
+                93
+            ]
+        },
+        {
+            "colorName": "Papaya Whip",
+            "colorKey": "X11531",
+            "rawComponents":
+            [
+                255,
+                239,
+                213
+            ]
+        },
+        {
+            "colorName": "Peach Puff",
+            "colorKey": "X11532",
+            "rawComponents":
+            [
+                255,
+                218,
+                185
+            ]
+        },
+        {
+            "colorName": "Peach Puff 1",
+            "colorKey": "X11533",
+            "rawComponents":
+            [
+                255,
+                218,
+                185
+            ]
+        },
+        {
+            "colorName": "Peach Puff 2",
+            "colorKey": "X11534",
+            "rawComponents":
+            [
+                238,
+                203,
+                173
+            ]
+        },
+        {
+            "colorName": "Peach Puff 3",
+            "colorKey": "X11535",
+            "rawComponents":
+            [
+                205,
+                175,
+                149
+            ]
+        },
+        {
+            "colorName": "Peach Puff 4",
+            "colorKey": "X11536",
+            "rawComponents":
+            [
+                139,
+                119,
+                101
+            ]
+        },
+        {
+            "colorName": "Peru",
+            "colorKey": "X11537",
+            "rawComponents":
+            [
+                205,
+                133,
+                63
+            ]
+        },
+        {
+            "colorName": "Pink",
+            "colorKey": "X11538",
+            "rawComponents":
+            [
+                255,
+                192,
+                203
+            ]
+        },
+        {
+            "colorName": "Pink 1",
+            "colorKey": "X11539",
+            "rawComponents":
+            [
+                255,
+                181,
+                197
+            ]
+        },
+        {
+            "colorName": "Pink 2",
+            "colorKey": "X11540",
+            "rawComponents":
+            [
+                238,
+                169,
+                184
+            ]
+        },
+        {
+            "colorName": "Pink 3",
+            "colorKey": "X11541",
+            "rawComponents":
+            [
+                205,
+                145,
+                158
+            ]
+        },
+        {
+            "colorName": "Pink 4",
+            "colorKey": "X11542",
+            "rawComponents":
+            [
+                139,
+                99,
+                108
+            ]
+        },
+        {
+            "colorName": "Plum",
+            "colorKey": "X11543",
+            "rawComponents":
+            [
+                221,
+                160,
+                221
+            ]
+        },
+        {
+            "colorName": "Plum 1",
+            "colorKey": "X11544",
+            "rawComponents":
+            [
+                255,
+                187,
+                255
+            ]
+        },
+        {
+            "colorName": "Plum 2",
+            "colorKey": "X11545",
+            "rawComponents":
+            [
+                238,
+                174,
+                238
+            ]
+        },
+        {
+            "colorName": "Plum 3",
+            "colorKey": "X11546",
+            "rawComponents":
+            [
+                205,
+                150,
+                205
+            ]
+        },
+        {
+            "colorName": "Plum 4",
+            "colorKey": "X11547",
+            "rawComponents":
+            [
+                139,
+                102,
+                139
+            ]
+        },
+        {
+            "colorName": "Powder Blue",
+            "colorKey": "X11548",
+            "rawComponents":
+            [
+                176,
+                224,
+                230
+            ]
+        },
+        {
+            "colorName": "Purple",
+            "colorKey": "X11549",
+            "rawComponents":
+            [
+                160,
+                32,
+                240
+            ]
+        },
+        {
+            "colorName": "Purple 1",
+            "colorKey": "X11550",
+            "rawComponents":
+            [
+                155,
+                48,
+                255
+            ]
+        },
+        {
+            "colorName": "Purple 2",
+            "colorKey": "X11551",
+            "rawComponents":
+            [
+                145,
+                44,
+                238
+            ]
+        },
+        {
+            "colorName": "Purple 3",
+            "colorKey": "X11552",
+            "rawComponents":
+            [
+                125,
+                38,
+                205
+            ]
+        },
+        {
+            "colorName": "Purple 4",
+            "colorKey": "X11553",
+            "rawComponents":
+            [
+                85,
+                26,
+                139
+            ]
+        },
+        {
+            "colorName": "Red",
+            "colorKey": "X11554",
+            "rawComponents":
+            [
+                255,
+                0,
+                0
+            ]
+        },
+        {
+            "colorName": "Red 1",
+            "colorKey": "X11555",
+            "rawComponents":
+            [
+                255,
+                0,
+                0
+            ]
+        },
+        {
+            "colorName": "Red 2",
+            "colorKey": "X11556",
+            "rawComponents":
+            [
+                238,
+                0,
+                0
+            ]
+        },
+        {
+            "colorName": "Red 3",
+            "colorKey": "X11557",
+            "rawComponents":
+            [
+                205,
+                0,
+                0
+            ]
+        },
+        {
+            "colorName": "Red 4",
+            "colorKey": "X11558",
+            "rawComponents":
+            [
+                139,
+                0,
+                0
+            ]
+        },
+        {
+            "colorName": "Rosy Brown",
+            "colorKey": "X11559",
+            "rawComponents":
+            [
+                188,
+                143,
+                143
+            ]
+        },
+        {
+            "colorName": "Rosy Brown 1",
+            "colorKey": "X11560",
+            "rawComponents":
+            [
+                255,
+                193,
+                193
+            ]
+        },
+        {
+            "colorName": "Rosy Brown 2",
+            "colorKey": "X11561",
+            "rawComponents":
+            [
+                238,
+                180,
+                180
+            ]
+        },
+        {
+            "colorName": "Rosy Brown 3",
+            "colorKey": "X11562",
+            "rawComponents":
+            [
+                205,
+                155,
+                155
+            ]
+        },
+        {
+            "colorName": "Rosy Brown 4",
+            "colorKey": "X11563",
+            "rawComponents":
+            [
+                139,
+                105,
+                105
+            ]
+        },
+        {
+            "colorName": "Royal Blue",
+            "colorKey": "X11564",
+            "rawComponents":
+            [
+                65,
+                105,
+                225
+            ]
+        },
+        {
+            "colorName": "Royal Blue 1",
+            "colorKey": "X11565",
+            "rawComponents":
+            [
+                72,
+                118,
+                255
+            ]
+        },
+        {
+            "colorName": "Royal Blue 2",
+            "colorKey": "X11566",
+            "rawComponents":
+            [
+                67,
+                110,
+                238
+            ]
+        },
+        {
+            "colorName": "Royal Blue 3",
+            "colorKey": "X11567",
+            "rawComponents":
+            [
+                58,
+                95,
+                205
+            ]
+        },
+        {
+            "colorName": "Royal Blue 4",
+            "colorKey": "X11568",
+            "rawComponents":
+            [
+                39,
+                64,
+                139
+            ]
+        },
+        {
+            "colorName": "Saddle Brown",
+            "colorKey": "X11569",
+            "rawComponents":
+            [
+                139,
+                69,
+                19
+            ]
+        },
+        {
+            "colorName": "Salmon",
+            "colorKey": "X11570",
+            "rawComponents":
+            [
+                250,
+                128,
+                114
+            ]
+        },
+        {
+            "colorName": "Salmon 1",
+            "colorKey": "X11571",
+            "rawComponents":
+            [
+                255,
+                140,
+                105
+            ]
+        },
+        {
+            "colorName": "Salmon 2",
+            "colorKey": "X11572",
+            "rawComponents":
+            [
+                238,
+                130,
+                98
+            ]
+        },
+        {
+            "colorName": "Salmon 3",
+            "colorKey": "X11573",
+            "rawComponents":
+            [
+                205,
+                112,
+                84
+            ]
+        },
+        {
+            "colorName": "Salmon 4",
+            "colorKey": "X11574",
+            "rawComponents":
+            [
+                139,
+                76,
+                57
+            ]
+        },
+        {
+            "colorName": "Sandy Brown",
+            "colorKey": "X11575",
+            "rawComponents":
+            [
+                244,
+                164,
+                96
+            ]
+        },
+        {
+            "colorName": "Sea Green",
+            "colorKey": "X11576",
+            "rawComponents":
+            [
+                46,
+                139,
+                87
+            ]
+        },
+        {
+            "colorName": "Sea Green 1",
+            "colorKey": "X11577",
+            "rawComponents":
+            [
+                84,
+                255,
+                159
+            ]
+        },
+        {
+            "colorName": "Sea Green 2",
+            "colorKey": "X11578",
+            "rawComponents":
+            [
+                78,
+                238,
+                148
+            ]
+        },
+        {
+            "colorName": "Sea Green 3",
+            "colorKey": "X11579",
+            "rawComponents":
+            [
+                67,
+                205,
+                128
+            ]
+        },
+        {
+            "colorName": "Sea Green 4",
+            "colorKey": "X11580",
+            "rawComponents":
+            [
+                46,
+                139,
+                87
+            ]
+        },
+        {
+            "colorName": "Seashell",
+            "colorKey": "X11581",
+            "rawComponents":
+            [
+                255,
+                245,
+                238
+            ]
+        },
+        {
+            "colorName": "Seashell 1",
+            "colorKey": "X11582",
+            "rawComponents":
+            [
+                255,
+                245,
+                238
+            ]
+        },
+        {
+            "colorName": "Seashell 2",
+            "colorKey": "X11583",
+            "rawComponents":
+            [
+                238,
+                229,
+                222
+            ]
+        },
+        {
+            "colorName": "Seashell 3",
+            "colorKey": "X11584",
+            "rawComponents":
+            [
+                205,
+                197,
+                191
+            ]
+        },
+        {
+            "colorName": "Seashell 4",
+            "colorKey": "X11585",
+            "rawComponents":
+            [
+                139,
+                134,
+                130
+            ]
+        },
+        {
+            "colorName": "Sienna",
+            "colorKey": "X11586",
+            "rawComponents":
+            [
+                160,
+                82,
+                45
+            ]
+        },
+        {
+            "colorName": "Sienna 1",
+            "colorKey": "X11587",
+            "rawComponents":
+            [
+                255,
+                130,
+                71
+            ]
+        },
+        {
+            "colorName": "Sienna 2",
+            "colorKey": "X11588",
+            "rawComponents":
+            [
+                238,
+                121,
+                66
+            ]
+        },
+        {
+            "colorName": "Sienna 3",
+            "colorKey": "X11589",
+            "rawComponents":
+            [
+                205,
+                104,
+                57
+            ]
+        },
+        {
+            "colorName": "Sienna 4",
+            "colorKey": "X11590",
+            "rawComponents":
+            [
+                139,
+                71,
+                38
+            ]
+        },
+        {
+            "colorName": "Sky Blue",
+            "colorKey": "X11591",
+            "rawComponents":
+            [
+                135,
+                206,
+                235
+            ]
+        },
+        {
+            "colorName": "Sky Blue 1",
+            "colorKey": "X11592",
+            "rawComponents":
+            [
+                135,
+                206,
+                255
+            ]
+        },
+        {
+            "colorName": "Sky Blue 2",
+            "colorKey": "X11593",
+            "rawComponents":
+            [
+                126,
+                192,
+                238
+            ]
+        },
+        {
+            "colorName": "Sky Blue 3",
+            "colorKey": "X11594",
+            "rawComponents":
+            [
+                108,
+                166,
+                205
+            ]
+        },
+        {
+            "colorName": "Sky Blue 4",
+            "colorKey": "X11595",
+            "rawComponents":
+            [
+                74,
+                112,
+                139
+            ]
+        },
+        {
+            "colorName": "Slate Blue",
+            "colorKey": "X11596",
+            "rawComponents":
+            [
+                106,
+                90,
+                205
+            ]
+        },
+        {
+            "colorName": "Slate Blue 1",
+            "colorKey": "X11597",
+            "rawComponents":
+            [
+                131,
+                111,
+                255
+            ]
+        },
+        {
+            "colorName": "Slate Blue 2",
+            "colorKey": "X11598",
+            "rawComponents":
+            [
+                122,
+                103,
+                238
+            ]
+        },
+        {
+            "colorName": "Slate Blue 3",
+            "colorKey": "X11599",
+            "rawComponents":
+            [
+                105,
+                89,
+                205
+            ]
+        },
+        {
+            "colorName": "Slate Blue 4",
+            "colorKey": "X11600",
+            "rawComponents":
+            [
+                71,
+                60,
+                139
+            ]
+        },
+        {
+            "colorName": "Slate Gray",
+            "colorKey": "X11601",
+            "rawComponents":
+            [
+                112,
+                128,
+                144
+            ]
+        },
+        {
+            "colorName": "Slate Gray 1",
+            "colorKey": "X11602",
+            "rawComponents":
+            [
+                198,
+                226,
+                255
+            ]
+        },
+        {
+            "colorName": "Slate Gray 2",
+            "colorKey": "X11603",
+            "rawComponents":
+            [
+                185,
+                211,
+                238
+            ]
+        },
+        {
+            "colorName": "Slate Gray 3",
+            "colorKey": "X11604",
+            "rawComponents":
+            [
+                159,
+                182,
+                205
+            ]
+        },
+        {
+            "colorName": "Slate Gray 4",
+            "colorKey": "X11605",
+            "rawComponents":
+            [
+                108,
+                123,
+                139
+            ]
+        },
+        {
+            "colorName": "Snow",
+            "colorKey": "X11611",
+            "rawComponents":
+            [
+                255,
+                250,
+                250
+            ]
+        },
+        {
+            "colorName": "Snow 1",
+            "colorKey": "X11612",
+            "rawComponents":
+            [
+                255,
+                250,
+                250
+            ]
+        },
+        {
+            "colorName": "Snow 2",
+            "colorKey": "X11613",
+            "rawComponents":
+            [
+                238,
+                233,
+                233
+            ]
+        },
+        {
+            "colorName": "Snow 3",
+            "colorKey": "X11614",
+            "rawComponents":
+            [
+                205,
+                201,
+                201
+            ]
+        },
+        {
+            "colorName": "Snow 4",
+            "colorKey": "X11615",
+            "rawComponents":
+            [
+                139,
+                137,
+                137
+            ]
+        },
+        {
+            "colorName": "Spring Green",
+            "colorKey": "X11616",
+            "rawComponents":
+            [
+                0,
+                255,
+                127
+            ]
+        },
+        {
+            "colorName": "Spring Green 1",
+            "colorKey": "X11617",
+            "rawComponents":
+            [
+                0,
+                255,
+                127
+            ]
+        },
+        {
+            "colorName": "Spring Green 2",
+            "colorKey": "X11618",
+            "rawComponents":
+            [
+                0,
+                238,
+                118
+            ]
+        },
+        {
+            "colorName": "Spring Green 3",
+            "colorKey": "X11619",
+            "rawComponents":
+            [
+                0,
+                205,
+                102
+            ]
+        },
+        {
+            "colorName": "Spring Green 4",
+            "colorKey": "X11620",
+            "rawComponents":
+            [
+                0,
+                139,
+                69
+            ]
+        },
+        {
+            "colorName": "Steel Blue",
+            "colorKey": "X11621",
+            "rawComponents":
+            [
+                70,
+                130,
+                180
+            ]
+        },
+        {
+            "colorName": "Steel Blue 1",
+            "colorKey": "X11622",
+            "rawComponents":
+            [
+                99,
+                184,
+                255
+            ]
+        },
+        {
+            "colorName": "Steel Blue 2",
+            "colorKey": "X11623",
+            "rawComponents":
+            [
+                92,
+                172,
+                238
+            ]
+        },
+        {
+            "colorName": "Steel Blue 3",
+            "colorKey": "X11624",
+            "rawComponents":
+            [
+                79,
+                148,
+                205
+            ]
+        },
+        {
+            "colorName": "Steel Blue 4",
+            "colorKey": "X11625",
+            "rawComponents":
+            [
+                54,
+                100,
+                139
+            ]
+        },
+        {
+            "colorName": "Tan",
+            "colorKey": "X11626",
+            "rawComponents":
+            [
+                210,
+                180,
+                140
+            ]
+        },
+        {
+            "colorName": "Tan 1",
+            "colorKey": "X11627",
+            "rawComponents":
+            [
+                255,
+                165,
+                79
+            ]
+        },
+        {
+            "colorName": "Tan 2",
+            "colorKey": "X11628",
+            "rawComponents":
+            [
+                238,
+                154,
+                73
+            ]
+        },
+        {
+            "colorName": "Tan 3",
+            "colorKey": "X11629",
+            "rawComponents":
+            [
+                205,
+                133,
+                63
+            ]
+        },
+        {
+            "colorName": "Tan 4",
+            "colorKey": "X11630",
+            "rawComponents":
+            [
+                139,
+                90,
+                43
+            ]
+        },
+        {
+            "colorName": "Thistle",
+            "colorKey": "X11631",
+            "rawComponents":
+            [
+                216,
+                191,
+                216
+            ]
+        },
+        {
+            "colorName": "Thistle 1",
+            "colorKey": "X11632",
+            "rawComponents":
+            [
+                255,
+                225,
+                255
+            ]
+        },
+        {
+            "colorName": "Thistle 2",
+            "colorKey": "X11633",
+            "rawComponents":
+            [
+                238,
+                210,
+                238
+            ]
+        },
+        {
+            "colorName": "Thistle 3",
+            "colorKey": "X11634",
+            "rawComponents":
+            [
+                205,
+                181,
+                205
+            ]
+        },
+        {
+            "colorName": "Thistle 4",
+            "colorKey": "X11635",
+            "rawComponents":
+            [
+                139,
+                123,
+                139
+            ]
+        },
+        {
+            "colorName": "Tomato",
+            "colorKey": "X11636",
+            "rawComponents":
+            [
+                255,
+                99,
+                71
+            ]
+        },
+        {
+            "colorName": "Tomato 1",
+            "colorKey": "X11637",
+            "rawComponents":
+            [
+                255,
+                99,
+                71
+            ]
+        },
+        {
+            "colorName": "Tomato 2",
+            "colorKey": "X11638",
+            "rawComponents":
+            [
+                238,
+                92,
+                66
+            ]
+        },
+        {
+            "colorName": "Tomato 3",
+            "colorKey": "X11639",
+            "rawComponents":
+            [
+                205,
+                79,
+                57
+            ]
+        },
+        {
+            "colorName": "Tomato 4",
+            "colorKey": "X11640",
+            "rawComponents":
+            [
+                139,
+                54,
+                38
+            ]
+        },
+        {
+            "colorName": "Turquoise",
+            "colorKey": "X11641",
+            "rawComponents":
+            [
+                64,
+                224,
+                208
+            ]
+        },
+        {
+            "colorName": "Turquoise 1",
+            "colorKey": "X11642",
+            "rawComponents":
+            [
+                0,
+                245,
+                255
+            ]
+        },
+        {
+            "colorName": "Turquoise 2",
+            "colorKey": "X11643",
+            "rawComponents":
+            [
+                0,
+                229,
+                238
+            ]
+        },
+        {
+            "colorName": "Turquoise 3",
+            "colorKey": "X11644",
+            "rawComponents":
+            [
+                0,
+                197,
+                205
+            ]
+        },
+        {
+            "colorName": "Turquoise 4",
+            "colorKey": "X11645",
+            "rawComponents":
+            [
+                0,
+                134,
+                139
+            ]
+        },
+        {
+            "colorName": "Violet",
+            "colorKey": "X11646",
+            "rawComponents":
+            [
+                238,
+                130,
+                238
+            ]
+        },
+        {
+            "colorName": "Violet Red",
+            "colorKey": "X11647",
+            "rawComponents":
+            [
+                208,
+                32,
+                144
+            ]
+        },
+        {
+            "colorName": "Violet Red 1",
+            "colorKey": "X11648",
+            "rawComponents":
+            [
+                255,
+                62,
+                150
+            ]
+        },
+        {
+            "colorName": "Violet Red 2",
+            "colorKey": "X11649",
+            "rawComponents":
+            [
+                238,
+                58,
+                140
+            ]
+        },
+        {
+            "colorName": "Violet Red 3",
+            "colorKey": "X11650",
+            "rawComponents":
+            [
+                205,
+                50,
+                120
+            ]
+        },
+        {
+            "colorName": "Violet Red 4",
+            "colorKey": "X11651",
+            "rawComponents":
+            [
+                139,
+                34,
+                82
+            ]
+        },
+        {
+            "colorName": "Wheat",
+            "colorKey": "X11652",
+            "rawComponents":
+            [
+                245,
+                222,
+                179
+            ]
+        },
+        {
+            "colorName": "Wheat 1",
+            "colorKey": "X11653",
+            "rawComponents":
+            [
+                255,
+                231,
+                186
+            ]
+        },
+        {
+            "colorName": "Wheat 2",
+            "colorKey": "X11654",
+            "rawComponents":
+            [
+                238,
+                216,
+                174
+            ]
+        },
+        {
+            "colorName": "Wheat 3",
+            "colorKey": "X11655",
+            "rawComponents":
+            [
+                205,
+                186,
+                150
+            ]
+        },
+        {
+            "colorName": "Wheat 4",
+            "colorKey": "X11656",
+            "rawComponents":
+            [
+                139,
+                126,
+                102
+            ]
+        },
+        {
+            "colorName": "White",
+            "colorKey": "X11657",
+            "rawComponents":
+            [
+                255,
+                255,
+                255
+            ]
+        },
+        {
+            "colorName": "White Smoke",
+            "colorKey": "X11658",
+            "rawComponents":
+            [
+                245,
+                245,
+                245
+            ]
+        },
+        {
+            "colorName": "Yellow",
+            "colorKey": "X11659",
+            "rawComponents":
+            [
+                255,
+                255,
+                0
+            ]
+        },
+        {
+            "colorName": "Yellow 1",
+            "colorKey": "X11660",
+            "rawComponents":
+            [
+                255,
+                255,
+                0
+            ]
+        },
+        {
+            "colorName": "Yellow 2",
+            "colorKey": "X11661",
+            "rawComponents":
+            [
+                238,
+                238,
+                0
+            ]
+        },
+        {
+            "colorName": "Yellow 3",
+            "colorKey": "X11662",
+            "rawComponents":
+            [
+                205,
+                205,
+                0
+            ]
+        },
+        {
+            "colorName": "Yellow 4",
+            "colorKey": "X11663",
+            "rawComponents":
+            [
+                139,
+                139,
+                0
+            ]
+        },
+        {
+            "colorName": "Yellow Green",
+            "colorKey": "X11664",
+            "rawComponents":
+            [
+                154,
+                205,
+                50
+            ]
+        }
+    ]
+}

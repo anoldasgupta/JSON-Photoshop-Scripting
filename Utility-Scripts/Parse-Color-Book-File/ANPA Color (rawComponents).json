@@ -1,0 +1,3014 @@
+{
+    "bookID": 3000,
+    "bookName": "$$$/colorbook/ANPA/title=ANPA Color",
+    "colorNamePrefix": "$$$/colorbook/ANPA/prefix=ANPA ",
+    "colorNameSuffix": "$$$/colorbook/ANPA/postfix= AdPro",
+    "bookDescription": "$$$/colorbook/ANPA/description=",
+    "colorsPerPage": 6,
+    "keyColorIndex": 5,
+    "colorSpace": "Lab",
+    "colors":
+    [
+        {
+            "colorName": "71-1",
+            "colorKey": " 71-1D",
+            "rawComponents":
+            [
+                248,
+                123,
+                123
+            ]
+        },
+        {
+            "colorName": "71-2",
+            "colorKey": " 71-2D",
+            "rawComponents":
+            [
+                241,
+                120,
+                120
+            ]
+        },
+        {
+            "colorName": "71-4",
+            "colorKey": " 71-4D",
+            "rawComponents":
+            [
+                227,
+                114,
+                113
+            ]
+        },
+        {
+            "colorName": "71-6",
+            "colorKey": " 71-6D",
+            "rawComponents":
+            [
+                203,
+                104,
+                103
+            ]
+        },
+        {
+            "colorName": "71-8",
+            "colorKey": " 71-8D",
+            "rawComponents":
+            [
+                187,
+                97,
+                96
+            ]
+        },
+        {
+            "colorName": "71-0",
+            "colorKey": " 71-0D",
+            "rawComponents":
+            [
+                174,
+                89,
+                89
+            ]
+        },
+        {
+            "colorName": "72-1",
+            "colorKey": " 72-1D",
+            "rawComponents":
+            [
+                247,
+                135,
+                127
+            ]
+        },
+        {
+            "colorName": "72-2",
+            "colorKey": " 72-2D",
+            "rawComponents":
+            [
+                242,
+                137,
+                126
+            ]
+        },
+        {
+            "colorName": "72-4",
+            "colorKey": " 72-4D",
+            "rawComponents":
+            [
+                229,
+                145,
+                124
+            ]
+        },
+        {
+            "colorName": "72-6",
+            "colorKey": " 72-6D",
+            "rawComponents":
+            [
+                202,
+                160,
+                121
+            ]
+        },
+        {
+            "colorName": "72-8",
+            "colorKey": " 72-8D",
+            "rawComponents":
+            [
+                176,
+                176,
+                121
+            ]
+        },
+        {
+            "colorName": "72-0",
+            "colorKey": " 72-0D",
+            "rawComponents":
+            [
+                150,
+                192,
+                123
+            ]
+        },
+        {
+            "colorName": "73-1",
+            "colorKey": " 73-1D",
+            "rawComponents":
+            [
+                255,
+                128,
+                138
+            ]
+        },
+        {
+            "colorName": "73-2",
+            "colorKey": " 73-2D",
+            "rawComponents":
+            [
+                255,
+                128,
+                145
+            ]
+        },
+        {
+            "colorName": "73-4",
+            "colorKey": " 73-4D",
+            "rawComponents":
+            [
+                253,
+                127,
+                160
+            ]
+        },
+        {
+            "colorName": "73-6",
+            "colorKey": " 73-6D",
+            "rawComponents":
+            [
+                250,
+                126,
+                182
+            ]
+        },
+        {
+            "colorName": "73-8",
+            "colorKey": " 73-8D",
+            "rawComponents":
+            [
+                248,
+                126,
+                197
+            ]
+        },
+        {
+            "colorName": "73-0",
+            "colorKey": " 73-0D",
+            "rawComponents":
+            [
+                247,
+                126,
+                214
+            ]
+        },
+        {
+            "colorName": "74-1",
+            "colorKey": " 74-1D",
+            "rawComponents":
+            [
+                241,
+                136,
+                128
+            ]
+        },
+        {
+            "colorName": "74-2",
+            "colorKey": " 74-2D",
+            "rawComponents":
+            [
+                233,
+                140,
+                128
+            ]
+        },
+        {
+            "colorName": "74-4",
+            "colorKey": " 74-4D",
+            "rawComponents":
+            [
+                216,
+                151,
+                128
+            ]
+        },
+        {
+            "colorName": "74-6",
+            "colorKey": " 74-6D",
+            "rawComponents":
+            [
+                191,
+                167,
+                129
+            ]
+        },
+        {
+            "colorName": "74-8",
+            "colorKey": " 74-8D",
+            "rawComponents":
+            [
+                173,
+                180,
+                131
+            ]
+        },
+        {
+            "colorName": "74-0",
+            "colorKey": " 74-0D",
+            "rawComponents":
+            [
+                149,
+                197,
+                136
+            ]
+        },
+        {
+            "colorName": "75-1",
+            "colorKey": " 75-1D",
+            "rawComponents":
+            [
+                242,
+                136,
+                130
+            ]
+        },
+        {
+            "colorName": "75-2",
+            "colorKey": " 75-2D",
+            "rawComponents":
+            [
+                238,
+                139,
+                130
+            ]
+        },
+        {
+            "colorName": "75-4",
+            "colorKey": " 75-4D",
+            "rawComponents":
+            [
+                226,
+                148,
+                132
+            ]
+        },
+        {
+            "colorName": "75-6",
+            "colorKey": " 75-6D",
+            "rawComponents":
+            [
+                201,
+                167,
+                138
+            ]
+        },
+        {
+            "colorName": "75-8",
+            "colorKey": " 75-8D",
+            "rawComponents":
+            [
+                178,
+                184,
+                148
+            ]
+        },
+        {
+            "colorName": "75-0",
+            "colorKey": " 75-0D",
+            "rawComponents":
+            [
+                156,
+                199,
+                164
+            ]
+        },
+        {
+            "colorName": "76-1",
+            "colorKey": " 76-1D",
+            "rawComponents":
+            [
+                246,
+                133,
+                124
+            ]
+        },
+        {
+            "colorName": "76-2",
+            "colorKey": " 76-2D",
+            "rawComponents":
+            [
+                237,
+                136,
+                121
+            ]
+        },
+        {
+            "colorName": "76-4",
+            "colorKey": " 76-4D",
+            "rawComponents":
+            [
+                218,
+                144,
+                113
+            ]
+        },
+        {
+            "colorName": "76-6",
+            "colorKey": " 76-6D",
+            "rawComponents":
+            [
+                187,
+                157,
+                101
+            ]
+        },
+        {
+            "colorName": "76-8",
+            "colorKey": " 76-8D",
+            "rawComponents":
+            [
+                164,
+                168,
+                92
+            ]
+        },
+        {
+            "colorName": "76-0",
+            "colorKey": " 76-0D",
+            "rawComponents":
+            [
+                139,
+                182,
+                82
+            ]
+        },
+        {
+            "colorName": "77-1",
+            "colorKey": " 77-1D",
+            "rawComponents":
+            [
+                244,
+                130,
+                123
+            ]
+        },
+        {
+            "colorName": "77-2",
+            "colorKey": " 77-2D",
+            "rawComponents":
+            [
+                236,
+                132,
+                119
+            ]
+        },
+        {
+            "colorName": "77-4",
+            "colorKey": " 77-4D",
+            "rawComponents":
+            [
+                216,
+                135,
+                111
+            ]
+        },
+        {
+            "colorName": "77-6",
+            "colorKey": " 77-6D",
+            "rawComponents":
+            [
+                184,
+                142,
+                96
+            ]
+        },
+        {
+            "colorName": "77-8",
+            "colorKey": " 77-8D",
+            "rawComponents":
+            [
+                160,
+                149,
+                86
+            ]
+        },
+        {
+            "colorName": "77-0",
+            "colorKey": " 77-0D",
+            "rawComponents":
+            [
+                132,
+                159,
+                72
+            ]
+        },
+        {
+            "colorName": "70-1",
+            "colorKey": " 70-1D",
+            "rawComponents":
+            [
+                255,
+                128,
+                128
+            ]
+        },
+        {
+            "colorName": "70-2",
+            "colorKey": " 70-2D",
+            "rawComponents":
+            [
+                255,
+                128,
+                128
+            ]
+        },
+        {
+            "colorName": "70-4",
+            "colorKey": " 70-4D",
+            "rawComponents":
+            [
+                255,
+                128,
+                128
+            ]
+        },
+        {
+            "colorName": "70-6",
+            "colorKey": " 70-6D",
+            "rawComponents":
+            [
+                255,
+                128,
+                128
+            ]
+        },
+        {
+            "colorName": "70-8",
+            "colorKey": " 70-8D",
+            "rawComponents":
+            [
+                255,
+                128,
+                128
+            ]
+        },
+        {
+            "colorName": "70-0",
+            "colorKey": " 70-0D",
+            "rawComponents":
+            [
+                255,
+                128,
+                128
+            ]
+        },
+        {
+            "colorName": "701-1",
+            "colorKey": "701-1D",
+            "rawComponents":
+            [
+                245,
+                128,
+                122
+            ]
+        },
+        {
+            "colorName": "701-2",
+            "colorKey": "701-2D",
+            "rawComponents":
+            [
+                237,
+                128,
+                118
+            ]
+        },
+        {
+            "colorName": "701-4",
+            "colorKey": "701-4D",
+            "rawComponents":
+            [
+                215,
+                128,
+                109
+            ]
+        },
+        {
+            "colorName": "701-6",
+            "colorKey": "701-6D",
+            "rawComponents":
+            [
+                181,
+                129,
+                94
+            ]
+        },
+        {
+            "colorName": "701-8",
+            "colorKey": "701-8D",
+            "rawComponents":
+            [
+                155,
+                131,
+                84
+            ]
+        },
+        {
+            "colorName": "701-0",
+            "colorKey": "701-0D",
+            "rawComponents":
+            [
+                119,
+                136,
+                68
+            ]
+        },
+        {
+            "colorName": "702-1",
+            "colorKey": "702-1D",
+            "rawComponents":
+            [
+                243,
+                121,
+                131
+            ]
+        },
+        {
+            "colorName": "702-2",
+            "colorKey": "702-2D",
+            "rawComponents":
+            [
+                237,
+                118,
+                132
+            ]
+        },
+        {
+            "colorName": "702-4",
+            "colorKey": "702-4D",
+            "rawComponents":
+            [
+                219,
+                108,
+                137
+            ]
+        },
+        {
+            "colorName": "702-6",
+            "colorKey": "702-6D",
+            "rawComponents":
+            [
+                193,
+                93,
+                145
+            ]
+        },
+        {
+            "colorName": "702-8",
+            "colorKey": "702-8D",
+            "rawComponents":
+            [
+                175,
+                82,
+                151
+            ]
+        },
+        {
+            "colorName": "702-0",
+            "colorKey": "702-0D",
+            "rawComponents":
+            [
+                157,
+                71,
+                156
+            ]
+        },
+        {
+            "colorName": "703-1",
+            "colorKey": "703-1D",
+            "rawComponents":
+            [
+                254,
+                130,
+                134
+            ]
+        },
+        {
+            "colorName": "703-2",
+            "colorKey": "703-2D",
+            "rawComponents":
+            [
+                246,
+                141,
+                139
+            ]
+        },
+        {
+            "colorName": "703-4",
+            "colorKey": "703-4D",
+            "rawComponents":
+            [
+                233,
+                151,
+                149
+            ]
+        },
+        {
+            "colorName": "703-6",
+            "colorKey": "703-6D",
+            "rawComponents":
+            [
+                215,
+                166,
+                167
+            ]
+        },
+        {
+            "colorName": "703-8",
+            "colorKey": "703-8D",
+            "rawComponents":
+            [
+                203,
+                176,
+                185
+            ]
+        },
+        {
+            "colorName": "703-0",
+            "colorKey": "703-0D",
+            "rawComponents":
+            [
+                189,
+                186,
+                215
+            ]
+        },
+        {
+            "colorName": "704-1",
+            "colorKey": "704-1D",
+            "rawComponents":
+            [
+                241,
+                137,
+                130
+            ]
+        },
+        {
+            "colorName": "704-2",
+            "colorKey": "704-2D",
+            "rawComponents":
+            [
+                233,
+                141,
+                131
+            ]
+        },
+        {
+            "colorName": "704-4",
+            "colorKey": "704-4D",
+            "rawComponents":
+            [
+                213,
+                153,
+                134
+            ]
+        },
+        {
+            "colorName": "704-6",
+            "colorKey": "704-6D",
+            "rawComponents":
+            [
+                185,
+                172,
+                142
+            ]
+        },
+        {
+            "colorName": "704-8",
+            "colorKey": "704-8D",
+            "rawComponents":
+            [
+                167,
+                185,
+                150
+            ]
+        },
+        {
+            "colorName": "704-0",
+            "colorKey": "704-0D",
+            "rawComponents":
+            [
+                147,
+                198,
+                164
+            ]
+        },
+        {
+            "colorName": "720-1",
+            "colorKey": "720-1D",
+            "rawComponents":
+            [
+                246,
+                136,
+                127
+            ]
+        },
+        {
+            "colorName": "720-2",
+            "colorKey": "720-2D",
+            "rawComponents":
+            [
+                238,
+                141,
+                127
+            ]
+        },
+        {
+            "colorName": "720-4",
+            "colorKey": "720-4D",
+            "rawComponents":
+            [
+                218,
+                153,
+                126
+            ]
+        },
+        {
+            "colorName": "720-6",
+            "colorKey": "720-6D",
+            "rawComponents":
+            [
+                188,
+                171,
+                127
+            ]
+        },
+        {
+            "colorName": "720-8",
+            "colorKey": "720-8D",
+            "rawComponents":
+            [
+                168,
+                184,
+                129
+            ]
+        },
+        {
+            "colorName": "720-0",
+            "colorKey": "720-0D",
+            "rawComponents":
+            [
+                146,
+                198,
+                133
+            ]
+        },
+        {
+            "colorName": "721-1",
+            "colorKey": "721-1D",
+            "rawComponents":
+            [
+                244,
+                138,
+                128
+            ]
+        },
+        {
+            "colorName": "721-2",
+            "colorKey": "721-2D",
+            "rawComponents":
+            [
+                236,
+                144,
+                130
+            ]
+        },
+        {
+            "colorName": "721-4",
+            "colorKey": "721-4D",
+            "rawComponents":
+            [
+                214,
+                157,
+                132
+            ]
+        },
+        {
+            "colorName": "721-6",
+            "colorKey": "721-6D",
+            "rawComponents":
+            [
+                185,
+                177,
+                138
+            ]
+        },
+        {
+            "colorName": "721-8",
+            "colorKey": "721-8D",
+            "rawComponents":
+            [
+                166,
+                190,
+                145
+            ]
+        },
+        {
+            "colorName": "721-0",
+            "colorKey": "721-0D",
+            "rawComponents":
+            [
+                149,
+                201,
+                154
+            ]
+        },
+        {
+            "colorName": "722-1",
+            "colorKey": "722-1D",
+            "rawComponents":
+            [
+                247,
+                136,
+                128
+            ]
+        },
+        {
+            "colorName": "722-2",
+            "colorKey": "722-2D",
+            "rawComponents":
+            [
+                239,
+                140,
+                129
+            ]
+        },
+        {
+            "colorName": "722-4",
+            "colorKey": "722-4D",
+            "rawComponents":
+            [
+                221,
+                150,
+                129
+            ]
+        },
+        {
+            "colorName": "722-6",
+            "colorKey": "722-6D",
+            "rawComponents":
+            [
+                194,
+                168,
+                132
+            ]
+        },
+        {
+            "colorName": "722-8",
+            "colorKey": "722-8D",
+            "rawComponents":
+            [
+                172,
+                182,
+                136
+            ]
+        },
+        {
+            "colorName": "722-0",
+            "colorKey": "722-0D",
+            "rawComponents":
+            [
+                149,
+                197,
+                143
+            ]
+        },
+        {
+            "colorName": "723-1",
+            "colorKey": "723-1D",
+            "rawComponents":
+            [
+                246,
+                135,
+                131
+            ]
+        },
+        {
+            "colorName": "723-2",
+            "colorKey": "723-2D",
+            "rawComponents":
+            [
+                239,
+                139,
+                133
+            ]
+        },
+        {
+            "colorName": "723-4",
+            "colorKey": "723-4D",
+            "rawComponents":
+            [
+                217,
+                149,
+                137
+            ]
+        },
+        {
+            "colorName": "723-6",
+            "colorKey": "723-6D",
+            "rawComponents":
+            [
+                183,
+                167,
+                146
+            ]
+        },
+        {
+            "colorName": "723-8",
+            "colorKey": "723-8D",
+            "rawComponents":
+            [
+                163,
+                178,
+                153
+            ]
+        },
+        {
+            "colorName": "723-0",
+            "colorKey": "723-0D",
+            "rawComponents":
+            [
+                142,
+                191,
+                167
+            ]
+        },
+        {
+            "colorName": "724-1",
+            "colorKey": "724-1D",
+            "rawComponents":
+            [
+                248,
+                135,
+                128
+            ]
+        },
+        {
+            "colorName": "724-2",
+            "colorKey": "724-2D",
+            "rawComponents":
+            [
+                237,
+                139,
+                128
+            ]
+        },
+        {
+            "colorName": "724-4",
+            "colorKey": "724-4D",
+            "rawComponents":
+            [
+                215,
+                149,
+                129
+            ]
+        },
+        {
+            "colorName": "724-6",
+            "colorKey": "724-6D",
+            "rawComponents":
+            [
+                179,
+                165,
+                131
+            ]
+        },
+        {
+            "colorName": "724-8",
+            "colorKey": "724-8D",
+            "rawComponents":
+            [
+                156,
+                177,
+                133
+            ]
+        },
+        {
+            "colorName": "724-0",
+            "colorKey": "724-0D",
+            "rawComponents":
+            [
+                128,
+                192,
+                141
+            ]
+        },
+        {
+            "colorName": "725-1",
+            "colorKey": "725-1D",
+            "rawComponents":
+            [
+                245,
+                136,
+                128
+            ]
+        },
+        {
+            "colorName": "725-2",
+            "colorKey": "725-2D",
+            "rawComponents":
+            [
+                235,
+                139,
+                128
+            ]
+        },
+        {
+            "colorName": "725-4",
+            "colorKey": "725-4D",
+            "rawComponents":
+            [
+                210,
+                149,
+                128
+            ]
+        },
+        {
+            "colorName": "725-6",
+            "colorKey": "725-6D",
+            "rawComponents":
+            [
+                178,
+                162,
+                129
+            ]
+        },
+        {
+            "colorName": "725-8",
+            "colorKey": "725-8D",
+            "rawComponents":
+            [
+                156,
+                171,
+                131
+            ]
+        },
+        {
+            "colorName": "725-0",
+            "colorKey": "725-0D",
+            "rawComponents":
+            [
+                124,
+                185,
+                136
+            ]
+        },
+        {
+            "colorName": "726-1",
+            "colorKey": "726-1D",
+            "rawComponents":
+            [
+                244,
+                137,
+                124
+            ]
+        },
+        {
+            "colorName": "726-2",
+            "colorKey": "726-2D",
+            "rawComponents":
+            [
+                236,
+                141,
+                123
+            ]
+        },
+        {
+            "colorName": "726-4",
+            "colorKey": "726-4D",
+            "rawComponents":
+            [
+                215,
+                153,
+                119
+            ]
+        },
+        {
+            "colorName": "726-6",
+            "colorKey": "726-6D",
+            "rawComponents":
+            [
+                182,
+                171,
+                115
+            ]
+        },
+        {
+            "colorName": "726-8",
+            "colorKey": "726-8D",
+            "rawComponents":
+            [
+                162,
+                183,
+                114
+            ]
+        },
+        {
+            "colorName": "726-0",
+            "colorKey": "726-0D",
+            "rawComponents":
+            [
+                138,
+                196,
+                114
+            ]
+        },
+        {
+            "colorName": "727-1",
+            "colorKey": "727-1D",
+            "rawComponents":
+            [
+                253,
+                132,
+                127
+            ]
+        },
+        {
+            "colorName": "727-2",
+            "colorKey": "727-2D",
+            "rawComponents":
+            [
+                248,
+                135,
+                123
+            ]
+        },
+        {
+            "colorName": "727-4",
+            "colorKey": "727-4D",
+            "rawComponents":
+            [
+                234,
+                140,
+                115
+            ]
+        },
+        {
+            "colorName": "727-6",
+            "colorKey": "727-6D",
+            "rawComponents":
+            [
+                214,
+                150,
+                105
+            ]
+        },
+        {
+            "colorName": "727-8",
+            "colorKey": "727-8D",
+            "rawComponents":
+            [
+                201,
+                156,
+                99
+            ]
+        },
+        {
+            "colorName": "727-0",
+            "colorKey": "727-0D",
+            "rawComponents":
+            [
+                189,
+                162,
+                94
+            ]
+        },
+        {
+            "colorName": "728-1",
+            "colorKey": "728-1D",
+            "rawComponents":
+            [
+                246,
+                131,
+                122
+            ]
+        },
+        {
+            "colorName": "728-2",
+            "colorKey": "728-2D",
+            "rawComponents":
+            [
+                236,
+                133,
+                120
+            ]
+        },
+        {
+            "colorName": "728-4",
+            "colorKey": "728-4D",
+            "rawComponents":
+            [
+                212,
+                136,
+                113
+            ]
+        },
+        {
+            "colorName": "728-6",
+            "colorKey": "728-6D",
+            "rawComponents":
+            [
+                176,
+                144,
+                101
+            ]
+        },
+        {
+            "colorName": "728-8",
+            "colorKey": "728-8D",
+            "rawComponents":
+            [
+                149,
+                151,
+                91
+            ]
+        },
+        {
+            "colorName": "728-0",
+            "colorKey": "728-0D",
+            "rawComponents":
+            [
+                116,
+                161,
+                80
+            ]
+        },
+        {
+            "colorName": "729-1",
+            "colorKey": "729-1D",
+            "rawComponents":
+            [
+                248,
+                131,
+                123
+            ]
+        },
+        {
+            "colorName": "729-2",
+            "colorKey": "729-2D",
+            "rawComponents":
+            [
+                240,
+                133,
+                118
+            ]
+        },
+        {
+            "colorName": "729-4",
+            "colorKey": "729-4D",
+            "rawComponents":
+            [
+                221,
+                136,
+                110
+            ]
+        },
+        {
+            "colorName": "729-6",
+            "colorKey": "729-6D",
+            "rawComponents":
+            [
+                191,
+                142,
+                96
+            ]
+        },
+        {
+            "colorName": "729-8",
+            "colorKey": "729-8D",
+            "rawComponents":
+            [
+                170,
+                147,
+                86
+            ]
+        },
+        {
+            "colorName": "729-0",
+            "colorKey": "729-0D",
+            "rawComponents":
+            [
+                147,
+                153,
+                77
+            ]
+        },
+        {
+            "colorName": "730-1",
+            "colorKey": "730-1D",
+            "rawComponents":
+            [
+                248,
+                130,
+                123
+            ]
+        },
+        {
+            "colorName": "730-2",
+            "colorKey": "730-2D",
+            "rawComponents":
+            [
+                239,
+                131,
+                118
+            ]
+        },
+        {
+            "colorName": "730-4",
+            "colorKey": "730-4D",
+            "rawComponents":
+            [
+                220,
+                133,
+                109
+            ]
+        },
+        {
+            "colorName": "730-6",
+            "colorKey": "730-6D",
+            "rawComponents":
+            [
+                188,
+                137,
+                95
+            ]
+        },
+        {
+            "colorName": "730-8",
+            "colorKey": "730-8D",
+            "rawComponents":
+            [
+                164,
+                141,
+                84
+            ]
+        },
+        {
+            "colorName": "730-0",
+            "colorKey": "730-0D",
+            "rawComponents":
+            [
+                137,
+                145,
+                73
+            ]
+        },
+        {
+            "colorName": "731-1",
+            "colorKey": "731-1D",
+            "rawComponents":
+            [
+                246,
+                128,
+                122
+            ]
+        },
+        {
+            "colorName": "731-2",
+            "colorKey": "731-2D",
+            "rawComponents":
+            [
+                238,
+                128,
+                117
+            ]
+        },
+        {
+            "colorName": "731-4",
+            "colorKey": "731-4D",
+            "rawComponents":
+            [
+                215,
+                129,
+                108
+            ]
+        },
+        {
+            "colorName": "731-6",
+            "colorKey": "731-6D",
+            "rawComponents":
+            [
+                180,
+                131,
+                94
+            ]
+        },
+        {
+            "colorName": "731-8",
+            "colorKey": "731-8D",
+            "rawComponents":
+            [
+                155,
+                134,
+                82
+            ]
+        },
+        {
+            "colorName": "731-0",
+            "colorKey": "731-0D",
+            "rawComponents":
+            [
+                124,
+                138,
+                70
+            ]
+        },
+        {
+            "colorName": "732-1",
+            "colorKey": "732-1D",
+            "rawComponents":
+            [
+                248,
+                126,
+                124
+            ]
+        },
+        {
+            "colorName": "732-2",
+            "colorKey": "732-2D",
+            "rawComponents":
+            [
+                239,
+                125,
+                123
+            ]
+        },
+        {
+            "colorName": "732-4",
+            "colorKey": "732-4D",
+            "rawComponents":
+            [
+                218,
+                122,
+                119
+            ]
+        },
+        {
+            "colorName": "732-6",
+            "colorKey": "732-6D",
+            "rawComponents":
+            [
+                186,
+                118,
+                111
+            ]
+        },
+        {
+            "colorName": "732-8",
+            "colorKey": "732-8D",
+            "rawComponents":
+            [
+                163,
+                114,
+                106
+            ]
+        },
+        {
+            "colorName": "732-0",
+            "colorKey": "732-0D",
+            "rawComponents":
+            [
+                135,
+                109,
+                99
+            ]
+        },
+        {
+            "colorName": "733-1",
+            "colorKey": "733-1D",
+            "rawComponents":
+            [
+                252,
+                124,
+                126
+            ]
+        },
+        {
+            "colorName": "733-2",
+            "colorKey": "733-2D",
+            "rawComponents":
+            [
+                245,
+                122,
+                122
+            ]
+        },
+        {
+            "colorName": "733-4",
+            "colorKey": "733-4D",
+            "rawComponents":
+            [
+                230,
+                117,
+                113
+            ]
+        },
+        {
+            "colorName": "733-6",
+            "colorKey": "733-6D",
+            "rawComponents":
+            [
+                205,
+                109,
+                102
+            ]
+        },
+        {
+            "colorName": "733-8",
+            "colorKey": "733-8D",
+            "rawComponents":
+            [
+                190,
+                102,
+                95
+            ]
+        },
+        {
+            "colorName": "733-0",
+            "colorKey": "733-0D",
+            "rawComponents":
+            [
+                170,
+                94,
+                88
+            ]
+        },
+        {
+            "colorName": "734-1",
+            "colorKey": "734-1D",
+            "rawComponents":
+            [
+                255,
+                125,
+                128
+            ]
+        },
+        {
+            "colorName": "734-2",
+            "colorKey": "734-2D",
+            "rawComponents":
+            [
+                249,
+                124,
+                124
+            ]
+        },
+        {
+            "colorName": "734-4",
+            "colorKey": "734-4D",
+            "rawComponents":
+            [
+                237,
+                120,
+                116
+            ]
+        },
+        {
+            "colorName": "734-6",
+            "colorKey": "734-6D",
+            "rawComponents":
+            [
+                217,
+                114,
+                105
+            ]
+        },
+        {
+            "colorName": "734-8",
+            "colorKey": "734-8D",
+            "rawComponents":
+            [
+                205,
+                109,
+                99
+            ]
+        },
+        {
+            "colorName": "734-0",
+            "colorKey": "734-0D",
+            "rawComponents":
+            [
+                192,
+                104,
+                94
+            ]
+        },
+        {
+            "colorName": "735-1",
+            "colorKey": "735-1D",
+            "rawComponents":
+            [
+                255,
+                126,
+                128
+            ]
+        },
+        {
+            "colorName": "735-2",
+            "colorKey": "735-2D",
+            "rawComponents":
+            [
+                253,
+                121,
+                127
+            ]
+        },
+        {
+            "colorName": "735-4",
+            "colorKey": "735-4D",
+            "rawComponents":
+            [
+                241,
+                115,
+                119
+            ]
+        },
+        {
+            "colorName": "735-6",
+            "colorKey": "735-6D",
+            "rawComponents":
+            [
+                226,
+                107,
+                109
+            ]
+        },
+        {
+            "colorName": "735-8",
+            "colorKey": "735-8D",
+            "rawComponents":
+            [
+                216,
+                101,
+                104
+            ]
+        },
+        {
+            "colorName": "735-0",
+            "colorKey": "735-0D",
+            "rawComponents":
+            [
+                204,
+                96,
+                100
+            ]
+        },
+        {
+            "colorName": "736-1",
+            "colorKey": "736-1D",
+            "rawComponents":
+            [
+                253,
+                122,
+                127
+            ]
+        },
+        {
+            "colorName": "736-2",
+            "colorKey": "736-2D",
+            "rawComponents":
+            [
+                247,
+                120,
+                124
+            ]
+        },
+        {
+            "colorName": "736-4",
+            "colorKey": "736-4D",
+            "rawComponents":
+            [
+                233,
+                112,
+                120
+            ]
+        },
+        {
+            "colorName": "736-6",
+            "colorKey": "736-6D",
+            "rawComponents":
+            [
+                210,
+                101,
+                114
+            ]
+        },
+        {
+            "colorName": "736-8",
+            "colorKey": "736-8D",
+            "rawComponents":
+            [
+                196,
+                93,
+                110
+            ]
+        },
+        {
+            "colorName": "736-0",
+            "colorKey": "736-0D",
+            "rawComponents":
+            [
+                180,
+                85,
+                107
+            ]
+        },
+        {
+            "colorName": "737-1",
+            "colorKey": "737-1D",
+            "rawComponents":
+            [
+                252,
+                124,
+                127
+            ]
+        },
+        {
+            "colorName": "737-2",
+            "colorKey": "737-2D",
+            "rawComponents":
+            [
+                250,
+                122,
+                126
+            ]
+        },
+        {
+            "colorName": "737-4",
+            "colorKey": "737-4D",
+            "rawComponents":
+            [
+                243,
+                118,
+                125
+            ]
+        },
+        {
+            "colorName": "737-6",
+            "colorKey": "737-6D",
+            "rawComponents":
+            [
+                230,
+                109,
+                122
+            ]
+        },
+        {
+            "colorName": "737-8",
+            "colorKey": "737-8D",
+            "rawComponents":
+            [
+                215,
+                100,
+                119
+            ]
+        },
+        {
+            "colorName": "737-0",
+            "colorKey": "737-0D",
+            "rawComponents":
+            [
+                188,
+                88,
+                115
+            ]
+        },
+        {
+            "colorName": "738-1",
+            "colorKey": "738-1D",
+            "rawComponents":
+            [
+                255,
+                126,
+                128
+            ]
+        },
+        {
+            "colorName": "738-2",
+            "colorKey": "738-2D",
+            "rawComponents":
+            [
+                253,
+                120,
+                129
+            ]
+        },
+        {
+            "colorName": "738-4",
+            "colorKey": "738-4D",
+            "rawComponents":
+            [
+                243,
+                113,
+                130
+            ]
+        },
+        {
+            "colorName": "738-6",
+            "colorKey": "738-6D",
+            "rawComponents":
+            [
+                226,
+                102,
+                132
+            ]
+        },
+        {
+            "colorName": "738-8",
+            "colorKey": "738-8D",
+            "rawComponents":
+            [
+                216,
+                94,
+                133
+            ]
+        },
+        {
+            "colorName": "738-0",
+            "colorKey": "738-0D",
+            "rawComponents":
+            [
+                201,
+                87,
+                134
+            ]
+        },
+        {
+            "colorName": "739-1",
+            "colorKey": "739-1D",
+            "rawComponents":
+            [
+                252,
+                122,
+                131
+            ]
+        },
+        {
+            "colorName": "739-2",
+            "colorKey": "739-2D",
+            "rawComponents":
+            [
+                245,
+                118,
+                132
+            ]
+        },
+        {
+            "colorName": "739-4",
+            "colorKey": "739-4D",
+            "rawComponents":
+            [
+                228,
+                110,
+                136
+            ]
+        },
+        {
+            "colorName": "739-6",
+            "colorKey": "739-6D",
+            "rawComponents":
+            [
+                203,
+                96,
+                142
+            ]
+        },
+        {
+            "colorName": "739-8",
+            "colorKey": "739-8D",
+            "rawComponents":
+            [
+                186,
+                86,
+                146
+            ]
+        },
+        {
+            "colorName": "739-0",
+            "colorKey": "739-0D",
+            "rawComponents":
+            [
+                163,
+                74,
+                151
+            ]
+        },
+        {
+            "colorName": "740-1",
+            "colorKey": "740-1D",
+            "rawComponents":
+            [
+                255,
+                122,
+                133
+            ]
+        },
+        {
+            "colorName": "740-2",
+            "colorKey": "740-2D",
+            "rawComponents":
+            [
+                248,
+                119,
+                135
+            ]
+        },
+        {
+            "colorName": "740-4",
+            "colorKey": "740-4D",
+            "rawComponents":
+            [
+                234,
+                112,
+                141
+            ]
+        },
+        {
+            "colorName": "740-6",
+            "colorKey": "740-6D",
+            "rawComponents":
+            [
+                213,
+                100,
+                150
+            ]
+        },
+        {
+            "colorName": "740-8",
+            "colorKey": "740-8D",
+            "rawComponents":
+            [
+                200,
+                91,
+                158
+            ]
+        },
+        {
+            "colorName": "740-0",
+            "colorKey": "740-0D",
+            "rawComponents":
+            [
+                185,
+                83,
+                165
+            ]
+        },
+        {
+            "colorName": "741-1",
+            "colorKey": "741-1D",
+            "rawComponents":
+            [
+                248,
+                123,
+                133
+            ]
+        },
+        {
+            "colorName": "741-2",
+            "colorKey": "741-2D",
+            "rawComponents":
+            [
+                245,
+                121,
+                135
+            ]
+        },
+        {
+            "colorName": "741-4",
+            "colorKey": "741-4D",
+            "rawComponents":
+            [
+                237,
+                116,
+                141
+            ]
+        },
+        {
+            "colorName": "741-6",
+            "colorKey": "741-6D",
+            "rawComponents":
+            [
+                221,
+                107,
+                152
+            ]
+        },
+        {
+            "colorName": "741-8",
+            "colorKey": "741-8D",
+            "rawComponents":
+            [
+                202,
+                97,
+                162
+            ]
+        },
+        {
+            "colorName": "741-0",
+            "colorKey": "741-0D",
+            "rawComponents":
+            [
+                171,
+                82,
+                175
+            ]
+        },
+        {
+            "colorName": "742-1",
+            "colorKey": "742-1D",
+            "rawComponents":
+            [
+                255,
+                125,
+                134
+            ]
+        },
+        {
+            "colorName": "742-2",
+            "colorKey": "742-2D",
+            "rawComponents":
+            [
+                251,
+                121,
+                137
+            ]
+        },
+        {
+            "colorName": "742-4",
+            "colorKey": "742-4D",
+            "rawComponents":
+            [
+                240,
+                114,
+                144
+            ]
+        },
+        {
+            "colorName": "742-6",
+            "colorKey": "742-6D",
+            "rawComponents":
+            [
+                223,
+                104,
+                156
+            ]
+        },
+        {
+            "colorName": "742-8",
+            "colorKey": "742-8D",
+            "rawComponents":
+            [
+                212,
+                96,
+                165
+            ]
+        },
+        {
+            "colorName": "742-0",
+            "colorKey": "742-0D",
+            "rawComponents":
+            [
+                196,
+                88,
+                175
+            ]
+        },
+        {
+            "colorName": "743-1",
+            "colorKey": "743-1D",
+            "rawComponents":
+            [
+                255,
+                128,
+                133
+            ]
+        },
+        {
+            "colorName": "743-2",
+            "colorKey": "743-2D",
+            "rawComponents":
+            [
+                254,
+                122,
+                140
+            ]
+        },
+        {
+            "colorName": "743-4",
+            "colorKey": "743-4D",
+            "rawComponents":
+            [
+                245,
+                118,
+                150
+            ]
+        },
+        {
+            "colorName": "743-6",
+            "colorKey": "743-6D",
+            "rawComponents":
+            [
+                234,
+                111,
+                166
+            ]
+        },
+        {
+            "colorName": "743-8",
+            "colorKey": "743-8D",
+            "rawComponents":
+            [
+                227,
+                107,
+                178
+            ]
+        },
+        {
+            "colorName": "743-0",
+            "colorKey": "743-0D",
+            "rawComponents":
+            [
+                218,
+                103,
+                191
+            ]
+        },
+        {
+            "colorName": "744-1",
+            "colorKey": "744-1D",
+            "rawComponents":
+            [
+                255,
+                128,
+                137
+            ]
+        },
+        {
+            "colorName": "744-2",
+            "colorKey": "744-2D",
+            "rawComponents":
+            [
+                254,
+                129,
+                141
+            ]
+        },
+        {
+            "colorName": "744-4",
+            "colorKey": "744-4D",
+            "rawComponents":
+            [
+                250,
+                129,
+                153
+            ]
+        },
+        {
+            "colorName": "744-6",
+            "colorKey": "744-6D",
+            "rawComponents":
+            [
+                245,
+                130,
+                169
+            ]
+        },
+        {
+            "colorName": "744-8",
+            "colorKey": "744-8D",
+            "rawComponents":
+            [
+                242,
+                131,
+                183
+            ]
+        },
+        {
+            "colorName": "744-0",
+            "colorKey": "744-0D",
+            "rawComponents":
+            [
+                234,
+                134,
+                201
+            ]
+        },
+        {
+            "colorName": "745-1",
+            "colorKey": "745-1D",
+            "rawComponents":
+            [
+                255,
+                128,
+                134
+            ]
+        },
+        {
+            "colorName": "745-2",
+            "colorKey": "745-2D",
+            "rawComponents":
+            [
+                255,
+                128,
+                141
+            ]
+        },
+        {
+            "colorName": "745-4",
+            "colorKey": "745-4D",
+            "rawComponents":
+            [
+                253,
+                132,
+                156
+            ]
+        },
+        {
+            "colorName": "745-6",
+            "colorKey": "745-6D",
+            "rawComponents":
+            [
+                246,
+                135,
+                176
+            ]
+        },
+        {
+            "colorName": "745-8",
+            "colorKey": "745-8D",
+            "rawComponents":
+            [
+                242,
+                136,
+                191
+            ]
+        },
+        {
+            "colorName": "745-0",
+            "colorKey": "745-0D",
+            "rawComponents":
+            [
+                235,
+                138,
+                205
+            ]
+        },
+        {
+            "colorName": "746-1",
+            "colorKey": "746-1D",
+            "rawComponents":
+            [
+                255,
+                128,
+                133
+            ]
+        },
+        {
+            "colorName": "746-2",
+            "colorKey": "746-2D",
+            "rawComponents":
+            [
+                255,
+                128,
+                139
+            ]
+        },
+        {
+            "colorName": "746-4",
+            "colorKey": "746-4D",
+            "rawComponents":
+            [
+                253,
+                132,
+                153
+            ]
+        },
+        {
+            "colorName": "746-6",
+            "colorKey": "746-6D",
+            "rawComponents":
+            [
+                244,
+                137,
+                171
+            ]
+        },
+        {
+            "colorName": "746-8",
+            "colorKey": "746-8D",
+            "rawComponents":
+            [
+                239,
+                139,
+                185
+            ]
+        },
+        {
+            "colorName": "746-0",
+            "colorKey": "746-0D",
+            "rawComponents":
+            [
+                231,
+                142,
+                201
+            ]
+        },
+        {
+            "colorName": "747-1",
+            "colorKey": "747-1D",
+            "rawComponents":
+            [
+                255,
+                128,
+                133
+            ]
+        },
+        {
+            "colorName": "747-2",
+            "colorKey": "747-2D",
+            "rawComponents":
+            [
+                255,
+                128,
+                139
+            ]
+        },
+        {
+            "colorName": "747-4",
+            "colorKey": "747-4D",
+            "rawComponents":
+            [
+                248,
+                131,
+                149
+            ]
+        },
+        {
+            "colorName": "747-6",
+            "colorKey": "747-6D",
+            "rawComponents":
+            [
+                234,
+                133,
+                163
+            ]
+        },
+        {
+            "colorName": "747-8",
+            "colorKey": "747-8D",
+            "rawComponents":
+            [
+                227,
+                135,
+                175
+            ]
+        },
+        {
+            "colorName": "747-0",
+            "colorKey": "747-0D",
+            "rawComponents":
+            [
+                214,
+                137,
+                190
+            ]
+        },
+        {
+            "colorName": "748-1",
+            "colorKey": "748-1D",
+            "rawComponents":
+            [
+                255,
+                128,
+                133
+            ]
+        },
+        {
+            "colorName": "748-2",
+            "colorKey": "748-2D",
+            "rawComponents":
+            [
+                255,
+                128,
+                138
+            ]
+        },
+        {
+            "colorName": "748-4",
+            "colorKey": "748-4D",
+            "rawComponents":
+            [
+                252,
+                133,
+                152
+            ]
+        },
+        {
+            "colorName": "748-6",
+            "colorKey": "748-6D",
+            "rawComponents":
+            [
+                243,
+                137,
+                169
+            ]
+        },
+        {
+            "colorName": "748-8",
+            "colorKey": "748-8D",
+            "rawComponents":
+            [
+                239,
+                140,
+                180
+            ]
+        },
+        {
+            "colorName": "748-0",
+            "colorKey": "748-0D",
+            "rawComponents":
+            [
+                231,
+                142,
+                192
+            ]
+        },
+        {
+            "colorName": "749-1",
+            "colorKey": "749-1D",
+            "rawComponents":
+            [
+                255,
+                128,
+                135
+            ]
+        },
+        {
+            "colorName": "749-2",
+            "colorKey": "749-2D",
+            "rawComponents":
+            [
+                249,
+                134,
+                139
+            ]
+        },
+        {
+            "colorName": "749-4",
+            "colorKey": "749-4D",
+            "rawComponents":
+            [
+                236,
+                140,
+                148
+            ]
+        },
+        {
+            "colorName": "749-6",
+            "colorKey": "749-6D",
+            "rawComponents":
+            [
+                216,
+                150,
+                165
+            ]
+        },
+        {
+            "colorName": "749-8",
+            "colorKey": "749-8D",
+            "rawComponents":
+            [
+                205,
+                156,
+                178
+            ]
+        },
+        {
+            "colorName": "749-0",
+            "colorKey": "749-0D",
+            "rawComponents":
+            [
+                192,
+                161,
+                195
+            ]
+        },
+        {
+            "colorName": "750-1",
+            "colorKey": "750-1D",
+            "rawComponents":
+            [
+                253,
+                131,
+                135
+            ]
+        },
+        {
+            "colorName": "750-2",
+            "colorKey": "750-2D",
+            "rawComponents":
+            [
+                246,
+                134,
+                138
+            ]
+        },
+        {
+            "colorName": "750-4",
+            "colorKey": "750-4D",
+            "rawComponents":
+            [
+                230,
+                139,
+                146
+            ]
+        },
+        {
+            "colorName": "750-6",
+            "colorKey": "750-6D",
+            "rawComponents":
+            [
+                205,
+                148,
+                159
+            ]
+        },
+        {
+            "colorName": "750-8",
+            "colorKey": "750-8D",
+            "rawComponents":
+            [
+                190,
+                154,
+                171
+            ]
+        },
+        {
+            "colorName": "750-0",
+            "colorKey": "750-0D",
+            "rawComponents":
+            [
+                172,
+                160,
+                186
+            ]
+        },
+        {
+            "colorName": "751-1",
+            "colorKey": "751-1D",
+            "rawComponents":
+            [
+                245,
+                130,
+                130
+            ]
+        },
+        {
+            "colorName": "751-2",
+            "colorKey": "751-2D",
+            "rawComponents":
+            [
+                239,
+                131,
+                131
+            ]
+        },
+        {
+            "colorName": "751-4",
+            "colorKey": "751-4D",
+            "rawComponents":
+            [
+                221,
+                134,
+                133
+            ]
+        },
+        {
+            "colorName": "751-6",
+            "colorKey": "751-6D",
+            "rawComponents":
+            [
+                188,
+                139,
+                137
+            ]
+        },
+        {
+            "colorName": "751-8",
+            "colorKey": "751-8D",
+            "rawComponents":
+            [
+                152,
+                143,
+                140
+            ]
+        },
+        {
+            "colorName": "751-0",
+            "colorKey": "751-0D",
+            "rawComponents":
+            [
+                106,
+                148,
+                146
+            ]
+        },
+        {
+            "colorName": "752-1",
+            "colorKey": "752-1D",
+            "rawComponents":
+            [
+                249,
+                130,
+                130
+            ]
+        },
+        {
+            "colorName": "752-2",
+            "colorKey": "752-2D",
+            "rawComponents":
+            [
+                243,
+                131,
+                131
+            ]
+        },
+        {
+            "colorName": "752-4",
+            "colorKey": "752-4D",
+            "rawComponents":
+            [
+                228,
+                134,
+                133
+            ]
+        },
+        {
+            "colorName": "752-6",
+            "colorKey": "752-6D",
+            "rawComponents":
+            [
+                196,
+                140,
+                138
+            ]
+        },
+        {
+            "colorName": "752-8",
+            "colorKey": "752-8D",
+            "rawComponents":
+            [
+                160,
+                145,
+                142
+            ]
+        },
+        {
+            "colorName": "752-0",
+            "colorKey": "752-0D",
+            "rawComponents":
+            [
+                111,
+                154,
+                151
+            ]
+        },
+        {
+            "colorName": "753-1",
+            "colorKey": "753-1D",
+            "rawComponents":
+            [
+                249,
+                132,
+                131
+            ]
+        },
+        {
+            "colorName": "753-2",
+            "colorKey": "753-2D",
+            "rawComponents":
+            [
+                244,
+                133,
+                132
+            ]
+        },
+        {
+            "colorName": "753-4",
+            "colorKey": "753-4D",
+            "rawComponents":
+            [
+                229,
+                138,
+                136
+            ]
+        },
+        {
+            "colorName": "753-6",
+            "colorKey": "753-6D",
+            "rawComponents":
+            [
+                201,
+                146,
+                142
+            ]
+        },
+        {
+            "colorName": "753-8",
+            "colorKey": "753-8D",
+            "rawComponents":
+            [
+                168,
+                154,
+                149
+            ]
+        },
+        {
+            "colorName": "753-0",
+            "colorKey": "753-0D",
+            "rawComponents":
+            [
+                126,
+                163,
+                162
+            ]
+        },
+        {
+            "colorName": "754-1",
+            "colorKey": "754-1D",
+            "rawComponents":
+            [
+                248,
+                134,
+                133
+            ]
+        },
+        {
+            "colorName": "754-2",
+            "colorKey": "754-2D",
+            "rawComponents":
+            [
+                240,
+                138,
+                136
+            ]
+        },
+        {
+            "colorName": "754-4",
+            "colorKey": "754-4D",
+            "rawComponents":
+            [
+                218,
+                147,
+                142
+            ]
+        },
+        {
+            "colorName": "754-6",
+            "colorKey": "754-6D",
+            "rawComponents":
+            [
+                188,
+                161,
+                154
+            ]
+        },
+        {
+            "colorName": "754-8",
+            "colorKey": "754-8D",
+            "rawComponents":
+            [
+                170,
+                170,
+                165
+            ]
+        },
+        {
+            "colorName": "754-0",
+            "colorKey": "754-0D",
+            "rawComponents":
+            [
+                146,
+                180,
+                184
+            ]
+        },
+        {
+            "colorName": "755-1",
+            "colorKey": "755-1D",
+            "rawComponents":
+            [
+                250,
+                137,
+                134
+            ]
+        },
+        {
+            "colorName": "755-2",
+            "colorKey": "755-2D",
+            "rawComponents":
+            [
+                242,
+                142,
+                136
+            ]
+        },
+        {
+            "colorName": "755-4",
+            "colorKey": "755-4D",
+            "rawComponents":
+            [
+                223,
+                155,
+                144
+            ]
+        },
+        {
+            "colorName": "755-6",
+            "colorKey": "755-6D",
+            "rawComponents":
+            [
+                198,
+                173,
+                156
+            ]
+        },
+        {
+            "colorName": "755-8",
+            "colorKey": "755-8D",
+            "rawComponents":
+            [
+                183,
+                184,
+                168
+            ]
+        },
+        {
+            "colorName": "755-0",
+            "colorKey": "755-0D",
+            "rawComponents":
+            [
+                166,
+                194,
+                184
+            ]
+        },
+        {
+            "colorName": "756-1",
+            "colorKey": "756-1D",
+            "rawComponents":
+            [
+                254,
+                129,
+                135
+            ]
+        },
+        {
+            "colorName": "756-2",
+            "colorKey": "756-2D",
+            "rawComponents":
+            [
+                249,
+                139,
+                138
+            ]
+        },
+        {
+            "colorName": "756-4",
+            "colorKey": "756-4D",
+            "rawComponents":
+            [
+                233,
+                148,
+                147
+            ]
+        },
+        {
+            "colorName": "756-6",
+            "colorKey": "756-6D",
+            "rawComponents":
+            [
+                216,
+                161,
+                160
+            ]
+        },
+        {
+            "colorName": "756-8",
+            "colorKey": "756-8D",
+            "rawComponents":
+            [
+                204,
+                170,
+                172
+            ]
+        },
+        {
+            "colorName": "756-0",
+            "colorKey": "756-0D",
+            "rawComponents":
+            [
+                190,
+                178,
+                185
+            ]
+        },
+        {
+            "colorName": "757-1",
+            "colorKey": "757-1D",
+            "rawComponents":
+            [
+                250,
+                134,
+                132
+            ]
+        },
+        {
+            "colorName": "757-2",
+            "colorKey": "757-2D",
+            "rawComponents":
+            [
+                244,
+                138,
+                133
+            ]
+        },
+        {
+            "colorName": "757-4",
+            "colorKey": "757-4D",
+            "rawComponents":
+            [
+                233,
+                146,
+                138
+            ]
+        },
+        {
+            "colorName": "757-6",
+            "colorKey": "757-6D",
+            "rawComponents":
+            [
+                217,
+                159,
+                146
+            ]
+        },
+        {
+            "colorName": "757-8",
+            "colorKey": "757-8D",
+            "rawComponents":
+            [
+                207,
+                167,
+                152
+            ]
+        },
+        {
+            "colorName": "757-0",
+            "colorKey": "757-0D",
+            "rawComponents":
+            [
+                193,
+                175,
+                159
+            ]
+        }
+    ],
+    "spotProcess": "spflspot"
+}

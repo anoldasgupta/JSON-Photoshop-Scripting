@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Mystical Light (HCL)",
+		"colorModel": "HCL",
+		"components":
+		[
+			"lerp (280, 110, x / 255)",
+			"lerp (15, 26, x / 255)",
+			"lerp (19, 99, x / 255)"
+		],
+		"floatRange": false
+	}
+}

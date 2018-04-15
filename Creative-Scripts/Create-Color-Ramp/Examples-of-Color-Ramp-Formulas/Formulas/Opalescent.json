@@ -1,0 +1,7 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Opalescent",
+		"indexedColors": "distributeColors ([ \"lavender\", \"pink\", \"lavender\", ], [ 0, 255 ], x, \"hcl\", \"inc\")"
+	}
+}

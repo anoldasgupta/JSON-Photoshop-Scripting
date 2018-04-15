@@ -1,0 +1,9 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Divergent (Discrete)",
+		"indexedColors": "distributeColors ([ \"#d61d2a\", \"#f05c53\", \"#f6a297\", \"#fde2db\", \"#dde9ec\", \"#89cbdc\", \"#0894c1\", \"#124d8e\" ], [ 0, 255 ], x, \"rgb\")",
+		"steps": 8,
+		"alignment": "fill"
+	}
+}

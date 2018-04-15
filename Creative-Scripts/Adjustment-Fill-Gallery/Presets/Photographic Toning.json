@@ -1,0 +1,650 @@
+﻿{
+	"Gold":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "color",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Gold",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 36,
+										"saturation": 80,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 1024,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 38,
+										"saturation": 60,
+										"brightness": 25
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 40,
+										"saturation": 40,
+										"brightness": 50
+									}
+								},
+								{
+									"location": 3072,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 42,
+										"saturation": 20,
+										"brightness": 75
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 44,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	],
+	"Palladium":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "color",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Palladium",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 34,
+										"saturation": 60,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 1024,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 33,
+										"saturation": 45,
+										"brightness": 25
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 32,
+										"saturation": 30,
+										"brightness": 50
+									}
+								},
+								{
+									"location": 3072,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 31,
+										"saturation": 15,
+										"brightness": 75
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 30,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	],
+	"Platinum":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "color",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Platinum",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 37,
+										"saturation": 12,
+										"brightness": 15
+									}
+								},
+								{
+									"location": 1024,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 37,
+										"saturation": 9,
+										"brightness": 30
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 37,
+										"saturation": 6,
+										"brightness": 50
+									}
+								},
+								{
+									"location": 3072,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 37,
+										"saturation": 3,
+										"brightness": 70
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 37,
+										"saturation": 0,
+										"brightness": 85
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	],
+	"Platinum Palladium":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "color",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Platinum Palladium",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 60,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 1024,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 60,
+										"saturation": 5,
+										"brightness": 25
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 70,
+										"saturation": 10,
+										"brightness": 50
+									}
+								},
+								{
+									"location": 3072,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 60,
+										"saturation": 15,
+										"brightness": 75
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 120,
+										"saturation": 5,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	],
+	"Selenium":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "color",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Selenium",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 290,
+										"saturation": 8,
+										"brightness": 20
+									}
+								},
+								{
+									"location": 1024,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 290,
+										"saturation": 6,
+										"brightness": 30
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 290,
+										"saturation": 4,
+										"brightness": 50
+									}
+								},
+								{
+									"location": 3072,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 290,
+										"saturation": 2,
+										"brightness": 70
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 290,
+										"saturation": 0,
+										"brightness": 80
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	],
+	"Selenium Brown":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "color",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Selenium Brown",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 60,
+										"saturation": 30,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 1024,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 40,
+										"saturation": 24,
+										"brightness": 25
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 35,
+										"saturation": 16,
+										"brightness": 50
+									}
+								},
+								{
+									"location": 3072,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 40,
+										"saturation": 10,
+										"brightness": 75
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 60,
+										"saturation": 4,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	],
+	"Silver":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "color",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Silver",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 180,
+										"saturation": 15,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 1024,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 180,
+										"saturation": 12,
+										"brightness": 25
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 180,
+										"saturation": 8,
+										"brightness": 50
+									}
+								},
+								{
+									"location": 3072,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 180,
+										"saturation": 4,
+										"brightness": 75
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 180,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	],
+	"Silver Gelatin":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Toning",
+				"mode": "color",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Silver Gelatin",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 35,
+										"saturation": 96,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 1024,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 34,
+										"saturation": 72,
+										"brightness": 25
+									}
+								},
+								{
+									"location": 2048,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 33,
+										"saturation": 48,
+										"brightness": 50
+									}
+								},
+								{
+									"location": 3072,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 32,
+										"saturation": 24,
+										"brightness": 75
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 31,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Fairy Dust",
+		"colorModel": "RGB",
+		"components":
+		[
+			"2 * x",
+			"sin (x * PI / 2)",
+			"3 * x"
+		],
+		"floatRange": true
+	}
+}

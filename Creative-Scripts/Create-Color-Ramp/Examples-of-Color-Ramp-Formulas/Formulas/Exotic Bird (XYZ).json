@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Exotic Bird (XYZ)",
+		"colorModel": "XYZ",
+		"components":
+		[
+			"pow (x, 2)",
+			"x",
+			"cos (x * PI / 2)"
+		],
+		"floatRange": true
+	}
+}

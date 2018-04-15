@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Frozen",
+		"colorModel": "HSL",
+		"components":
+		[
+			"7/9 - x/2",
+			"1/2",
+			"1 - pow (1 - x, 3/2)"
+		],
+		"floatRange": true
+	}
+}

@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Fancy",
+		"colorModel": "RGB",
+		"components":
+		[
+			"(x < 127.5) ? 255 - (2 * x) : (2 * x) - 255",
+			"(x < 127.5) ? 1.5 * x : 127.5 + (0.5 * x)",
+			"(x < 127.5) ? 127.5 + (0.5 * (255 - x)) : 1.5 * (255 - x)"
+		],
+		"floatRange": false
+	}
+}

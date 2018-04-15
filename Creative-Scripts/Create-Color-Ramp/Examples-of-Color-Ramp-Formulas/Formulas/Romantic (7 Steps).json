@@ -1,0 +1,9 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Romantic (7 Steps)",
+		"indexedColors": "interpolateColors ([ [ 45 , \"hot pink\" ], [ 255, \"white\" ] ], x, \"hcl\", \"near\")",
+		"steps": 7,
+		"alignment": "center"
+	}
+}

@@ -1,0 +1,741 @@
+﻿{
+	"posterEffects":
+	{
+		"Drop Shadow":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 1",
+							"type": { "solidColorLayer": { "color": { "red": 183, "green": 190, "blue": 164 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 225 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 2",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 200 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 3",
+							"type": { "solidColorLayer": { "color": { "red": 215, "green": 26, "blue": 33 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 150 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 4",
+							"type": { "solidColorLayer": { "color": { "red": 27, "green": 143, "blue": 205 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 100 }
+					}
+				}
+			],
+			"grayscale": "legacy",
+			"style":
+			{
+				"blendOptions":
+				{
+				},
+				"layerEffects":
+				{
+					"dropShadow":
+					{
+						"enabled": true,
+						"mode": "multiply",
+						"color":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						},
+						"opacity": 75,
+						"useGlobalAngle": false,
+						"localLightingAngle": 135,
+						"distance": 3,
+						"chokeMatte": 0,
+						"blur": 3,
+						"noise": 0,
+						"antiAlias": false,
+						"transparencyShape":
+						{
+							"name": "Linear",
+							"curve":
+							[
+								{
+									"horizontal": 0,
+									"vertical": 0
+								},
+								{
+									"horizontal": 255,
+									"vertical": 255
+								}
+							]
+						},
+						"layerConceals": true
+					}
+				}
+			}
+		},
+		"Gradient":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 1",
+							"type": { "solidColorLayer": { "color": { "red": 183, "green": 190, "blue": 164 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 225 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 2",
+							"type": { "solidColorLayer": { "color": { "red": 246, "green": 197, "blue": 48 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 200 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 3",
+							"type": { "solidColorLayer": { "color": { "red": 215, "green": 26, "blue": 33 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 150 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 4",
+							"type":
+							{
+								"gradientLayer":
+								{
+									"gradient":
+									{
+										"gradientForm": "customStops",
+										"interpolation": 4096,
+										"colors":
+										[
+											{
+												"color": { "red": 255, "green": 0, "blue": 255 },
+												"type": "userStop", "location": 0, "midpoint": 50
+											},
+											{
+												"color": { "red": 255, "green": 0, "blue": 168 },
+												"type": "userStop", "location": 1024, "midpoint": 50
+											},
+											{
+												"color": { "red": 255, "green": 103, "blue": 85 },
+												"type": "userStop", "location": 2048, "midpoint": 50
+											},
+											{
+												"color": { "red": 255, "green": 190, "blue": 0 },
+												"type": "userStop", "location": 3072, "midpoint": 50
+											},
+											{
+												"color": { "red": 255, "green": 255, "blue": 0 },
+												"type": "userStop", "location": 4096, "midpoint": 50
+											}
+										]
+									},
+									"type": "linear",
+									"angle": 90,
+									"scale": 120
+								}
+							}
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 100 }
+					}
+				}
+			],
+			"grayscale": "legacy",
+			"style":
+			{
+				"blendOptions":
+				{
+				},
+				"layerEffects":
+				{
+					"bevelEmboss":
+					{
+						"enabled": true,
+						"highlightMode": "screen",
+						"highlightColor":
+						{
+							"red": 255,
+							"green": 255,
+							"blue": 255
+						},
+						"highlightOpacity": 75,
+						"shadowMode": "multiply",
+						"shadowColor":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						},
+						"shadowOpacity": 75,
+						"bevelTechnique": "softMatte",
+						"bevelStyle": "innerBevel",
+						"useGlobalAngle": false,
+						"localLightingAngle": 30,
+						"localLightingAltitude": 30,
+						"strengthRatio": 100,
+						"blur": 0,
+						"bevelDirection": "stampIn",
+						"transparencyShape":
+						{
+							"name": "Linear",
+							"curve":
+							[
+								{
+									"horizontal": 0,
+									"vertical": 0
+								},
+								{
+									"horizontal": 255,
+									"vertical": 255
+								}
+							]
+						},
+						"antialiasGloss": false,
+						"softness": 0,
+						"useShape": true,
+						"mappingShape":
+						{
+							"name": "Linear",
+							"curve":
+							[
+								{
+									"horizontal": 0,
+									"vertical": 0
+								},
+								{
+									"horizontal": 255,
+									"vertical": 255
+								}
+							]
+						},
+						"antiAlias": false,
+						"inputRange": 50,
+						"useTexture": false
+					}
+				}
+			}
+		},
+		"Overlay":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 1",
+							"type": { "solidColorLayer": { "color": { "red": 183, "green": 190, "blue": 164 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 225 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 2",
+							"type": { "solidColorLayer": { "color": { "red": 246, "green": 197, "blue": 48 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 200 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 3",
+							"type": { "solidColorLayer": { "color": { "red": 215, "green": 26, "blue": 33 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 150 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 4",
+							"type": { "solidColorLayer": { "color": { "red": 27, "green": 143, "blue": 205 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 100 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"bevelEmboss":
+							{
+								"enabled": true,
+								"highlightMode": "screen",
+								"highlightColor":
+								{
+									"red": 255,
+									"green": 255,
+									"blue": 255
+								},
+								"highlightOpacity": 75,
+								"shadowMode": "multiply",
+								"shadowColor":
+								{
+									"red": 0,
+									"green": 0,
+									"blue": 0
+								},
+								"shadowOpacity": 75,
+								"bevelTechnique": "softMatte",
+								"bevelStyle": "innerBevel",
+								"useGlobalAngle": false,
+								"localLightingAngle": 30,
+								"localLightingAltitude": 30,
+								"strengthRatio": 100,
+								"blur": 0,
+								"bevelDirection": "stampIn",
+								"transparencyShape":
+								{
+									"name": "Linear",
+									"curve":
+									[
+										{
+											"horizontal": 0,
+											"vertical": 0
+										},
+										{
+											"horizontal": 255,
+											"vertical": 255
+										}
+									]
+								},
+								"antialiasGloss": false,
+								"softness": 0,
+								"useShape": true,
+								"mappingShape":
+								{
+									"name": "Linear",
+									"curve":
+									[
+										{
+											"horizontal": 0,
+											"vertical": 0
+										},
+										{
+											"horizontal": 255,
+											"vertical": 255
+										}
+									]
+								},
+								"antiAlias": false,
+								"inputRange": 50,
+								"useTexture": false
+							},
+							"solidFill":
+							{
+								"enabled": true,
+								"mode": "colorBurn",
+								"opacity": 49,
+								"color": { "red": 242, "green": 184, "blue": 92 }
+							},
+							"gradientFill":
+							{
+								"enabled": true,
+								"mode": "normal",
+								"opacity": 35,
+								"gradient":
+								{
+									"name": "Two Color",
+									"gradientForm": "customStops",
+									"interpolation": 4096,
+									"colors":
+									[
+										{
+											"color": { "red": 0, "green": 0, "blue": 0 },
+											"type": "userStop", "location": 0, "midpoint": 50
+										},
+										{
+											"color": { "red": 255, "green": 255, "blue": 255 },
+											"type": "userStop", "location": 3133, "midpoint": 50
+										}
+									]
+								},
+								"angle": -90,
+								"type": "reflected",
+								"reverse": true,
+								"align": true,
+								"scale": 137,
+								"offset": { "horizontal": 0, "vertical": 0 }
+							}
+						}
+					}
+				}
+			],
+			"grayscale": "legacy",
+			"style":
+			{
+				"blendOptions":
+				{
+				},
+				"layerEffects":
+				{
+					"bevelEmboss":
+					{
+						"enabled": true,
+						"highlightMode": "screen",
+						"highlightColor":
+						{
+							"red": 255,
+							"green": 255,
+							"blue": 255
+						},
+						"highlightOpacity": 75,
+						"shadowMode": "multiply",
+						"shadowColor":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						},
+						"shadowOpacity": 75,
+						"bevelTechnique": "softMatte",
+						"bevelStyle": "innerBevel",
+						"useGlobalAngle": false,
+						"localLightingAngle": 30,
+						"localLightingAltitude": 30,
+						"strengthRatio": 100,
+						"blur": 0,
+						"bevelDirection": "stampIn",
+						"transparencyShape":
+						{
+							"name": "Linear",
+							"curve":
+							[
+								{
+									"horizontal": 0,
+									"vertical": 0
+								},
+								{
+									"horizontal": 255,
+									"vertical": 255
+								}
+							]
+						},
+						"antialiasGloss": false,
+						"softness": 0,
+						"useShape": true,
+						"mappingShape":
+						{
+							"name": "Linear",
+							"curve":
+							[
+								{
+									"horizontal": 0,
+									"vertical": 0
+								},
+								{
+									"horizontal": 255,
+									"vertical": 255
+								}
+							]
+						},
+						"antiAlias": false,
+						"inputRange": 50,
+						"useTexture": false
+					}
+				}
+			}
+		},
+		"Stroke":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "hue": 40, "saturation": 32, "brightness": 100 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 1",
+							"type": { "solidColorLayer": { "color": { "hue": 75, "saturation": 15, "brightness": 75 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 225 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "centeredFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 2,
+								"color": { "hue": 75, "saturation": 15, "brightness": 37.5 }
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 2",
+							"type": { "solidColorLayer": { "color": { "hue": 190, "saturation": 30, "brightness": 62 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 200 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "centeredFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 2,
+								"color": { "hue": 190, "saturation": 30, "brightness": 31 }
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 3",
+							"type": { "solidColorLayer": { "color": { "hue": 200, "saturation": 90, "brightness": 80 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 150 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "centeredFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 2,
+								"color": { "hue": 200, "saturation": 90, "brightness": 40 }
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 4",
+							"type": { "solidColorLayer": { "color": { "hue": 0, "saturation": 100, "brightness": 85 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 100 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "centeredFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 2,
+								"color": { "hue": 0, "saturation": 100, "brightness": 42.5 }
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Frame",
+							"type": { "solidColorLayer": { "color": { "hue": 75, "saturation": 15, "brightness": 75 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "frame": 32 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "centeredFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 2,
+								"color": { "hue": 75, "saturation": 15, "brightness": 37.5 }
+							}
+						}
+					}
+				}
+			],
+			"grayscale": "legacy"
+		}
+	}
+}

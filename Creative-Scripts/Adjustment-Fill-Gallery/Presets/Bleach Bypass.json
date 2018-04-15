@@ -1,0 +1,146 @@
+﻿{
+	"Linear Burn":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Desaturate | Linear Burn",
+				"mode": "linearBurn",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": -100,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Brightness/Contrast",
+				"group": true,
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 67,
+						"contrast": 60,
+						"useLegacy": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Decrease Saturation",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": -15,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"Overlay Contrast":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Desaturate | Overlay",
+				"mode": "overlay",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": -100,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Contrast",
+				"group": true,
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 50,
+						"useLegacy": false
+					}
+				}
+			}
+		}
+	],
+	"Luminosity Contrast":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Contrast",
+				"mode": "luminosity",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 50,
+						"useLegacy": true
+					}
+				}
+			}
+		}
+	],
+	"Linear Light":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Desaturate | Linear Light",
+				"mode": "linearLight",
+				"opacity": 75,
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": -100,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Forty-Two",
+		"colorModel": "RGB",
+		"components":
+		[
+			"distribute ([ 215, 255, 44 ], [ 31, 255 - 31 ], x, 100)",
+			"distribute ([ 25, 255, 123 ], [ 31, 255 - 31 ], x, 100)",
+			"distribute ([ 28, 191, 143 ], [ 31, 255 - 31 ], x, 100)"
+		],
+		"floatRange": false
+	}
+}

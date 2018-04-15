@@ -1,0 +1,7 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Dracula Fluo",
+		"indexedColors": "distributeColors ([ \"#2B2926\", \"#47B3A0\", \"#C0FF18\", \"#47B3A0\", \"#2B2926\" ], [ 31, 255 - 31 ], x, \"rgb\", 100)"
+	}
+}

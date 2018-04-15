@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Iron (YCbCr)",
+		"colorModel": "YCbCr",
+		"components":
+		[
+			"lerp (0.059, 0.886, x)",
+			"cubic ([ 5.99477, -8.68926, 2.53768, 0.550188 ], x)",
+			"cubic ([ 0.683558, -2.49828, 1.94276, 0.383144 ], x)"
+		],
+		"floatRange": true
+	}
+}

@@ -1,0 +1,638 @@
+﻿{
+	"Darken/Lighten":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Highlights",
+				"mode": "darken",
+				"opacity": 25,
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 40,
+							"saturation": 50,
+							"brightness": 70
+						}
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Shadows",
+				"mode": "lighten",
+				"opacity": 25,
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 210,
+							"saturation": 50,
+							"brightness": 70
+						}
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Contrast Boost",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 100,
+						"useLegacy": false
+					}
+				}
+			}
+		}
+	],
+	"Linear Burn/Dodge":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Highlights",
+				"mode": "linearBurn",
+				"opacity": 25,
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 40,
+							"saturation": 50,
+							"brightness": 70
+						}
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Shadows",
+				"mode": "linearDodge",
+				"opacity": 25,
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 210,
+							"saturation": 50,
+							"brightness": 70
+						}
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Contrast Boost",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 100,
+						"useLegacy": false
+					}
+				}
+			}
+		}
+	],
+	"Color Burn/Dodge":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Highlights",
+				"mode": "colorBurn",
+				"opacity": 25,
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 40,
+							"saturation": 50,
+							"brightness": 70
+						}
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Shadows",
+				"mode": "colorDodge",
+				"opacity": 25,
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 210,
+							"saturation": 50,
+							"brightness": 70
+						}
+					}
+				}
+			}
+		}
+	],
+	"Soft Light & Blend Ranges":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Highlights",
+				"mode": "softLight",
+				"opacity": 100,
+				"blendRange":
+				[
+					{
+						"channel": "gray",
+						"srcBlackMin": 0,
+						"srcBlackMax": 0,
+						"srcWhiteMin": 255,
+						"srcWhiteMax": 255,
+						"destBlackMin": 0,
+						"destBlackMax": 128,
+						"destWhiteMin": 255,
+						"destWhiteMax": 255
+					}
+				],
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 40,
+							"saturation": 60,
+							"brightness": 100
+						}
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Shadows",
+				"mode": "softLight",
+				"opacity": 100,
+				"blendRange":
+				[
+					{
+						"channel": "gray",
+						"srcBlackMin": 0,
+						"srcBlackMax": 0,
+						"srcWhiteMin": 255,
+						"srcWhiteMax": 255,
+						"destBlackMin": 0,
+						"destBlackMax": 0,
+						"destWhiteMin": 127,
+						"destWhiteMax": 255
+					}
+				],
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 210,
+							"saturation": 100,
+							"brightness": 80
+						}
+					}
+				}
+			}
+		}
+	],
+	"Color Mode & Blend Ranges":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Highlights",
+				"mode": "color",
+				"opacity": 30,
+				"blendRange":
+				[
+					{
+						"channel": "gray",
+						"srcBlackMin": 0,
+						"srcBlackMax": 0,
+						"srcWhiteMin": 255,
+						"srcWhiteMax": 255,
+						"destBlackMin": 0,
+						"destBlackMax": 128,
+						"destWhiteMin": 255,
+						"destWhiteMax": 255
+					}
+				],
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 40,
+							"saturation": 80,
+							"brightness": 100
+						}
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color | Shadows",
+				"mode": "color",
+				"opacity": 30,
+				"blendRange":
+				[
+					{
+						"channel": "gray",
+						"srcBlackMin": 0,
+						"srcBlackMax": 0,
+						"srcWhiteMin": 255,
+						"srcWhiteMax": 255,
+						"destBlackMin": 0,
+						"destBlackMax": 0,
+						"destWhiteMin": 127,
+						"destWhiteMax": 255
+					}
+				],
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 210,
+							"saturation": 100,
+							"brightness": 80
+						}
+					}
+				}
+			}
+		}
+	],
+	"Colorize & Blend Ranges":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Colorize | Highlights",
+				"mode": "normal",
+				"opacity": 50,
+				"blendRange":
+				[
+					{
+						"channel": "gray",
+						"srcBlackMin": 0,
+						"srcBlackMax": 0,
+						"srcWhiteMin": 255,
+						"srcWhiteMax": 255,
+						"destBlackMin": 0,
+						"destBlackMax": 128,
+						"destWhiteMin": 255,
+						"destWhiteMax": 255
+					}
+				],
+				"type":
+				{
+					"hueSaturation":
+					{
+						"colorize": true,
+						"adjustment":
+						[
+							{
+								"hue": 40,
+								"saturation": 80,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Colorize | Shadows",
+				"mode": "normal",
+				"opacity": 50,
+				"blendRange":
+				[
+					{
+						"channel": "gray",
+						"srcBlackMin": 0,
+						"srcBlackMax": 0,
+						"srcWhiteMin": 255,
+						"srcWhiteMax": 255,
+						"destBlackMin": 0,
+						"destBlackMax": 0,
+						"destWhiteMin": 127,
+						"destWhiteMax": 255
+					}
+				],
+				"type":
+				{
+					"hueSaturation":
+					{
+						"colorize": true,
+						"adjustment":
+						[
+							{
+								"hue": 210,
+								"saturation": 100,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

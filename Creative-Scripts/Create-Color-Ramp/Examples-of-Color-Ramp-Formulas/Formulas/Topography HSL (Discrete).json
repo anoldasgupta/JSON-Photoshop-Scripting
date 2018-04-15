@@ -1,0 +1,9 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Topography HSL (Discrete)",
+		"indexedColors": "distributeColors ([ hsl (80, 43, 1), hsl (60, 21, 17), hsl (146, 46, 17), hsl (140, 35, 31), hsl (141, 38, 39), hsl (112, 26, 51), hsl (77, 35, 58), hsl (50, 71, 69), hsl (42, 50, 57), hsl (32, 51, 46), hsl (25, 66, 55) ], [ 0, 255 ], x, \"rgb\")",
+		"steps": 11,
+		"alignment": "fill"
+	}
+}

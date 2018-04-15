@@ -1,0 +1,687 @@
+﻿{
+	"Lomography":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Curves | Cross-Process",
+				"type":
+				{
+					"curves":
+					{
+						"adjustment":
+						[
+							{
+								"channel": "composite",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 68,
+										"vertical": 50
+									},
+									{
+										"horizontal": 187,
+										"vertical": 205
+									},
+									{
+										"horizontal": 255,
+										"vertical": 255
+									}
+								]
+							},
+							{
+								"channel": "red",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 68,
+										"vertical": 50
+									},
+									{
+										"horizontal": 187,
+										"vertical": 205
+									},
+									{
+										"horizontal": 255,
+										"vertical": 255
+									}
+								]
+							},
+							{
+								"channel": "green",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 68,
+										"vertical": 50
+									},
+									{
+										"horizontal": 187,
+										"vertical": 205
+									},
+									{
+										"horizontal": 255,
+										"vertical": 255
+									}
+								]
+							},
+							{
+								"channel": "blue",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 60,
+										"vertical": 75
+									},
+									{
+										"horizontal": 195,
+										"vertical": 180
+									},
+									{
+										"horizontal": 255,
+										"vertical": 255
+									}
+								]
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Dark Vignette",
+				"mode": "softLight",
+				"opacity": 90,
+				"type":
+				{
+					"gradientLayer":
+					{
+						"type": "radial",
+						"angle": 90,
+						"scale": 120,
+						"dither": true,
+						"gradient":
+						{
+							"name": "Vignette",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 255,
+										"green": 255,
+										"blue": 255
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 0,
+										"green": 0,
+										"blue": 0
+									}
+								}
+							],
+							"transparency":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"opacity": 0
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"opacity": 100
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Saturation",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": 33,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"Toy Camera":
+	[
+		{
+			"contentLayer":
+			{
+				"name": "Dark Vignette",
+				"mode": "overlay",
+				"opacity": 50,
+				"type":
+				{
+					"gradientLayer":
+					{
+						"type": "radial",
+						"angle": 90,
+						"scale": 120,
+						"dither": true,
+						"gradient":
+						{
+							"name": "Vignette",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 255,
+										"green": 255,
+										"blue": 255
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 0,
+										"green": 0,
+										"blue": 0
+									}
+								}
+							],
+							"transparency":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"opacity": 0
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"opacity": 100
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map",
+				"opacity": 20,
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Red to Orange",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 345,
+										"saturation": 100,
+										"brightness": 70
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 50,
+										"saturation": 100,
+										"brightness": 90
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Saturation",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": 20,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Curves | X-Process",
+				"opacity": 75,
+				"type":
+				{
+					"curves":
+					{
+						"adjustment":
+						[
+							{
+								"channel": "red",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 160,
+										"vertical": 120
+									},
+									{
+										"horizontal": 255,
+										"vertical": 255
+									}
+								]
+							},
+							{
+								"channel": "green",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 70,
+										"vertical": 50
+									},
+									{
+										"horizontal": 185,
+										"vertical": 200
+									},
+									{
+										"horizontal": 255,
+										"vertical": 255
+									}
+								]
+							},
+							{
+								"channel": "blue",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 60,
+										"vertical": 70
+									},
+									{
+										"horizontal": 200,
+										"vertical": 190
+									},
+									{
+										"horizontal": 255,
+										"vertical": 255
+									}
+								]
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Contrast",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 75,
+						"useLegacy": false
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Primary Light Leak",
+				"mode": "colorDodge",
+				"opacity": 90,
+				"type":
+				{
+					"gradientLayer":
+					{
+						"type": "linear",
+						"angle": -1,
+						"scale": 90,
+						"dither": true,
+						"gradient":
+						{
+							"name": "Primary Light Leak",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 50,
+										"saturation": 100,
+										"brightness": 100
+									}
+								},
+								{
+									"location": 819,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 100,
+										"brightness": 100
+									}
+								}
+							],
+							"transparency":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"opacity": 100
+								},
+								{
+									"location": 819,
+									"midpoint": 75,
+									"opacity": 0
+								}
+							]
+						}
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Secondary Light Leak",
+				"mode": "colorDodge",
+				"opacity": 90,
+				"type":
+				{
+					"gradientLayer":
+					{
+						"type": "linear",
+						"angle": 91,
+						"scale": 105,
+						"dither": true,
+						"gradient":
+						{
+							"name": "Secondary Light Leak",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 50,
+										"saturation": 100,
+										"brightness": 100
+									}
+								},
+								{
+									"location": 819,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 100,
+										"brightness": 100
+									}
+								}
+							],
+							"transparency":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"opacity": 100
+								},
+								{
+									"location": 819,
+									"midpoint": 75,
+									"opacity": 0
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	],
+	"Faux Lomo":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Blow Highlights",
+				"mode": "overlay",
+				"opacity": 75,
+				"type":
+				{
+					"levels":
+					{
+						"adjustment":
+						[
+							{
+								"channel": "composite",
+								"input":
+								[
+									0,
+									144
+								]
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map",
+				"mode": "exclusion",
+				"opacity": 65,
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Dark Green to Blue",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 120,
+										"saturation": 100,
+										"brightness": 45
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 230,
+										"saturation": 100,
+										"brightness": 45
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Brightness/Contrast",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": -29,
+						"contrast": 32
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Dark Vignette",
+				"mode": "overlay",
+				"opacity": 50,
+				"type":
+				{
+					"gradientLayer":
+					{
+						"type": "radial",
+						"angle": 90,
+						"scale": 100,
+						"dither": true,
+						"gradient":
+						{
+							"name": "Vignette",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 255,
+										"green": 255,
+										"blue": 255
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 0,
+										"green": 0,
+										"blue": 0
+									}
+								}
+							],
+							"transparency":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"opacity": 0
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"opacity": 100
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	]
+}

@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Color Bar",
+		"colorModel": "RGB",
+		"components":
+		[
+			"interpolate ([ [ 1/2, 1/2 ], [ 3/4, 3/2 ], [ 1, 1/2 ] ], x)",
+			"interpolate ([ [ 1/4, 1/2 ], [ 1/2, 3/2 ], [ 3/4, 1/2 ] ], x)",
+			"interpolate ([ [ 0, 1/2 ], [ 1/4, 3/2 ], [ 1/2, 1/2 ] ], x)"
+		],
+		"floatRange": true
+	}
+}

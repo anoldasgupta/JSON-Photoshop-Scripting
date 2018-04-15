@@ -1,0 +1,7 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Dracula (Shifted)",
+		"indexedColors": "shiftHue (distributeColors ([ \"#2B2926\", \"#47B3B3\", \"#E51897\", \"#47B3B3\", \"#2B2926\" ], [ 31, 255 - 31 ], x, \"rgb\", 100), 90)"
+	}
+}

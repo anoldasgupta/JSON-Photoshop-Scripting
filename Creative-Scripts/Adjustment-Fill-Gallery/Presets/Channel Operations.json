@@ -1,0 +1,167 @@
+﻿{
+	"Swap Red & Blue":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 100
+						},
+						"green":
+						{
+							"red": 0,
+							"green": 100,
+							"blue": 0
+						},
+						"blue":
+						{
+							"red": 100,
+							"green": 0,
+							"blue": 0
+						}
+					}
+				}
+			}
+		}
+	],
+	"Swap Green & Blue":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": 100,
+							"green": 0,
+							"blue": 0
+						},
+						"green":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 100
+						},
+						"blue":
+						{
+							"red": 0,
+							"green": 100,
+							"blue": 0
+						}
+					}
+				}
+			}
+		}
+	],
+	"Swap Red & Green":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": 0,
+							"green": 100,
+							"blue": 0
+						},
+						"green":
+						{
+							"red": 100,
+							"green": 0,
+							"blue": 0
+						},
+						"blue":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 100
+						}
+					}
+				}
+			}
+		}
+	],
+	"Gray from Red":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"type":
+				{
+					"channelMixer":
+					{
+						"monochromatic": true,
+						"gray":
+						{
+							"red": 100,
+							"green": 0,
+							"blue": 0
+						}
+					}
+				}
+			}
+		}
+	],
+	"Gray from Green":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"type":
+				{
+					"channelMixer":
+					{
+						"monochromatic": true,
+						"gray":
+						{
+							"red": 0,
+							"green": 100,
+							"blue": 0
+						}
+					}
+				}
+			}
+		}
+	],
+	"Gray from Blue":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"type":
+				{
+					"channelMixer":
+					{
+						"monochromatic": true,
+						"gray":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 100
+						}
+					}
+				}
+			}
+		}
+	]
+}

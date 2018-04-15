@@ -1,0 +1,137 @@
+﻿{
+	"~Day for Night I":
+	[
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color",
+				"opacity": 100,
+				"mode": "linearBurn",
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 205,
+							"saturation": 60,
+							"brightness": 90
+						}
+					}
+				}
+			}
+		}
+	],
+	"Day for Night II":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Brightness & Contrast",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": -40,
+						"contrast": 10
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color",
+				"opacity": 100,
+				"mode": "overlay",
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 205,
+							"saturation": 100,
+							"brightness": 50
+						}
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Saturation",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": -20,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"Flashy Pink":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Contrast",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 15
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Solid Color",
+				"opacity": 90,
+				"mode": "overlay",
+				"type":
+				{
+					"solidColorLayer":
+					{
+						"color":
+						{
+							"hue": 310,
+							"saturation": 90,
+							"brightness": 90
+						}
+					}
+				}
+			}
+		}
+	],
+	"Overlay Boost":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Neutral | Overlay",
+				"mode": "overlay",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 0
+					}
+				}
+			}
+		}
+	]
+}

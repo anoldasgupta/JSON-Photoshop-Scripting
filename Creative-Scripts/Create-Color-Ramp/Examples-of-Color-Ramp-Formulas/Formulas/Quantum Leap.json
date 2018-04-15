@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Quantum Leap",
+		"colorModel": "RGB",
+		"components":
+		[
+			"smootherstep (0, 1, interpolate ([ [ 0, 0 ], [ 0.5, 0.75 ], [ 1, 0 ] ], x, 0))",
+			"smootherstep (0, 1, interpolate ([ [ 0, 0 ], [ 0.5, 0.75 ], [ 1, 0 ] ], x, 50))",
+			"smootherstep (0, 1, interpolate ([ [ 0, 0 ], [ 0.5, 0.75 ], [ 1, 0 ] ], x, 100))"
+		],
+		"floatRange": true
+	}
+}

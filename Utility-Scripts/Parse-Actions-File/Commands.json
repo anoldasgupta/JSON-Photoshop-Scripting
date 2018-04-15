@@ -1,0 +1,791 @@
+{
+    "application": "Adobe Photoshop CS4 (11.0.2)",
+    "date": "2015-01-04T13:52:22+02:00",
+    "path": "/Applications/Adobe Photoshop CS4/Presets/Actions/Commands.atn",
+    "actionsFile":
+    {
+        "version": 16,
+        "actionSet":
+        {
+            "name": "Commands",
+            "expanded": true,
+            "actions":
+            [
+                {
+                    "functionKey": 2,
+                    "shiftKey": false,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Cut (selection)",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Cut",
+                            "event": "cut",
+                            "descriptor": null
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 3,
+                    "shiftKey": false,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Copy (selection)",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Copy",
+                            "event": "copyEvent",
+                            "descriptor": null
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 4,
+                    "shiftKey": false,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Paste",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Paste",
+                            "event": "paste",
+                            "descriptor": null
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 6,
+                    "shiftKey": false,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Show Color",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 3,
+                            "dictionaryName": "Select",
+                            "event": "select",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "menuItemClass":
+                                            {
+                                                "<enumerated>":
+                                                {
+                                                    "menuItemType": "toggleColorPalette"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 7,
+                    "shiftKey": false,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Show Layers",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 3,
+                            "dictionaryName": "Select",
+                            "event": "select",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "menuItemClass":
+                                            {
+                                                "<enumerated>":
+                                                {
+                                                    "menuItemType": "toggleLayersPalette"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 8,
+                    "shiftKey": false,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Show Info",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 3,
+                            "dictionaryName": "Select",
+                            "event": "select",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "menuItemClass":
+                                            {
+                                                "<enumerated>":
+                                                {
+                                                    "menuItemType": "toggleInfoPalette"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 9,
+                    "shiftKey": false,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Show Actions",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 3,
+                            "dictionaryName": "Select",
+                            "event": "select",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "menuItemClass":
+                                            {
+                                                "<enumerated>":
+                                                {
+                                                    "menuItemType": "toggleActionsPalette"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 10,
+                    "shiftKey": false,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Show Navigator",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 3,
+                            "dictionaryName": "Select",
+                            "event": "select",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "menuItemClass":
+                                            {
+                                                "<enumerated>":
+                                                {
+                                                    "menuItemType": "toggleNavigatorPalette"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 11,
+                    "shiftKey": false,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Image Size",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 1,
+                            "dictionaryName": "Image Size",
+                            "event": "imageSize",
+                            "descriptor": null
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 12,
+                    "shiftKey": false,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Revert",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Revert",
+                            "event": "revert",
+                            "descriptor": null
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 0,
+                    "shiftKey": false,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Crop (selection)",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Crop",
+                            "event": "crop",
+                            "descriptor": null
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 2,
+                    "shiftKey": true,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Flatten Image",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Flatten Image",
+                            "event": "flattenImage",
+                            "descriptor": null
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 3,
+                    "shiftKey": true,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Purge All",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 0,
+                            "dictionaryName": "Purge",
+                            "event": "purge",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<enumerated>":
+                                    {
+                                        "purgeItem": "allEnum"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 4,
+                    "shiftKey": true,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Select Similar (selection)",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Similar",
+                            "event": "similar",
+                            "descriptor": null
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 5,
+                    "shiftKey": true,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Grow (selection)",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Grow",
+                            "event": "grow",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "channel":
+                                            {
+                                                "<property>": "selection"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "tolerance":
+                                {
+                                    "<integer>": 32
+                                },
+                                "antiAlias":
+                                {
+                                    "<boolean>": true
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 6,
+                    "shiftKey": true,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Flip Horizontal",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Flip",
+                            "event": "flip",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "layer":
+                                            {
+                                                "<enumerated>":
+                                                {
+                                                    "ordinal": "targetEnum"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "axis":
+                                {
+                                    "<enumerated>":
+                                    {
+                                        "orientation": "horizontal"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 7,
+                    "shiftKey": true,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Flip Vertical",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Flip",
+                            "event": "flip",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "layer":
+                                            {
+                                                "<enumerated>":
+                                                {
+                                                    "ordinal": "targetEnum"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "axis":
+                                {
+                                    "<enumerated>":
+                                    {
+                                        "orientation": "vertical"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 8,
+                    "shiftKey": true,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Rotate 90 CW",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 0,
+                            "dictionaryName": "Rotate",
+                            "event": "rotateEventEnum",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "layer":
+                                            {
+                                                "<enumerated>":
+                                                {
+                                                    "ordinal": "targetEnum"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "angle":
+                                {
+                                    "<unitDouble>":
+                                    {
+                                        "angleUnit": 90
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 9,
+                    "shiftKey": true,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Rotate 90 CCW",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 0,
+                            "dictionaryName": "Rotate",
+                            "event": "rotateEventEnum",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "layer":
+                                            {
+                                                "<enumerated>":
+                                                {
+                                                    "ordinal": "targetEnum"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "angle":
+                                {
+                                    "<unitDouble>":
+                                    {
+                                        "angleUnit": -90
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 10,
+                    "shiftKey": true,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "Rotate 180",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Rotate",
+                            "event": "rotateEventEnum",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "layer":
+                                            {
+                                                "<enumerated>":
+                                                {
+                                                    "ordinal": "targetEnum"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                },
+                                "angle":
+                                {
+                                    "<unitDouble>":
+                                    {
+                                        "angleUnit": 180
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 11,
+                    "shiftKey": true,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "New Snapshot",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 0,
+                            "dictionaryName": "Make",
+                            "event": "make",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "snapshotClass":
+                                            {
+                                                "<class>": null
+                                            }
+                                        }
+                                    ]
+                                },
+                                "from":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "historyState":
+                                            {
+                                                "<property>": "currentHistoryState"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "using":
+                                {
+                                    "<enumerated>":
+                                    {
+                                        "historyStateSourceType": "fullDocument"
+                                    }
+                                }
+                            }
+                        }
+                    ]
+                },
+                {
+                    "functionKey": 12,
+                    "shiftKey": true,
+                    "commandKey": false,
+                    "colorIndex": 7,
+                    "name": "New Snapshot/Clear History",
+                    "expanded": false,
+                    "commands":
+                    [
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 0,
+                            "dictionaryName": "Make",
+                            "event": "make",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "snapshotClass":
+                                            {
+                                                "<class>": null
+                                            }
+                                        }
+                                    ]
+                                },
+                                "from":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "historyState":
+                                            {
+                                                "<property>": "currentHistoryState"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "using":
+                                {
+                                    "<enumerated>":
+                                    {
+                                        "historyStateSourceType": "fullDocument"
+                                    }
+                                }
+                            }
+                        },
+                        {
+                            "expanded": false,
+                            "enabled": true,
+                            "withDialog": false,
+                            "dialogOptions": 2,
+                            "dictionaryName": "Clear",
+                            "event": "clearEvent",
+                            "descriptor":
+                            {
+                                "target":
+                                {
+                                    "<reference>":
+                                    [
+                                        {
+                                            "property":
+                                            {
+                                                "<property>": "historyStates"
+                                            }
+                                        },
+                                        {
+                                            "document":
+                                            {
+                                                "<enumerated>":
+                                                {
+                                                    "ordinal": "targetEnum"
+                                                }
+                                            }
+                                        }
+                                    ]
+                                }
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}

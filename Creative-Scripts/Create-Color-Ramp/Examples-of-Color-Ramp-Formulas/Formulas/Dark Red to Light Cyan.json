@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Dark Red to Light Cyan",
+		"colorModel": "RGB",
+		"components":
+		[
+			"acos (1 - (2 * x)) / PI",
+			"(1 - cos (x * PI)) / 2",
+			"(1 - cos (x * PI)) / 2"
+		],
+		"floatRange": true
+	}
+}

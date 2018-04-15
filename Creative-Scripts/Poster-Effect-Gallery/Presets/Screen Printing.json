@@ -1,0 +1,302 @@
+﻿{
+	"posterEffects":
+	{
+		"Print Gocco":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background - Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency - Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 0 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "outsideFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 6,
+								"color": { "red": 0, "green": 50, "blue": 77 }
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Beige & Light Blue Stripes",
+							"type":
+							{
+								"patternLayer":
+								{
+									"pattern":
+									{
+										"name": "Obama Hope Stripes 2px",
+										"ID": "15d5f294-8507-11e5-a0cc-e2d503184d34"
+									},
+									"phase": { "horizontal": 0, "vertical": 1 },
+									"scale": 200
+								}
+							}
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 221 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Beige",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 201 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Red",
+							"type": { "solidColorLayer": { "color": { "red": 215, "green": 26, "blue": 33 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 151 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Dark Blue",
+							"type": { "solidColorLayer": { "color": { "red": 0, "green": 50, "blue": 77 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 101 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Frame - Beige",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "frame": 16 }
+					}
+				}
+			],
+			"grayscale": "legacy"
+		},
+		"Split Fountain":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background - Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency - Light Blue",
+							"type": { "solidColorLayer": { "color": { "red": 113, "green": 150, "blue": 159 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 0 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "outsideFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 6,
+								"color": { "red": 0, "green": 50, "blue": 77 }
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Beige & Light Blue Stripes",
+							"type":
+							{
+								"patternLayer":
+								{
+									"pattern":
+									{
+										"name": "Obama Hope Stripes 2px",
+										"ID": "15d5f294-8507-11e5-a0cc-e2d503184d34"
+									},
+									"phase": { "horizontal": 0, "vertical": 1 },
+									"scale": 200
+								}
+							}
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 221 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Beige",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 201 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Yellow, Magenta, Teal",
+							"type":
+							{
+								"gradientLayer":
+								{
+									"gradient":
+									{
+										"name": "Yellow, Magenta, Teal",
+										"gradientForm": "customStops",
+										"interpolation": 4096,
+										"colors":
+										[
+											{
+												"color": { "red": 255, "green": 185, "blue": 13 },
+												"type": "userStop", "location": 0, "midpoint": 50
+											},
+											{
+												"color": { "red": 204, "green": 0, "blue": 69 },
+												"type": "userStop", "location": 2048, "midpoint": 50
+											},
+											{
+												"color": { "red": 0, "green": 153, "blue": 153 },
+												"type": "userStop", "location": 4096, "midpoint": 50
+											}
+										]
+									},
+									"type": "linear",
+									"angle": 45,
+									"scale": 67,
+									"reverse": true,
+									"align": true,
+									"offset": { "horizontal": 0, "vertical": -16.66 }
+								}
+							}
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 151 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold - Dark Blue",
+							"type": { "solidColorLayer": { "color": { "red": 0, "green": 50, "blue": 77 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 101 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Frame - Beige",
+							"type": { "solidColorLayer": { "color": { "red": 253, "green": 229, "blue": 169 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "frame": 16 }
+					}
+				}
+			],
+			"grayscale": "legacy"
+		}
+	},
+	"patternsFileBinary": "8BPT\u0000\u0001\u0000\u0000\u0000\u0003\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0003\u0000\u0004\u0000\u0001\u0000\u0000\u0000\u0017\u0000O\u0000b\u0000a\u0000m\u0000a\u0000 \u0000H\u0000o\u0000p\u0000e\u0000 \u0000S\u0000t\u0000r\u0000i\u0000p\u0000e\u0000s\u0000 \u00002\u0000p\u0000x\u0000\u0000$15d5f294-8507-11e5-a0cc-e2d503184d34\u0000\u0000\u0000\u0003\u0000\u0000\u0000Ù\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000qýýq\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000\u0096åå\u0096\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000\u009F©©\u009F\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0001\u0000\u0000\u0000)\u0000H\u0000o\u0000r\u0000i\u0000z\u0000o\u0000n\u0000t\u0000a\u0000l\u0000 \u0000S\u0000t\u0000r\u0000i\u0000p\u0000e\u0000s\u0000 \u00002\u0000p\u0000x\u0000 \u0000w\u0000i\u0000t\u0000h\u0000 \u0000T\u0000r\u0000a\u0000n\u0000s\u0000p\u0000a\u0000r\u0000e\u0000n\u0000c\u0000y\u0000\u0000$15d5f296-8507-11e5-a0cc-e2d503184d34\u0000\u0000\u0000\u0003\u0000\u0000\u0000º\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000ÿ\u0000\u0000ÿ\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0001\u0000\u0004\u0000\u0001\u0000\u0000\u0000\u0017\u0000H\u0000o\u0000r\u0000i\u0000z\u0000o\u0000n\u0000t\u0000a\u0000l\u0000 \u0000S\u0000t\u0000r\u0000i\u0000p\u0000e\u0000s\u0000 \u00002\u0000p\u0000x\u0000\u0000$15d5f298-8507-11e5-a0cc-e2d503184d34\u0000\u0000\u0000\u0003\u0000\u0000\u0000\u009B\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u0018\u0000\u0000\u0000\u0001\u0000\u0000\u0000\u001B\u0000\u0000\u0000\b\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0004\u0000\u0000\u0000\u0001\u0000\b\u0000\u0000ÿÿ\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000\u0000"
+}

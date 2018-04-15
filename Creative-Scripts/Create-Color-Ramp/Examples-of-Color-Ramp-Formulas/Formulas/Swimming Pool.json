@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Swimming Pool",
+		"colorModel": "RGB",
+		"components":
+		[
+			"bias (x, 0.25)",
+			"gain (x, 0.25)",
+			"bias (x, 0.75)"
+		],
+		"floatRange": true
+	}
+}

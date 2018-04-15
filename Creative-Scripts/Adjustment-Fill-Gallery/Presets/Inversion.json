@@ -1,0 +1,43 @@
+﻿{
+	"Invert All":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Invert",
+				"type":
+				{
+					"invert": null
+				}
+			}
+		}
+	],
+	"Invert Color":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Invert | Color",
+				"mode": "color",
+				"type":
+				{
+					"invert": null
+				}
+			}
+		}
+	],
+	"Invert Luminosity":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Invert | Luminosity",
+				"mode": "luminosity",
+				"type":
+				{
+					"invert": null
+				}
+			}
+		}
+	]
+}

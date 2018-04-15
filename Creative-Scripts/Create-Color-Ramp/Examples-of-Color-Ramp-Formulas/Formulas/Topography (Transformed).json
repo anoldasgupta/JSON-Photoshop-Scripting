@@ -1,0 +1,7 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Topography (Transformed)",
+		"indexedColors": "transformColor (distributeColors ([ \"#040502\", \"#363623\", \"#173E28\", \"#336945\", \"#3E8A59\", \"#6CA363\", \"#A5BA6F\", \"#E8D67A\", \"#C8A75C\", \"#B07839\", \"#D87F3F\" ], [ 0, 255 ], x, \"rgb\", 100), 30, 2, 0.9)"
+	}
+}

@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Primary Colors (Lighter)",
+		"colorModel": "RGB",
+		"components":
+		[
+			"pow (cos ((x - 1/6) * PI / 1.5), 2)",
+			"pow (cos ((x - 3/6) * PI / 1.5), 2)",
+			"pow (cos ((x - 5/6) * PI / 1.5), 2)"
+		],
+		"floatRange": true
+	}
+}

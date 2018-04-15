@@ -1,0 +1,7 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Tropical Island (Lab)",
+		"indexedColors": "transformColor (lab (75, lerp (-128, 64, x / 255), lerp (-64, 128, x / 255)), 0, 0.87, 1.1)"
+	}
+}

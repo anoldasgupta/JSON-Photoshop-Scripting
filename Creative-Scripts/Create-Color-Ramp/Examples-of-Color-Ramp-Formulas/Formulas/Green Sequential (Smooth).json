@@ -1,0 +1,7 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Green Sequential (Smooth)",
+		"indexedColors": "distributeColors ([ \"#085a32\", \"#118649\", \"#18a85a\", \"#52b974\", \"#9ecf8a\", \"#d2e3a2\", \"#f0f1ba\", \"#f7f8e5\" ], [ 0, 255 ], x, \"rgb\", 100)"
+	}
+}

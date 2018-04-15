@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Dark Yellow to Light Green (HSL)",
+		"colorModel": "HSL",
+		"components":
+		[
+			"lerp (1/6, 2/6, x)",
+			"(x < 0.5 ? 1 - x : x) * 0.8",
+			"x"
+		],
+		"floatRange": true
+	}
+}

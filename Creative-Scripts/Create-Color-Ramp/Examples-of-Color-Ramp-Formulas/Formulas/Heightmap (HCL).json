@@ -1,0 +1,7 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Heightmap (HCL)",
+		"indexedColors": "interpolateColors ([ [ 15, \"#d7191c\" ], [ 35, \"#ffffbf\" ], [ 132, \"#2c7bb6\" ] ], x, \"hcl\")"
+	}
+}

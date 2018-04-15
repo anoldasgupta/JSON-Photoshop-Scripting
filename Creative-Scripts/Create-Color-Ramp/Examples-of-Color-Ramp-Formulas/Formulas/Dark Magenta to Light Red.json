@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Dark Magenta to Light Red",
+		"colorModel": "RGB",
+		"components":
+		[
+			"sin (x * PI / 2)",
+			"1 - sin ((1 - x) * PI / 2)",
+			"((tan ((x - 0.5) * PI / 2)) / 2) + 0.5"
+		],
+		"floatRange": true
+	}
+}

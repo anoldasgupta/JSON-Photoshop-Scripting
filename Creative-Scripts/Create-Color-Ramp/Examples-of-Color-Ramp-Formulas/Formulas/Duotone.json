@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Duotone",
+		"colorModel": "RGB",
+		"components":
+		[
+			"gain (x, 0.3)",
+			"gain (x, 0.4)",
+			"gain (x, 0.6)"
+		],
+		"floatRange": true
+	}
+}

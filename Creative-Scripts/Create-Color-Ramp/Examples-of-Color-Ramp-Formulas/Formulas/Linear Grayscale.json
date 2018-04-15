@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Linear Grayscale",
+		"colorModel": "RGB",
+		"components":
+		[
+			"x",
+			"x",
+			"x"
+		],
+		"floatRange": false
+	}
+}

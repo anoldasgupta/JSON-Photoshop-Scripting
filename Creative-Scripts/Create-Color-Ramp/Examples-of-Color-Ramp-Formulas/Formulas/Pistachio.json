@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Pistachio",
+		"colorModel": "HCL",
+		"components":
+		[
+			"x/2.5",
+			"x/2",
+			"bias (x, 0.55)"
+		],
+		"floatRange": true
+	}
+}

@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Chlorophyll",
+		"colorModel": "RGB",
+		"components":
+		[
+			"x",
+			"pow (x, 1/3)",
+			"pow (x, 3)"
+		],
+		"floatRange": true
+	}
+}

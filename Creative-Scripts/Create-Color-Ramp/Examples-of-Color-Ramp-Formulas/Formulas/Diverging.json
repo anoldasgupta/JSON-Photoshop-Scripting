@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Diverging",
+		"colorModel": "RGB",
+		"components":
+		[
+			"cos ((x - 2/6) * PI)",
+			"cos ((x - 3/6) * PI)",
+			"cos ((x - 4/6) * PI)"
+		],
+		"floatRange": true
+	}
+}

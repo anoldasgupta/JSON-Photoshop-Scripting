@@ -1,0 +1,444 @@
+﻿{
+	"False Color":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Colorize | Darken",
+				"mode": "darken",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"colorize": true,
+						"adjustment":
+						[
+							{
+								"hue": 320,
+								"saturation": 40,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Saturation Boost",
+				"mode": "color",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": 60,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gamma",
+				"type":
+				{
+					"exposure":
+					{
+						"exposure": 0,
+						"offset": 0,
+						"gammaCorrection": 1.2
+					}
+				}
+			}
+		}
+	],
+	"Infrared Film":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Foliage & Sky Color Shifts",
+				"mode": "color",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": 33,
+								"lightness": 0
+							},
+							{
+								"localRange": 3,
+								"beginRamp": 15,
+								"beginSustain": 45,
+								"endSustain": 135,
+								"endRamp": 165,
+								"hue": -90,
+								"saturation": 50,
+								"lightness": 0
+							},
+							{
+								"localRange": 5,
+								"beginRamp": 195,
+								"beginSustain": 225,
+								"endSustain": 255,
+								"endRamp": 285,
+								"hue": -30,
+								"saturation": 0,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"contentLayer":
+			{
+				"name": "Gradient Filter",
+				"mode": "softLight",
+				"opacity": 50,
+				"type":
+				{
+					"gradientLayer":
+					{
+						"type": "linear",
+						"angle": 90,
+						"scale": 100,
+						"dither": true,
+						"gradient":
+						{
+							"name": "Custom",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 0,
+										"green": 0,
+										"blue": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"red": 0,
+										"green": 0,
+										"blue": 0
+									}
+								}
+							],
+							"transparency":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"opacity": 0
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"opacity": 100
+								}
+							]
+						}
+					}
+				}
+			}
+		}
+	],
+	"Psychedelic":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Color Shift",
+				"mode": "color",
+				"opacity": 75,
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": -90,
+								"saturation": 90,
+								"lightness": 30
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"Red Foliage":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Color Shift (Red & Green Channels)",
+				"mode": "color",
+				"opacity": 75,
+				"channelRestrictions":
+				[
+					"red",
+					"green"
+				],
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": -90,
+								"saturation": 90,
+								"lightness": 30
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"Orange Foliage":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Color Shift (Red Channel)",
+				"mode": "color",
+				"opacity": 90,
+				"channelRestrictions":
+				[
+					"red"
+				],
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": -90,
+								"saturation": 90,
+								"lightness": 30
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"Strawberry Fields":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Invert | Color",
+				"mode": "color",
+				"type":
+				{
+					"invert": null
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Swap Red & Blue Channels",
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 100
+						},
+						"green":
+						{
+							"red": 0,
+							"green": 100,
+							"blue": 0
+						},
+						"blue":
+						{
+							"red": 100,
+							"green": 0,
+							"blue": 0
+						}
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Reds Saturation Boost",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": 15,
+								"lightness": 0
+							},
+							{
+								"localRange": 1,
+								"beginRamp": 315,
+								"beginSustain": 345,
+								"endSustain": 15,
+								"endRamp": 45,
+								"hue": 0,
+								"saturation": 50,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"Magical Mystery":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 100
+						},
+						"green":
+						{
+							"red": -100,
+							"green": 200,
+							"blue": 0
+						},
+						"blue":
+						{
+							"red": 100,
+							"green": 0,
+							"blue": 0
+						}
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Invert | Color",
+				"mode": "color",
+				"type":
+				{
+					"invert": null
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Saturation Boost",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": 50,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"Marmalade Skies":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": -100,
+							"green": 200,
+							"blue": 0
+						},
+						"green":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 100
+						},
+						"blue":
+						{
+							"red": 100,
+							"green": 0,
+							"blue": 0
+						}
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Saturation Boost",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": 20,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

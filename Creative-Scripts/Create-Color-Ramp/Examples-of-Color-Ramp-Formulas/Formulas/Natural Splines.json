@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Natural Splines",
+		"colorModel": "RGB",
+		"components":
+		[
+			"spline ([ [ 0, 215 ], [ 35, 245 ], [ 162, 44 ], [ 191, 100 ] ], x)",
+			"spline ([ [ 0, 0 ], [ 35, 167 ], [ 132, 154 ], [ 191, 30 ], [ 255, 0 ] ], x)",
+			"spline ([ [ 0, 64 ], [ 35, 127 ], [ 191, 160 ], [ 255, 220 ] ], x)"
+		],
+		"floatRange": false
+	}
+}

@@ -1,0 +1,7 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Soft Primary",
+		"indexedColors": "distributeColors ([ hsl (0, 100, 50), hsl (240, 100, 75), hsl (120, 100, 50) ], [ 0, 255 ], x, \"rgb\", 100)"
+	}
+}

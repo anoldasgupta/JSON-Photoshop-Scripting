@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Smoothie",
+		"colorModel": "RGB",
+		"components":
+		[
+			"smootherstep (1, 0, x)",
+			"coserp (0.05, 0.95, x)",
+			"smoothstep (0.5, 1, x)"
+		],
+		"floatRange": true
+	}
+}

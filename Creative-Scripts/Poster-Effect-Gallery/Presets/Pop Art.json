@@ -1,0 +1,416 @@
+﻿{
+	"posterEffects":
+	{
+		"Andy A (Transparency)":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "red": 50, "green": 80, "blue": 50 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency",
+							"type": { "solidColorLayer": { "color": { "red": 225, "green": 126, "blue": 85 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 0 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "outsideFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 6,
+								"color": { "red": 35, "green": 167, "blue": 29 }
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 1",
+							"type": { "solidColorLayer": { "color": { "red": 229, "green": 0, "blue": 0 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 204 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 2",
+							"type": { "solidColorLayer": { "color": { "red": 181, "green": 27, "blue": 99 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 153 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 3",
+							"type": { "solidColorLayer": { "color": { "red": 35, "green": 167, "blue": 29 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 102 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 4",
+							"type": { "solidColorLayer": { "color": { "red": 222, "green": 0, "blue": 124 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 51 }
+					}
+				}
+			]
+		},
+		"Andy B (Transparency)":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "red": 255, "green": 135, "blue": 0 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency",
+							"type": { "solidColorLayer": { "color": { "red": 222, "green": 0, "blue": 5 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 0 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "outsideFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 6,
+								"color": { "red": 225, "green": 200, "blue": 85 }
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 1",
+							"type": { "solidColorLayer": { "color": { "red": 30, "green": 171, "blue": 100 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 204 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 2",
+							"type": { "solidColorLayer": { "color": { "red": 181, "green": 37, "blue": 27 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 153 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 3",
+							"type": { "solidColorLayer": { "color": { "red": 225, "green": 200, "blue": 85 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 102 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 4",
+							"type": { "solidColorLayer": { "color": { "red": 222, "green": 0, "blue": 5 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 51 }
+					}
+				}
+			]
+		},
+		"Andy C (Transparency)":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "red": 255, "green": 0, "blue": 169 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency",
+							"type": { "solidColorLayer": { "color": { "red": 172, "green": 0, "blue": 222 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 0 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "outsideFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 6,
+								"color": { "red": 229, "green": 130, "blue": 20 }
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 1",
+							"type": { "solidColorLayer": { "color": { "red": 0, "green": 147, "blue": 222 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 204 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 2",
+							"type": { "solidColorLayer": { "color": { "red": 229, "green": 130, "blue": 20 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 153 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 3",
+							"type": { "solidColorLayer": { "color": { "red": 204, "green": 0, "blue": 51 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 102 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 4",
+							"type": { "solidColorLayer": { "color": { "red": 133, "green": 31, "blue": 166 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 51 }
+					}
+				}
+			]
+		},
+		"Andy D (Transparency)":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "red": 50, "green": 80, "blue": 50 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency Expanded",
+							"type": { "solidColorLayer": { "color": { "red": 225, "green": 126, "blue": 85 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 6 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 1",
+							"type": { "solidColorLayer": { "color": { "red": 229, "green": 0, "blue": 0 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 204 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 2",
+							"type": { "solidColorLayer": { "color": { "red": 181, "green": 27, "blue": 99 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 153 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 3",
+							"type": { "solidColorLayer": { "color": { "red": 35, "green": 167, "blue": 29 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 102 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Threshold 4",
+							"type": { "solidColorLayer": { "color": { "red": 222, "green": 0, "blue": 124 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 51 }
+					}
+				},
+				{
+					"layer":
+					{
+						"adjustmentLayer":
+						{
+							"name": "Hue Shift",
+							"type": { "hueSaturation": { "adjustment": [ { "hue": 32, "saturation": 0, "lightness": 0 } ] } }
+						}
+					}
+				}
+			]
+		}
+	}
+}

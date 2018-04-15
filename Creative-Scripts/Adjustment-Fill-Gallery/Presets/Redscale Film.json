@@ -1,0 +1,315 @@
+﻿{
+	"Redscale (Light)":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Levels | Shadows & Highlights",
+				"type":
+				{
+					"levels":
+					{
+						"adjustment":
+						[
+							{
+								"channel": "composite",
+								"output":
+								[
+									25,
+									200
+								]
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Contrast | Decrease",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": -50,
+						"useLegacy": false
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Redscale Toning",
+				"mode": "overlay",
+				"opacity": 100,
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Redscale 1",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 350,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 1516,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 350,
+										"saturation": 100,
+										"brightness": 100
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 33,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 60,
+										"saturation": 100,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Selective Color | Yellow Boost",
+				"type":
+				{
+					"selectiveColor":
+					{
+						"method": "absolute",
+						"colorCorrection":
+						[
+							{
+								"colors": "yellows",
+								"cyan": -100,
+								"magenta": -100,
+								"yellowColor": 100,
+								"black": -10
+							}
+						]
+					}
+				}
+			}
+		}
+	],
+	"Redscale (Strong)":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | B&W",
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 0,
+										"saturation": 0,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Levels | Shadows & Highlights",
+				"type":
+				{
+					"levels":
+					{
+						"adjustment":
+						[
+							{
+								"channel": "composite",
+								"output":
+								[
+									0,
+									215
+								]
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Gradient Map | Redscale Toning",
+				"mode": "overlay",
+				"opacity": 100,
+				"type":
+				{
+					"gradientMapClass":
+					{
+						"gradient":
+						{
+							"name": "Redscale 2",
+							"gradientForm": "customStops",
+							"interpolation": 4096,
+							"colors":
+							[
+								{
+									"location": 0,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 350,
+										"saturation": 0,
+										"brightness": 0
+									}
+								},
+								{
+									"location": 1352,
+									"midpoint": 50,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 350,
+										"saturation": 100,
+										"brightness": 100
+									}
+								},
+								{
+									"location": 4096,
+									"midpoint": 33,
+									"type": "userStop",
+									"color":
+									{
+										"hue": 60,
+										"saturation": 100,
+										"brightness": 100
+									}
+								}
+							]
+						},
+						"dither": true
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Selective Color | Yellow Boost",
+				"type":
+				{
+					"selectiveColor":
+					{
+						"method": "absolute",
+						"colorCorrection":
+						[
+							{
+								"colors": "yellows",
+								"cyan": -100,
+								"magenta": -15,
+								"yellowColor": 100,
+								"black": -10
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}

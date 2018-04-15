@@ -1,0 +1,212 @@
+﻿{
+	"Red":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"mode": "softLight",
+				"opacity": 67,
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": 100,
+							"green": 0,
+							"blue": 0
+						},
+						"green":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						},
+						"blue":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						}
+					}
+				}
+			}
+		}
+	],
+	"Yellow":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"mode": "softLight",
+				"opacity": 100,
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": 100,
+							"green": 0,
+							"blue": 0
+						},
+						"green":
+						{
+							"red": 0,
+							"green": 100,
+							"blue": 0
+						},
+						"blue":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						}
+					}
+				}
+			}
+		}
+	],
+	"Green":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"mode": "softLight",
+				"opacity": 67,
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						},
+						"green":
+						{
+							"red": 0,
+							"green": 100,
+							"blue": 0
+						},
+						"blue":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						}
+					}
+				}
+			}
+		}
+	],
+	"Cyan":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"mode": "softLight",
+				"opacity": 100,
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						},
+						"green":
+						{
+							"red": 0,
+							"green": 100,
+							"blue": 0
+						},
+						"blue":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 100
+						}
+					}
+				}
+			}
+		}
+	],
+	"Blue":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"mode": "softLight",
+				"opacity": 67,
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						},
+						"green":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						},
+						"blue":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 100
+						}
+					}
+				}
+			}
+		}
+	],
+	"Magenta":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Channel Mixer",
+				"mode": "softLight",
+				"opacity": 100,
+				"type":
+				{
+					"channelMixer":
+					{
+						"red":
+						{
+							"red": 100,
+							"green": 0,
+							"blue": 0
+						},
+						"green":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 0
+						},
+						"blue":
+						{
+							"red": 0,
+							"green": 0,
+							"blue": 100
+						}
+					}
+				}
+			}
+		}
+	]
+}

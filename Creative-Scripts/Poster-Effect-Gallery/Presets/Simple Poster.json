@@ -1,0 +1,219 @@
+﻿{
+	"posterEffects":
+	{
+		"Two Colors":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "hue": 328, "saturation": 100, "brightness": 100 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Foreground",
+							"type": { "solidColorLayer": { "color": { "hue": 240, "saturation": 80, "brightness": 45 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 128 }
+					}
+				}
+			]
+		},
+		"Black & White / Gray":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "gray": 33 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency",
+							"type": { "solidColorLayer": { "color": { "gray": 0 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 0 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "outsideFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 4,
+								"color": { "gray": 100 }
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Foreground",
+							"type": { "solidColorLayer": { "color": { "gray": 100 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 128 }
+					}
+				}
+			]
+		},
+		"Velvet Banana":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "hue": 30, "saturation": 3, "brightness": 100 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency",
+							"type": { "solidColorLayer": { "color": { "hue": 50, "saturation": 85, "brightness": 100 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 0 }
+					},
+					"style":
+					{
+						"blendOptions":
+						{
+						},
+						"layerEffects":
+						{
+							"frameFX":
+							{
+								"enabled": true,
+								"style": "outsideFrame",
+								"paintType": "solidColor",
+								"mode": "normal",
+								"opacity": 100,
+								"size": 6,
+								"color": { "gray": 100 }
+							}
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Foreground",
+							"type": { "solidColorLayer": { "color": { "gray": 100 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 128 }
+					}
+				}
+			]
+		},
+		"Velvet Banana (Outline)":
+		{
+			"layers":
+			[
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Background",
+							"type": { "solidColorLayer": { "color": { "hue": 30, "saturation": 3, "brightness": 100 } } }
+						}
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Transparency",
+							"type": { "solidColorLayer": { "color": { "hue": 50, "saturation": 85, "brightness": 100 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": 0 }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Outline",
+							"type": { "solidColorLayer": { "color": { "gray": 100 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageTransparency": [ 0, 6 ] }
+					}
+				},
+				{
+					"layer":
+					{
+						"contentLayer":
+						{
+							"name": "Foreground",
+							"type": { "solidColorLayer": { "color": { "gray": 100 } } }
+						}
+					},
+					"mask":
+					{
+						"type": { "imageThreshold": 128 }
+					}
+				}
+			]
+		}
+	}
+}

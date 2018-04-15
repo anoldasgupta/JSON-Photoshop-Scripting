@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Dark Blue to Light Cyan",
+		"colorModel": "RGB",
+		"components":
+		[
+			"1 - sin ((1 - x) * PI / 2)",
+			"(1 - cos (x * PI)) / 2",
+			"sin (x * PI / 2)"
+		],
+		"floatRange": true
+	}
+}

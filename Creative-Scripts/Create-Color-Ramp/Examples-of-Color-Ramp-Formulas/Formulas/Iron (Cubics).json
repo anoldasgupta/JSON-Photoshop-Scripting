@@ -1,0 +1,14 @@
+﻿{
+	"colorRampFormula":
+	{
+		"name": "Iron (Cubics)",
+		"colorModel": "RGB",
+		"components":
+		[
+			"linear ([ 1.1, 0.57 ], cubic ([ 1, 0, -1, 0 ], linear ([ 0.9, -1.225 ], x)))",
+			"linear ([ 1.204, 0.471 ], cubic ([ -1, 0, 1, 0 ], linear ([ 1.292, -0.806 ], x)))",
+			"linear ([ 0.943, 0.32 ], cubic ([ 1, 0, -1, 0 ], linear ([ 2.24, -1.081 ], x)))"
+		],
+		"floatRange": true
+	}
+}

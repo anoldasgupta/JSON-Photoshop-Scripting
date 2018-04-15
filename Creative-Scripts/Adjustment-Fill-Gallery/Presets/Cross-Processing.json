@@ -1,0 +1,136 @@
+﻿{
+	"C41-E6":
+	[
+		{
+			"adjustmentLayer":
+			{
+				"name": "Saturation",
+				"type":
+				{
+					"hueSaturation":
+					{
+						"adjustment":
+						[
+							{
+								"hue": 0,
+								"saturation": 20,
+								"lightness": 0
+							}
+						]
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Neutral Overlay",
+				"opacity": 45,
+				"mode": "overlay",
+				"type":
+				{
+					"brightnessContrast":
+					{
+						"brightness": 0,
+						"contrast": 0
+					}
+				}
+			}
+		},
+		{
+			"adjustmentLayer":
+			{
+				"name": "Curves",
+				"type":
+				{
+					"curves":
+					{
+						"adjustment":
+						[
+							{
+								"channel": "composite",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 77,
+										"vertical": 54
+									},
+									{
+										"horizontal": 185,
+										"vertical": 197
+									},
+									{
+										"horizontal": 255,
+										"vertical": 255
+									}
+								]
+							},
+							{
+								"channel": "red",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 93,
+										"vertical": 45
+									},
+									{
+										"horizontal": 167,
+										"vertical": 162
+									},
+									{
+										"horizontal": 255,
+										"vertical": 255
+									}
+								]
+							},
+							{
+								"channel": "green",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 91,
+										"vertical": 103
+									},
+									{
+										"horizontal": 255,
+										"vertical": 211
+									}
+								]
+							},
+							{
+								"channel": "blue",
+								"curve":
+								[
+									{
+										"horizontal": 0,
+										"vertical": 0
+									},
+									{
+										"horizontal": 95,
+										"vertical": 100
+									},
+									{
+										"horizontal": 255,
+										"vertical": 185
+									}
+								]
+							}
+						]
+					}
+				}
+			}
+		}
+	]
+}
