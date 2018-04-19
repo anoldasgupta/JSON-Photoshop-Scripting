@@ -14,7 +14,7 @@ This document provides information about StringIDs and CharIDs in Photoshop. It 
 **Note**: the following utility scripts are also quite useful:
 
 - [Get Equivalent ID Code](/Utility-Scripts/Get-Equivalent-ID-Code): [Photoshop CS3 or later] get the text string of a call to `app.stringIDToTypeID` equivalent to a call to `app.charIDToTypeID`.
-- [Get Equivalent ID Strings](Get-Equivalent-ID-Strings): [Photoshop CS3 or later] get all possible equivalent ID Strings from either a CharID or StringID string.
+- [Get Equivalent ID Strings](/Utility-Scripts/Get-Equivalent-ID-Strings): [Photoshop CS3 or later] get all possible equivalent ID Strings from either a CharID or StringID string.
 - [List Internal IDs](/Utility-Scripts/List-Internal-IDs): [Photoshop CS or later] list in JSON format all internal IDs used by the Photoshop’s programming interface.
 
 ## Decision Table 
