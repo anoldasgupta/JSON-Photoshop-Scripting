@@ -1,134 +1,37 @@
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
-    "http://www.w3.org/TR/html4/loose.dtd">
-<html>
-<head>
-<meta http-equiv="content-type" content="text/html; charset=utf-8">
-<title>Photoshop Gradients File Format</title>
-<style type="text/css">
-    body
-    {
-        width: 900px;
-        margin-left: auto;
-        margin-right: auto;
-        color: black;
-        background-color: white;
-        font-family: "Times", serif;
-        font-size: medium;
-    }
-    h1
-    {
-        text-align: center;
-    }
-    #toc
-    {
-        width: 33%;
-        border: gray dotted 1px;
-        color: black;
-        background-color: #FBFBFB;
-        padding-right: 16px;
-        margin-left: auto;
-        margin-right: auto;
-    }
-    table
-    {
-        width: 100%;
-        border: gray solid 1px;
-    }
-    th, tr, td
-    {
-        text-align: left;
-        border: gray solid 1px;
-        padding: 5px;
-    }
-    td ul
-    {
-        margin: 0.25em 0;
-        padding-left: 1.25em;
-    }
-    code
-    {
-        font-family: "Monaco", monospace;
-        font-size: 90%;
-    }
-    pre
-    {
-        font-family: "Monaco", monospace;
-        font-size: smaller;
-        border: black dotted 1px;
-        padding: 1em;
-        color: black;
-        background-color: #FFFFF7;
-    }
-    table.t2 
-    {
-        border: gray solid 1px;
-        border-collapse: collapse;
-        width: 100%
-    }
-    table.t2 th
-    {
-        color: white;
-        background-color: black;
-        font-weight: normal;
-        text-align: center;
-        border: gray solid 1px;
-        padding: 0.25em 0.75em;
-        font-size: 90%;
-    }
-    table.t2 td
-    {
-        text-align: center;
-        border: gray solid 1px;
-        padding: 0.25em 0.75em;
-        font-size: 90%;
-    }
-    .disabled
-    {
-        color: gray;
-    }
-    sup
-    {
-        font-size: x-small;
-    }
-</style>
-</head>
-<body>
-<h1>Photoshop Gradients File Format</h1>
-<div id="toc">
-<ul>
-<li><a href="gradients-file-format.html#toc-contents">Contents</a></li>
-<li>
-<a href="gradients-file-format.html#toc-gradients-file-format">Gradients file format</a>
-<ul>
-<li><a href="gradients-file-format.html#toc-gradients-file">Gradients file</a></li>
-<li><a href="gradients-file-format.html#toc-descriptor">Descriptor</a></li>
-<li><a href="gradients-file-format.html#toc-gradient-object">Gradient object</a></li>
-<li><a href="gradients-file-format.html#toc-custom-stops-gradient-object">Custom stops gradient object</a></li>
-<li><a href="gradients-file-format.html#toc-color-stop-object">Color stop object</a></li>
-<li><a href="gradients-file-format.html#toc-transparency-stop-object">Transparency stop object</a></li>
-<li><a href="gradients-file-format.html#toc-color-noise-gradient-object">Color noise gradient object</a></li>
-</ul>
-</li>
-<li>
-<a href="gradients-file-format.html#toc-color-format">Color format</a>
-<ul>
-<li><a href="gradients-file-format.html#toc-book-color-object">Book color object</a></li>
-<li><a href="gradients-file-format.html#toc-cmyk-color-object">CMYK color object</a></li>
-<li><a href="gradients-file-format.html#toc-grayscale-object">Grayscale object</a></li>
-<li><a href="gradients-file-format.html#toc-hsb-color-object">HSB color object</a></li>
-<li><a href="gradients-file-format.html#toc-lab-color-object">Lab color object</a></li>
-<li><a href="gradients-file-format.html#toc-rgb-color-object">RGB color object</a></li>
-</ul>
-</li>
-<li><a href="gradients-file-format.html#toc-parsing-gradients-files">Parsing gradients files</a></li>
-<li><a href="gradients-file-format.html#toc-generating-gradients-files">Generating gradients files</a></li>
-</ul>
-</div>
-<h2 id="toc-contents">Contents</h2>
-<p>This document provides information about the (undocumented yet) format of gradients files in Photoshop.</p>
-<p><strong>Note</strong>: all multi-byte values, i.e., integer numbers (including C-style 4-character constants), floating-point (double) numbers, and Unicode characters are coded in <a href="http://en.wikipedia.org/wiki/Big-endian">big-endian</a> format.</p>
-<h2 id="toc-gradients-file-format">Gradients file format</h2>
-<h3 id="toc-gradients-file">Gradients file</h3>
+[[HTML version](gradients-file-format.html)]
+
+# Photoshop Gradients File Format
+
+- [Contents](#contents)
+- [File format](#file-format)
+    - [Gradients file](#gradients-file)
+    - [Gradients file header](#gradients-file-header)
+    - [Descriptor](#descriptor)
+    - [Gradient object](#gradient-object)
+    - [Custom stops gradient object](#custom-stops-gradient-object)
+        - [Color stop object](#color-stop-object)
+        - [Transparency stop object](#transparency-stop-object)
+    - [Color noise gradient object](#color-noise-gradient-object)
+- [Color format](#color-format)
+    - [Book color object](#book-color-object)
+    - [CMYK color object](#cmyk-color-object)
+    - [Grayscale object](#grayscale-object)
+    - [HSB color object](#hsb-color-object)
+    - [Lab color object](#lab-color-object)
+    - [RGB color object](#rgb-color-object)
+- [Parsing gradients files](#parsing-gradients-files)
+- [Generating gradients files](#generating-gradients-files)
+
+## Contents
+
+This document provides information about the (undocumented yet) format of gradients files in Photoshop.
+
+**Note**: all multi-byte values, i.e., integer numbers (including C-style 4-character constants), floating-point (double) numbers, and Unicode characters are coded in [big-endian](https://en.wikipedia.org/wiki/Big-endian) format.
+
+## File format
+
+### Gradients file
+
 <table>
 <tr>
 <th>Name</th>
@@ -149,7 +52,9 @@
 <td>Adobe Photoshop gradients file; generally produced by saving a selected set of gradients from the Preset Manager.</td>
 </tr>
 </table>
-<br>
+
+### Gradients file header
+
 <table>
 <tr>
 <th>Length&nbsp;(in&nbsp;bytes)</th>
@@ -169,11 +74,14 @@
 <tr>
 <td>Variable</td>
 <td>Serialized action descriptor</td>
-<td>Matches the serialized format expected by the ActionDescriptor.fromStream method (in JavaScript), or the HandleToDescriptor routine of the ActionDescriptor suite (in C/C++), i.e. prefixed by a 32-bit integer equal to 16. See <a href="gradients-file-format.html#toc-descriptor">Descriptor</a> format below.</td>
+<td>Matches the serialized format expected by the <code>ActionDescriptor.fromStream</code> method (in JavaScript), or the <code>HandleToDescriptor</code> routine of the <code>ActionDescriptor</code> suite (in C/C++), i.e. prefixed by a 32-bit integer equal to 16. See <a href="#descriptor">Descriptor</a> format below.</td>
 </tr>
 </table>
-<h3 id="toc-descriptor">Descriptor</h3>
-<p>Here is the structure of the descriptor returned by calling the ActionDescriptor.fromStream method  (in JavaScript), or the HandleToDescriptor routine of the ActionDescriptor suite (in C/C++), on the remaining part of the file following the magic number (<code>'8BGR'</code>) and the version (5):</p>
+
+### Descriptor
+
+Here is the structure of the descriptor returned by calling the `ActionDescriptor.fromStream` method (in JavaScript), or the `HandleToDescriptor` routine of the `ActionDescriptor` suite (in C/C++), on the remaining part of the file following the magic number (`'8BGR'`) and the version (5):
+
 <table>
 <tr>
 <th>Key</th>
@@ -185,10 +93,12 @@
 <td><code title="No equivalent StringID">'GrdL'</code></td>
 <td>List</td>
 <td>List of gradient objects</td>
-<td>Each in <a href="gradients-file-format.html#toc-gradient-object">Gradient object</a> format.</td>
+<td>Each in <a href="#gradient-object">Gradient object</a> format.</td>
 </tr>
 </table>
-<h3 id="toc-gradient-object">Gradient object</h3>
+
+### Gradient object
+
 <table>
 <tr>
 <th>Class</th>
@@ -205,10 +115,12 @@
 <td><code title="&quot;gradient&quot;">'Grad'</code></td>
 <td>Object</td>
 <td>Custom stops gradient object<br>or<br>Color noise gradient object</td>
-<td><a href="gradients-file-format.html#toc-custom-stops-gradient-object">Custom stops gradient object</a> format<br>or<br><a href="gradients-file-format.html#toc-color-noise-gradient-object">Color noise gradient object</a> format.</td>
+<td><a href="#custom-stops-gradient-object">Custom stops gradient object</a> format<br>or<br><a href="#color-noise-gradient-object">Color noise gradient object</a> format.</td>
 </tr>
 </table>
-<h3 id="toc-custom-stops-gradient-object">Custom stops gradient object</h3>
+
+### Custom stops gradient object
+
 <table>
 <tr>
 <th>Class</th>
@@ -243,16 +155,18 @@
 <td><code title="&quot;colors&quot;">'Clrs'</code></td>
 <td>List</td>
 <td>List of color stops</td>
-<td>Each in <a href="gradients-file-format.html#toc-color-stop-object">Color stop object</a> format.</td>
+<td>Each in <a href="#color-stop-object">Color stop object</a> format.</td>
 </tr>
 <tr>
 <td><code title="&quot;transparency&quot;">'Trns'</code></td>
 <td>List</td>
 <td>List of transparency stops</td>
-<td>Each in <a href="gradients-file-format.html#toc-transparency-stop-object">Transparency stop object</a> format.</td>
+<td>Each in <a href="#transparency-stop-object">Transparency stop object</a> format.</td>
 </tr>
 </table>
-<h3 id="toc-color-stop-object">Color stop object</h3>
+
+#### Color stop object
+
 <table>
 <tr>
 <th>Class</th>
@@ -314,17 +228,19 @@ Color object:
 <td>
 Key present only if color stop type is user stop:
 <ul>
-<li><a href="gradients-file-format.html#toc-book-color-object">Book color object</a> format</li>
-<li><a href="gradients-file-format.html#toc-cmyk-color-object">CMYK color object</a> format</li>
-<li><a href="gradients-file-format.html#toc-grayscale-object">Grayscale object</a> format</li>
-<li><a href="gradients-file-format.html#toc-hsb-color-object">HSB color object</a> format</li>
-<li><a href="gradients-file-format.html#toc-lab-color-object">Lab color object</a> format</li>
-<li><a href="gradients-file-format.html#toc-rgb-color-object">RGB color object</a> format</li>
+<li><a href="#book-color-object">Book color object</a> format</li>
+<li><a href="#cmyk-color-object">CMYK color object</a> format</li>
+<li><a href="#grayscale-object">Grayscale object</a> format</li>
+<li><a href="#hsb-color-object">HSB color object</a> format</li>
+<li><a href="#lab-color-object">Lab color object</a> format</li>
+<li><a href="#rgb-color-object">RGB color object</a> format</li>
 </ul>
 </td>
 </tr>
 </table>
-<h3 id="toc-transparency-stop-object">Transparency stop object</h3>
+
+#### Transparency stop object
+
 <table>
 <tr>
 <th>Class</th>
@@ -356,7 +272,9 @@ Key present only if color stop type is user stop:
 <td>0% to 100%.</td>
 </tr>
 </table>
-<h3 id="toc-color-noise-gradient-object">Color noise gradient object</h3>
+
+### Color noise gradient object
+
 <table>
 <tr>
 <th>Class</th>
@@ -438,8 +356,11 @@ Color Model:
 <td>Three color components (0% to 100%) + transparency (100%).</td>
 </tr>
 </table>
-<h2 id="toc-color-format">Color format</h2>
-<h3 id="toc-book-color-object">Book color object</h3>
+
+## Color format
+
+### Book color object
+
 <table>
 <tr>
 <th>Class</th>
@@ -477,7 +398,9 @@ Color Model:
 <td>Byte string.</td>
 </tr>
 </table>
-<h3 id="toc-cmyk-color-object">CMYK color object</h3>
+
+### CMYK color object
+
 <table>
 <tr>
 <th>Class</th>
@@ -515,7 +438,9 @@ Color Model:
 <td>0% to 100%.</td>
 </tr>
 </table>
-<h3 id="toc-grayscale-object">Grayscale object</h3>
+
+### Grayscale object
+
 <table>
 <tr>
 <th>Class</th>
@@ -535,7 +460,9 @@ Color Model:
 <td>0% to 100%.</td>
 </tr>
 </table>
-<h3 id="toc-hsb-color-object">HSB color object</h3>
+
+### HSB color object
+
 <table>
 <tr>
 <th>Class</th>
@@ -567,7 +494,9 @@ Color Model:
 <td>0% to 100%.</td>
 </tr>
 </table>
-<h3 id="toc-lab-color-object">Lab color object</h3>
+
+### Lab color object
+
 <table>
 <tr>
 <th>Class</th>
@@ -599,7 +528,9 @@ Color Model:
 <td>-128 to 127.</td>
 </tr>
 </table>
-<h3 id="toc-rgb-color-object">RGB color object</h3>
+
+### RGB color object
+
 <table>
 <tr>
 <th>Class</th>
@@ -631,12 +562,21 @@ Color Model:
 <td>0 to 255.</td>
 </tr>
 </table>
-<h2 id="toc-parsing-gradients-files">Parsing gradients files</h2>
-<p>The utility script <a href="../scripts/utility-scripts/parse-gradients-file/index.html">Parse Gradients File</a> (for Photoshop CS3 or later) is a practical example of parser written in JavaScript; it shows how to make use of the information contained in the present document to extract relevant data from the gradients file's main action descriptor; this utility script uses both the <a href="../json-photoshop-scripting/json-am-data-format/index.html">JSON AM Data Format</a> and the <a href="../json-photoshop-scripting/json-simplified-formats/gradient-object-simplified-format/index.html">Gradient Object Simplified Format</a>, but can be adapted to produce results into any other desired format through direct calls to appropriate ActionDescriptor and ActionList methods.</p>
-<h2 id="toc-generating-gradients-files">Generating gradients files</h2>
-<p>The utility script <a href="../scripts/utility-scripts/generate-gradients-file/index.html">Generate Gradients File</a> (for Photoshop CS3 or later) can be used to generate a gradients file from a JSON text file whose format is the same as the one returned by the above-mentioned script for parsing gradient files, i.e. consisting of an array of gradient objects in <a href="../json-photoshop-scripting/json-simplified-formats/gradient-object-simplified-format/index.html">Gradient Object Simplified Format</a>.</p>
+
+## Parsing gradients files
+
+The utility script [Parse Gradients File](/Utility-Scripts/Parse-Gradients-File) (for Photoshop CS3 or later) is a practical example of parser written in JavaScript; it shows how to make use of the information contained in the present document to extract relevant data from the gradients file's main action descriptor; this utility script uses both the [JSON AM Data Format](/JSON-AM-Data-Format) and the [Gradient Object Simplified Format](/JSON-Simplified-Formats/Gradient-Object-Simplified-Format), but can be adapted to produce results into any other desired format through direct calls to appropriate ActionDescriptor and ActionList methods.
+
+## Generating gradients files
+
+The utility script [Generate Gradients File](/Utility-Scripts/Generate-Gradients-File) (for Photoshop CS3 or later) can be used to generate a gradients file from a JSON text file whose format is the same as the one returned by the above-mentioned script for parsing gradient files, i.e. consisting of an array of gradient objects in [Gradient Object Simplified Format](/JSON-Simplified-Formats/Gradient-Object-Simplified-Format).
+
+---
+
+Doc version: 2.7
 <br>
-<hr>
-<p>Doc version: 2.6<br>Date: 2017-03-23<br>Copyright: © 2012-2017 Michel MARIANI<br>Disclaimer: this information is provided 'as is' without warranty of any kind, express or implied; use it at your own risk.</p>
-</body>
-</html>
+Date: 2018-04-16
+<br>
+Copyright: © 2012-2018 Michel MARIANI
+<br>
+Disclaimer: this information is provided 'as is' without warranty of any kind, express or implied; use it at your own risk.

@@ -6,7 +6,7 @@
 
 This stand-alone script written in JavaScript is used to play a specific action contained in a Photoshop actions file (.atn), without the need to load the file in the Actions Palette.
 
-Please refer to the [Photoshop Actions File Format](/Documentation/actions-file-format.html) document for detailed information about the structure of an actions file.
+Please refer to the [Photoshop Actions File Format](/Documentation/Photoshop-Actions-File-Format) page for detailed information about the structure of an actions file.
 
 ![Play Actions File Action Dialog (Mac OS X)](images/playActionsFileActionDialog.png)
 

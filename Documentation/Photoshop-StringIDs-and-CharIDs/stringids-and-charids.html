@@ -1,0 +1,1354 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+    "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Photoshop StringIDs and CharIDs</title>
+<style type="text/css">
+    body
+    {
+        width: 900px;
+        margin-left: auto;
+        margin-right: auto;
+        color: black;
+        background-color: white;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+        padding: 0.25em;
+        font-size: 90%;
+    }
+    h1
+    {
+        text-align: center;
+    }
+    code
+    {
+        font-family: Monaco, monospace;
+        font-size: 100%;
+    }
+    pre
+    {
+        font-family: Monaco, monospace;
+        border: black dotted 1px;
+        padding: 1em;
+        color: black;
+        background-color: #FFFFF7;
+    }
+    #toc
+    {
+        width: 23%;
+        border: gray dotted 1px;
+        color: black;
+        background-color: #FBFBFB;
+        padding-right: 16px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    table
+    {
+        margin-left: auto;
+        margin-right: auto;
+        border: gray solid 1px;
+        border-collapse: collapse;
+        line-height: 1em;
+        width: 100%
+    }
+    table code
+    {
+        font-size: 75%;
+    }
+    th
+    {
+        color: white;
+        background-color: black;
+        font-weight: normal;
+        font-size: 90%;
+    }
+    tr, th, td
+    {
+        text-align: center;
+        border: gray solid 1px;
+        padding: 0.25em;
+    }
+    td ul
+    {
+        margin: 0.25em 0;
+        padding-left: 1.25em;
+    }
+</style>
+</head>
+<body>
+<h1>Photoshop StringIDs and CharIDs</h1>
+<div id="toc">
+<ul>
+<li><a href="#toc-contents">Contents</a></li>
+<li><a href="#toc-decision-table">Decision Table</a></li>
+<li><a href="#toc-conflicting-stringids">Conflicting StringIDs</a></li>
+<li><a href="#toc-context-rules">Context Rules</a></li>
+</ul>
+</div>
+<h2 id="toc-contents">Contents</h2>
+<p>This document provides information about StringIDs and CharIDs in Photoshop. It has been mostly inferred from the data available in the files <code>PITerminology.h</code> and <code>PIStringTerminology.h</code> of the <a href="https://www.adobe.com/devnet/photoshop/sdk.html">Adobe Photoshop SDK</a>.</p>
+<p><strong>Note</strong>: the following utility scripts are also quite useful:</p>
+<ul>
+<li><strong>Get Equivalent ID Code</strong>: [Photoshop CS3 or later] get the text string of a call to <code>app.stringIDToTypeID</code> equivalent to a call to <code>app.charIDToTypeID</code>.</li>
+<li><strong>Get Equivalent ID Strings</strong>: [Photoshop CS3 or later] get all possible equivalent ID Strings from either a CharID or StringID string.</li>
+<li><strong>List Internal IDs</strong>: [Photoshop CS or later] list in JSON format all internal IDs used by the Photoshop’s programming interface.</li>
+</ul>
+<h2 id="toc-decision-table">Decision Table</h2>
+<table>
+<thead>
+<tr>
+<th><br></th>
+<th>class</th>
+<th>enumType</th>
+<th>enumValue</th>
+<th>event</th>
+<th>key</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>"'Algn'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"align"</code></td>
+<td><ins><code>"align"</code></ins><br><code>"alignment"</code></td>
+</tr>
+<tr>
+<td><code>"'AntA'"</code></td>
+<td><code>"antiAliasedPICTAcquire"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"antiAlias"</code></td>
+</tr>
+<tr>
+<td><code>"'BckL'"</code></td>
+<td><code>"backgroundLayer"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"backgroundLevel"</code></td>
+</tr>
+<tr>
+<td><code>"'BlcG'"</code></td>
+<td><br></td>
+<td><code>"blackGenerationType"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"blackGenerationCurve"</code></td>
+</tr>
+<tr>
+<td><code>"'BlcL'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"blackLevel"</code><br><code>"blackLimit"</code></td>
+</tr>
+<tr>
+<td><code>"'Blks'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"blacks"</code><br><code>"blocks"</code></td>
+<td><br></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'BlrM'"</code></td>
+<td><br></td>
+<td><code>"blurMethod"</code></td>
+<td><br></td>
+<td><code>"blurMore"</code></td>
+<td><code>"blurMethod"</code></td>
+</tr>
+<tr>
+<td><code>"'BrgC'"</code></td>
+<td><code>"brightnessContrast"</code></td>
+<td><br></td>
+<td><br></td>
+<td><ins><code>"brightnessContrast"</code></ins><br><del><code>"brightnessEvent"</code></del></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'BrsD'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"brushesDefine"</code></td>
+<td><br></td>
+<td><code>"brushDetail"</code></td>
+</tr>
+<tr>
+<td><code>"'Brsh'"</code></td>
+<td><code>"brush"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><ins><code>"brush"</code></ins><br><code>"brushes"</code></td>
+</tr>
+<tr>
+<td><code>"'Clcl'"</code></td>
+<td><code>"calculation"</code></td>
+<td><br></td>
+<td><code>"calculations"</code></td>
+<td><br></td>
+<td><code>"calculation"</code></td>
+</tr>
+<tr>
+<td><code>"'ClrP'"</code></td>
+<td><br></td>
+<td><code>"colorPalette"</code></td>
+<td><ins><code>"coloredPencil"</code></ins></td>
+<td><code>"coloredPencil"</code></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'Cnst'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"constant"</code><br><ins><em><code>"constrain"</code></em></ins></td>
+</tr>
+<tr>
+<td><code>"'CntC'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><ins><code>"conteCrayon"</code></ins></td>
+<td><code>"conteCrayon"</code></td>
+<td><code>"centerCropMarks"</code></td>
+</tr>
+<tr>
+<td><code>"'Cntr'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"center"</code></td>
+<td><br></td>
+<td><code>"center"</code><br><code>"contrast"</code></td>
+</tr>
+<tr>
+<td><code>"'CrtD'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"createDuplicate"</code></td>
+<td><code>"createDroplet"</code></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'CstP'"</code></td>
+<td><code>"customPhosphors"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"customPalette"</code></td>
+</tr>
+<tr>
+<td><code>"'Cstm'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"customPattern"</code></td>
+<td><code>"custom"</code></td>
+<td><code>"custom"</code></td>
+</tr>
+<tr>
+<td><code>"'Drkn'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"darken"</code></td>
+<td><br></td>
+<td><code>"darkness"</code></td>
+</tr>
+<tr>
+<td><code>"'Dstr'"</code></td>
+<td><br></td>
+<td><code>"distribution"</code></td>
+<td><code>"distort"</code></td>
+<td><code>"distribute"</code></td>
+<td><code>"distortion"</code>
+<br>
+<code>"distribution"</code></td>
+</tr>
+<tr>
+<td><code>"'Dstt'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"desaturate"</code></td>
+<td><code>"desaturate"</code></td>
+<td><code>"destWhiteMax"</code></td>
+</tr>
+<tr>
+<td><code>"'FlIn'"</code></td>
+<td><code>"fileInfo"</code></td>
+<td><br></td>
+<td><code>"fileInfo"</code><br><code>"fillInverse"</code></td>
+<td><br></td>
+<td><code>"fileInfo"</code></td>
+</tr>
+<tr>
+<td><code>"'Gd&nbsp;&nbsp;'"</code></td>
+<td><code>"guide"</code></td>
+<td><br></td>
+<td><code>"good"</code></td>
+<td><br></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'GnrP'"</code></td>
+<td><del><code>"generalPrefs"</code></del><br><code>"preferencesClass"</code></td>
+<td><br></td>
+<td><code>"generalPreferences"</code></td>
+<td><br></td>
+<td><code>"generalPrefs"</code></td>
+</tr>
+<tr>
+<td><code>"'GrSt'"</code></td>
+<td><code>"graySetup"</code></td>
+<td><br></td>
+<td><code>"grainStippled"</code></td>
+<td><br></td>
+<td><code>"graySetup"</code></td>
+</tr>
+<tr>
+<td><code>"'Grdn'"</code></td>
+<td><code>"gradientClassEvent"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"gradientClassEvent"</code></td>
+<td><del><ins><code>"gradientClassEvent"</code></ins></del><br><code>"gridMinor"</code></td>
+</tr>
+<tr>
+<td><code>"'Grn&nbsp;'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><ins><code>"grain"</code></ins><br><code>"green"</code></td>
+<td><code>"grain"</code></td>
+<td><code>"grain"</code><br><code>"green"</code></td>
+</tr>
+<tr>
+<td><code>"'Grns'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"greens"</code></td>
+<td><br></td>
+<td><code>"graininess"</code></td>
+</tr>
+<tr>
+<td><code>"'HstP'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"historyPreferences"</code></td>
+<td><br></td>
+<td><code>"historyPrefs"</code></td>
+</tr>
+<tr>
+<td><code>"'HstS'"</code></td>
+<td><code>"historyState"</code></td>
+<td><code>"historyStateSourceType"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'ImgP'"</code></td>
+<td><code>"imagePoint"</code></td>
+<td><br></td>
+<td><code>"imageCachePreferences"</code></td>
+<td><br></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'In&nbsp;&nbsp;'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"stampIn"</code></td>
+<td><br></td>
+<td><code>"in"</code></td>
+</tr>
+<tr>
+<td><code>"'IntW'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"intersectWith"</code></td>
+<td><code>"interfaceWhite"</code></td>
+</tr>
+<tr>
+<td><code>"'Intr'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><ins><code>"intersect"</code></ins></td>
+<td><code>"intersect"</code></td>
+<td><code>"interfaceIconFrameDimmed"</code><br><code>"interlace"</code><br><code>"interpolation"</code></td>
+</tr>
+<tr>
+<td><code>"'JPEG'"</code></td>
+<td><code>"JPEGFormat"</code></td>
+<td><br></td>
+<td><code>"JPEG"</code></td>
+<td><br></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'LghD'"</code></td>
+<td><br></td>
+<td><code>"lightDirection"</code></td>
+<td><code>"lightDirectional"</code></td>
+<td><br></td>
+<td><code>"lightDirection"</code></td>
+</tr>
+<tr>
+<td><code>"'LghO'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"lightenOnly"</code><br><code>"lightOmni"</code></td>
+<td><br></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'LghS'"</code></td>
+<td><code>"lightSource"</code></td>
+<td><br></td>
+<td><code>"lightSpot"</code></td>
+<td><br></td>
+<td><code>"lightSource"</code></td>
+</tr>
+<tr>
+<td><code>"'Lns&nbsp;'"</code></td>
+<td><br></td>
+<td><code>"lens"</code></td>
+<td><code>"lines"</code></td>
+<td><br></td>
+<td><code>"lens"</code></td>
+</tr>
+<tr>
+<td><code>"'Mgnt'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"magenta"</code><br><code>"magentas"</code></td>
+<td><br></td>
+<td><code>"magenta"</code></td>
+</tr>
+<tr>
+<td><code>"'MrgL'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"mergedLayers"</code></td>
+<td><code>"mergeLayers"</code></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'Mxm&nbsp;'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"maximumQuality"</code></td>
+<td><code>"maximum"</code></td>
+<td><code>"maximum"</code></td>
+</tr>
+<tr>
+<td><code>"'NTSC'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"NTSC"</code></td>
+<td><code>"NTSCColors"</code></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'NmbL'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"numberOfLayers"</code><br><code>"numberOfLevels"</code></td>
+</tr>
+<tr>
+<td><code>"'PlgP'"</code></td>
+<td><code>"pluginPrefs"</code></td>
+<td><br></td>
+<td><code>"pluginPicker"</code></td>
+<td><br></td>
+<td><code>"pluginPrefs"</code></td>
+</tr>
+<tr>
+<td><code>"'Pncl'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"pencilEraser"</code></td>
+<td><br></td>
+<td><code>"pencilWidth"</code></td>
+</tr>
+<tr>
+<td><code>"'Pnt&nbsp;'"</code></td>
+<td><code>"point"</code></td>
+<td><br></td>
+<td><ins><code>"point"</code></ins></td>
+<td><code>"paint"</code></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'Prsp'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"perspective"</code></td>
+<td><br></td>
+<td><code>"perspectiveIndex"</code></td>
+</tr>
+<tr>
+<td><code>"'PrvM'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"previewMagenta"</code></td>
+<td><br></td>
+<td><code>"previewMacThumbnail"</code></td>
+</tr>
+<tr>
+<td><code>"'Pstr'"</code></td>
+<td><code>"posterize"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"posterize"</code></td>
+<td><code>"posterization"</code></td>
+</tr>
+<tr>
+<td><code>"'RGBS'"</code></td>
+<td><br></td>
+<td><code>"RGBSetupSource"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"RGBSetup"</code></td>
+</tr>
+<tr>
+<td><code>"'Rds&nbsp;'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"reds"</code></td>
+<td><br></td>
+<td><code>"radius"</code></td>
+</tr>
+<tr>
+<td><code>"'ScrD'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"screenDot"</code></td>
+<td><br></td>
+<td><code>"scratchDisks"</code></td>
+</tr>
+<tr>
+<td><code>"'ShdI'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><ins><em><code>"shadingIntensity"</code></em></ins><br><code>"shadowIntensity"</code></td>
+</tr>
+<tr>
+<td><code>"'ShpC'"</code></td>
+<td><code>"shapingCurve"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"shapeCurveType"</code><br><ins><code>"shapingCurve"</code></ins></td>
+</tr>
+<tr>
+<td><code>"'ShrE'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"sharpenEdges"</code></td>
+<td><code>"shearEd"</code></td>
+</tr>
+<tr>
+<td><code>"'Shrp'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"sharpen"</code></td>
+<td><code>"sharpness"</code></td>
+</tr>
+<tr>
+<td><code>"'SplC'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"splitChannels"</code></td>
+<td><code>"supplementalCategories"</code></td>
+</tr>
+<tr>
+<td><code>"'Spot'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"spotColor"</code></td>
+<td><br></td>
+<td><code>"spot"</code></td>
+</tr>
+<tr>
+<td><code>"'SprS'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"separationSetup"</code><br><ins><code>"sprayedStrokes"</code></ins></td>
+<td><code>"sprayedStrokes"</code></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'StrL'"</code></td>
+<td><br></td>
+<td><code>"strokeLocation"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"strokeLength"</code></td>
+</tr>
+<tr>
+<td><code>"'Strt'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"saturation"</code></td>
+<td><br></td>
+<td><code>"saturation"</code><br><code>"start"</code></td>
+</tr>
+<tr>
+<td><code>"'TEXT'"</code></td>
+<td><br></td>
+<td><ins><code>"textType"</code></ins></td>
+<td><br></td>
+<td><br></td>
+<td><ins><code>"textType"</code></ins></td>
+</tr>
+<tr>
+<td><code>"'TIFF'"</code></td>
+<td><code>"TIFFFormat"</code></td>
+<td><br></td>
+<td><code>"TIFF"</code></td>
+<td><br></td>
+<td><br></td>
+</tr>
+<tr>
+<td><code>"'TglO'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"toggleOptionsPalette"</code></td>
+<td><br></td>
+<td><code>"toggleOthers"</code></td>
+</tr>
+<tr>
+<td><code>"'TrnG'"</code></td>
+<td><br></td>
+<td><code>"transparencyGridSize"</code></td>
+<td><code>"transparencyGamutPreferences"</code></td>
+<td><br></td>
+<td><code>"transparencyGrid"</code><br><code>"transparencyGridSize"</code></td>
+</tr>
+<tr>
+<td><code>"'TrnS'"</code></td>
+<td><code>"transparencyStop"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><ins><em><code>"transferSpec"</code></em></ins><br><code>"transparencyShape"</code></td>
+</tr>
+<tr>
+<td><code>"'Trns'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"transparent"</code></td>
+<td><br></td>
+<td><code>"transparency"</code></td>
+</tr>
+<tr>
+<td><code>"'TxtC'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"textClickPoint"</code><br><code>"textureCoverage"</code></td>
+</tr>
+<tr>
+<td><code>"'TxtF'"</code></td>
+<td><br></td>
+<td><br></td>
+<td><br></td>
+<td><code>"textureFill"</code></td>
+<td><code>"textureFile"</code></td>
+</tr>
+<tr>
+<td><code>"'UsrM'"</code></td>
+<td><br></td>
+<td><code>"userMaskOptions"</code></td>
+<td><br></td>
+<td><br></td>
+<td><code>"userMaskEnabled"</code></td>
+</tr>
+<tr>
+<td><code>"'null'"</code></td>
+<td><code>"null"</code></td>
+<td><br></td>
+<td><code>"null"</code></td>
+<td><code>"null"</code></td>
+<td><del><code>"null"</code></del><br><code>"target"</code></td>
+</tr>
+</tbody>
+<tfoot>
+<tr>
+<th><br></th>
+<th>class</th>
+<th>enumType</th>
+<th>enumValue</th>
+<th>event</th>
+<th>key</th>
+</tr>
+</tfoot>
+</table>
+<h2 id="toc-conflicting-stringids">Conflicting StringIDs</h2>
+<p>JSON data extracted from the file <code>jamEngine.jsxinc</code>, part of the <strong>JSON Action Manager</strong> scripting library, representing a table of all known conflicting StringIDs:</p>
+<pre>
+{
+    "'Algn'": [ "align", "alignment" ],
+    "'AntA'": [ "antiAlias", "antiAliasedPICTAcquire" ],
+    "'BckL'": [ "backgroundLayer", "backgroundLevel" ],
+    "'BlcG'": [ "blackGenerationType", "blackGenerationCurve" ],
+    "'BlcL'": [ "blackLevel", "blackLimit" ],
+    "'Blks'": [ "blacks", "blocks" ],
+    "'BlrM'": [ "blurMethod", "blurMore" ],
+    "'BrgC'": [ "brightnessEvent", "brightnessContrast" ],
+    "'BrsD'": [ "brushDetail", "brushesDefine" ],
+    "'Brsh'": [ "brush", "brushes" ],
+    "'Clcl'": [ "calculation", "calculations" ],
+    "'ClrP'": [ "colorPalette", "coloredPencil" ],
+    "'Cnst'": [ "constant", "constrain" ],
+    "'CntC'": [ "centerCropMarks", "conteCrayon" ],
+    "'Cntr'": [ "center", "contrast" ],
+    "'CrtD'": [ "createDroplet", "createDuplicate" ],
+    "'CstP'": [ "customPalette", "customPhosphors" ],
+    "'Cstm'": [ "custom", "customPattern" ],
+    "'Drkn'": [ "darken", "darkness" ],
+    "'Dstr'": [ "distort", "distortion", "distribute", "distribution" ],
+    "'Dstt'": [ "desaturate", "destWhiteMax" ],
+    "'FlIn'": [ "fileInfo", "fillInverse" ],
+    "'Gd  '": [ "good", "guide" ],
+    "'GnrP'": [ "generalPreferences", "generalPrefs", "preferencesClass" ],
+    "'GrSt'": [ "grainStippled", "graySetup" ],
+    "'Grdn'": [ "gradientClassEvent", "gridMinor" ],
+    "'Grn '": [ "grain", "green" ],
+    "'Grns'": [ "graininess", "greens" ],
+    "'HstP'": [ "historyPreferences", "historyPrefs" ],
+    "'HstS'": [ "historyState", "historyStateSourceType" ],
+    "'ImgP'": [ "imageCachePreferences", "imagePoint" ],
+    "'In  '": [ "in", "stampIn" ],
+    "'IntW'": [ "interfaceWhite", "intersectWith" ],
+    "'Intr'": [ "interfaceIconFrameDimmed", "interlace", "interpolation", "intersect" ],
+    "'JPEG'": [ "JPEG", "JPEGFormat" ],
+    "'LghD'": [ "lightDirection", "lightDirectional" ],
+    "'LghO'": [ "lightOmni", "lightenOnly" ],
+    "'LghS'": [ "lightSource", "lightSpot" ],
+    "'Lns '": [ "lens", "lines" ],
+    "'Mgnt'": [ "magenta", "magentas" ],
+    "'MrgL'": [ "mergeLayers", "mergedLayers" ],
+    "'Mxm '": [ "maximum", "maximumQuality" ],
+    "'NTSC'": [ "NTSC", "NTSCColors" ],
+    "'NmbL'": [ "numberOfLayers", "numberOfLevels" ],
+    "'PlgP'": [ "pluginPicker", "pluginPrefs" ],
+    "'Pncl'": [ "pencilEraser", "pencilWidth" ],
+    "'Pnt '": [ "paint", "point" ],
+    "'Prsp'": [ "perspective", "perspectiveIndex" ],
+    "'PrvM'": [ "previewMacThumbnail", "previewMagenta" ],
+    "'Pstr'": [ "posterization", "posterize" ],
+    "'RGBS'": [ "RGBSetup", "RGBSetupSource" ],
+    "'Rds '": [ "radius", "reds" ],
+    "'ScrD'": [ "scratchDisks", "screenDot" ],
+    "'ShdI'": [ "shadingIntensity", "shadowIntensity" ],
+    "'ShpC'": [ "shapeCurveType", "shapingCurve" ],
+    "'ShrE'": [ "sharpenEdges", "shearEd" ],
+    "'Shrp'": [ "sharpen", "sharpness" ],
+    "'SplC'": [ "splitChannels", "supplementalCategories" ],
+    "'Spot'": [ "spot", "spotColor" ],
+    "'SprS'": [ "separationSetup", "sprayedStrokes" ],
+    "'StrL'": [ "strokeLength", "strokeLocation" ],
+    "'Strt'": [ "saturation", "start" ],
+    "'TEXT'": [ "char", "textType" ],
+    "'TIFF'": [ "TIFF", "TIFFFormat" ],
+    "'TglO'": [ "toggleOptionsPalette", "toggleOthers" ],
+    "'TrnG'": [ "transparencyGamutPreferences", "transparencyGrid", "transparencyGridSize" ],
+    "'TrnS'": [ "transferSpec", "transparencyShape", "transparencyStop" ],
+    "'Trns'": [ "transparency", "transparent" ],
+    "'TxtC'": [ "textClickPoint", "textureCoverage" ],
+    "'TxtF'": [ "textureFile", "textureFill" ],
+    "'UsrM'": [ "userMaskEnabled", "userMaskOptions" ],
+    "'c@#^'": [ "inherits", "pInherits" ],
+    "'comp'": [ "comp", "sInt64" ],
+    "'doub'": [ "floatType", "IEEE64BitFloatingPoint", "longFloat" ],
+    "'long'": [ "integer", "longInteger", "sInt32" ],
+    "'magn'": [ "magnitude", "uInt32" ],
+    "'null'": [ "null", "target" ],
+    "'shor'": [ "sInt16", "sMInt", "shortInteger" ],
+    "'sing'": [ "IEEE32BitFloatingPoint", "sMFloat", "shortFloat" ]
+}
+</pre>
+<h2 id="toc-context-rules">Context Rules</h2>
+<p>JSON data extracted from the file <code>jamEngine.jsxinc</code>, part of the <strong>JSON Action Manager</strong> scripting library, representing a disambiguating rules table, used to choose among conflicting StringIDs the most adequate meaningful one in context:</p>
+<pre>
+{
+    "'Algn'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "bevelEmboss": "align",
+            "frameFX": "align",
+            "gradientFill": "align",
+            "gradientLayer": "align",
+            "patternFill": "align",
+            "patternLayer": "align"
+        },
+        "&lt;event&gt;": "align",
+        "&lt;key&gt;": "alignment"
+    },
+    "'AntA'":
+    {
+        "&lt;class&gt;": "antiAliasedPICTAcquire",
+        "&lt;key&gt;": "antiAlias"
+    },
+    "'BckL'":
+    {
+        "&lt;class&gt;": "backgroundLayer",
+        "&lt;key&gt;": "backgroundLevel"
+    },
+    "'BlcG'":
+    {
+        "&lt;enumType&gt;": "blackGenerationType",
+        "&lt;key&gt;": "blackGenerationCurve"
+    },
+    "'BlcL'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "'GEfc'": "blackLevel",
+            "CMYKSetup": "blackLimit"
+        },
+        "&lt;eventKey&gt;":
+        {
+            "reticulation": "blackLevel"
+        }
+    },
+    "'Blks'":
+    {
+        "&lt;typeValue&gt;":
+        {
+            "colors": "blacks",
+            "extrudeType": "blocks"
+        }
+    },
+    "'BlrM'":
+    {
+        "&lt;enumType&gt;": "blurMethod",
+        "&lt;event&gt;": "blurMore",
+        "&lt;key&gt;": "blurMethod"
+    },
+    "'BrgC'":
+    {
+        "&lt;class&gt;": "brightnessContrast",
+        "&lt;event&gt;": "brightnessContrast"
+    },
+    "'BrsD'":
+    {
+        "&lt;enumValue&gt;": "brushesDefine",
+        "&lt;key&gt;": "brushDetail"
+    },
+    "'Brsh'":
+    {
+        "&lt;class&gt;": "brush",
+        "&lt;classKey&gt;":
+        {
+            "brushPreset": "brush",
+            "currentToolOptions": "brush",
+            "displayPrefs": "brush"
+        },
+        "&lt;key&gt;": "brushes"
+    },
+    "'Clcl'":
+    {
+        "&lt;class&gt;": "calculation",
+        "&lt;enumValue&gt;": "calculations",
+        "&lt;key&gt;": "calculation"
+    },
+    "'ClrP'":
+    {
+        "&lt;typeValue&gt;":
+        {
+            "'GEft'": "coloredPencil"
+        },
+        "&lt;enumType&gt;": "colorPalette",
+        "&lt;event&gt;": "coloredPencil"
+    },
+    "'Cnst'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "channelMatrix": "constant"
+        },
+        "&lt;unknown&gt;": "constrain"
+    },
+    "'CntC'":
+    {
+        "&lt;typeValue&gt;":
+        {
+            "'GEft'": "conteCrayon"
+        },
+        "&lt;event&gt;": "conteCrayon",
+        "&lt;key&gt;": "centerCropMarks"
+    },
+    "'Cntr'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "'GEfc'": "contrast",
+            "brightnessContrast": "contrast",
+            "document": "center",
+            "polygon": "center",
+            "quadrilateral": "center"
+        },
+        "&lt;eventKey&gt;":
+        {
+            "adaptCorrect": "contrast",
+            "brightnessEvent": "contrast",
+            "grain": "contrast",
+            "halftoneScreen": "contrast",
+            "sumie": "contrast",
+            "tornEdges": "contrast",
+            "waterPaper": "contrast"
+        },
+        "&lt;enumValue&gt;": "center"
+    },
+    "'CrtD'":
+    {
+        "&lt;enumValue&gt;": "createDuplicate",
+        "&lt;event&gt;": "createDroplet"
+    },
+    "'CstP'":
+    {
+        "&lt;class&gt;": "customPhosphors",
+        "&lt;key&gt;": "customPalette"
+    },
+    "'Cstm'":
+    {
+        "&lt;enumValue&gt;": "customPattern",
+        "&lt;event&gt;": "custom",
+        "&lt;key&gt;": "custom"
+    },
+    "'Drkn'":
+    {
+        "&lt;enumValue&gt;": "darken",
+        "&lt;key&gt;": "darkness"
+    },
+    "'Dstr'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "'GEfc'": "distortion"
+        },
+        "&lt;eventKey&gt;":
+        {
+            "glass": "distortion",
+            "addNoise": "distribution"
+        },
+        "&lt;enumType&gt;": "distribution",
+        "&lt;enumValue&gt;": "distort",
+        "&lt;event&gt;": "distribute"
+    },
+    "'Dstt'":
+    {
+        "&lt;enumValue&gt;": "desaturate",
+        "&lt;event&gt;": "desaturate",
+        "&lt;key&gt;": "destWhiteMax"
+    },
+    "'FlIn'":
+    {
+        "&lt;typeValue&gt;":
+        {
+            "fillColor": "fillInverse",
+            "menuItemType": "fileInfo"
+        },
+        "&lt;class&gt;": "fileInfo",
+        "&lt;key&gt;": "fileInfo"
+    },
+    "'Gd  '":
+    {
+        "&lt;class&gt;": "guide",
+        "&lt;enumValue&gt;": "good"
+    },
+    "'GnrP'":
+    {
+        "&lt;class&gt;": "preferencesClass",
+        "&lt;enumValue&gt;": "generalPreferences",
+        "&lt;key&gt;": "generalPrefs"
+    },
+    "'GrSt'":
+    {
+        "&lt;class&gt;": "graySetup",
+        "&lt;enumValue&gt;": "grainStippled",
+        "&lt;key&gt;": "graySetup"
+    },
+    "'Grdn'":
+    {
+        "&lt;class&gt;": "gradientClassEvent",
+        "&lt;event&gt;": "gradientClassEvent",
+        "&lt;key&gt;": "gridMinor"
+    },
+    "'Grn '":
+    {
+        "&lt;typeValue&gt;":
+        {
+            "'GEft'": "grain"
+        },
+        "&lt;classKey&gt;":
+        {
+            "'GEfc'": "grain",
+            "RGBColor": "green",
+            "blackAndWhite": "green",
+            "channelMatrix": "green",
+            "channelMixer": "green"
+        },
+        "&lt;eventKey&gt;":
+        {
+            "blackAndWhite": "green",
+            "channelMixer": "green",
+            "filmGrain": "grain"
+        },
+        "&lt;enumValue&gt;": "green",
+        "&lt;event&gt;": "grain"
+    },
+    "'Grns'":
+    {
+        "&lt;enumValue&gt;": "greens",
+        "&lt;key&gt;": "graininess"
+    },
+    "'HstP'":
+    {
+        "&lt;enumValue&gt;": "historyPreferences",
+        "&lt;key&gt;": "historyPrefs"
+    },
+    "'HstS'":
+    {
+        "&lt;class&gt;": "historyState",
+        "&lt;enumType&gt;": "historyStateSourceType"
+    },
+    "'ImgP'":
+    {
+        "&lt;class&gt;": "imagePoint",
+        "&lt;enumValue&gt;": "imageCachePreferences"
+    },
+    "'In  '":
+    {
+        "&lt;enumValue&gt;": "stampIn",
+        "&lt;key&gt;": "in"
+    },
+    "'IntW'":
+    {
+        "&lt;event&gt;": "intersectWith",
+        "&lt;key&gt;": "interfaceWhite"
+    },
+    "'Intr'":
+    {
+        "&lt;typeValue&gt;":
+        {
+            "shapeOperation": "intersect"
+        },
+        "&lt;classKey&gt;":
+        {
+            "GIFFormat": "interlace",
+            "SaveForWeb": "interlace",
+            "application": "interfaceIconFrameDimmed",
+            "computedBrush": "interpolation",
+            "dBrush": "interpolation",
+            "gradientClassEvent": "interpolation",
+            "photoshopEPSFormat": "interpolation",
+            "sampledBrush": "interpolation"
+        },
+        "&lt;eventKey&gt;":
+        {
+            "convertMode": "interpolation",
+            "imageSize": "interpolation",
+            "transform": "interpolation"
+        },
+        "&lt;event&gt;": "intersect"
+    },
+    "'JPEG'":
+    {
+        "&lt;class&gt;": "JPEGFormat",
+        "&lt;enumValue&gt;": "JPEG"
+    },
+    "'LghD'":
+    {
+        "&lt;enumType&gt;": "lightDirection",
+        "&lt;enumValue&gt;": "lightDirectional",
+        "&lt;key&gt;": "lightDirection"
+    },
+    "'LghO'":
+    {
+        "&lt;typeValue&gt;":
+        {
+            "diffuseMode": "lightenOnly",
+            "lightType": "lightOmni"
+        }
+    },
+    "'LghS'":
+    {
+        "&lt;class&gt;": "lightSource",
+        "&lt;enumValue&gt;": "lightSpot",
+        "&lt;key&gt;": "lightSource"
+    },
+    "'Lns '":
+    {
+        "&lt;enumType&gt;": "lens",
+        "&lt;enumValue&gt;": "lines",
+        "&lt;key&gt;": "lens"
+    },
+    "'Mgnt'":
+    {
+        "&lt;typeValue&gt;":
+        {
+            "channel": "magenta",
+            "colors": "magentas",
+            "guideGridColor": "magenta"
+        },
+        "&lt;key&gt;": "magenta"
+    },
+    "'MrgL'":
+    {
+        "&lt;enumValue&gt;": "mergedLayers",
+        "&lt;event&gt;": "mergeLayers"
+    },
+    "'Mxm '":
+    {
+        "&lt;enumValue&gt;": "maximumQuality",
+        "&lt;event&gt;": "maximum",
+        "&lt;key&gt;": "maximum"
+    },
+    "'NTSC'":
+    {
+        "&lt;enumValue&gt;": "NTSC",
+        "&lt;event&gt;": "NTSCColors"
+    },
+    "'NmbL'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "'GEfc'": "numberOfLevels",
+            "document": "numberOfLayers"
+        },
+        "&lt;eventKey&gt;":
+        {
+            "cutout": "numberOfLevels"
+        }
+    },
+    "'PlgP'":
+    {
+        "&lt;class&gt;": "pluginPrefs",
+        "&lt;enumValue&gt;": "pluginPicker",
+        "&lt;key&gt;": "pluginPrefs"
+    },
+    "'Pncl'":
+    {
+        "&lt;enumValue&gt;": "pencilEraser",
+        "&lt;key&gt;": "pencilWidth"
+    },
+    "'Pnt '":
+    {
+        "&lt;typeValue&gt;":
+        {
+            "textType": "point"
+        },
+        "&lt;class&gt;": "point",
+        "&lt;event&gt;": "paint"
+    },
+    "'Prsp'":
+    {
+        "&lt;enumValue&gt;": "perspective",
+        "&lt;key&gt;": "perspectiveIndex"
+    },
+    "'PrvM'":
+    {
+        "&lt;enumValue&gt;": "previewMagenta",
+        "&lt;key&gt;": "previewMacThumbnail"
+    },
+    "'Pstr'":
+    {
+        "&lt;class&gt;": "posterize",
+        "&lt;event&gt;": "posterize",
+        "&lt;key&gt;": "posterization"
+    },
+    "'RGBS'":
+    {
+        "&lt;enumType&gt;": "RGBSetupSource",
+        "&lt;key&gt;": "RGBSetup"
+    },
+    "'Rds '":
+    {
+        "&lt;enumValue&gt;": "reds",
+        "&lt;key&gt;": "radius"
+    },
+    "'ScrD'":
+    {
+        "&lt;enumValue&gt;": "screenDot",
+        "&lt;key&gt;": "scratchDisks"
+    },
+    "'ShdI'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "'GEfc'": "shadowIntensity"
+        },
+        "&lt;eventKey&gt;":
+        {
+            "watercolor": "shadowIntensity"
+        },
+        "&lt;unknown&gt;": "shadingIntensity"
+    },
+    "'ShpC'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "application": "shapingCurve"
+        },
+        "&lt;class&gt;": "shapingCurve",
+        "&lt;key&gt;": "shapeCurveType"
+    },
+    "'ShrE'":
+    {
+        "&lt;event&gt;": "sharpenEdges",
+        "&lt;key&gt;": "shearEd"
+    },
+    "'Shrp'":
+    {
+        "&lt;event&gt;": "sharpen",
+        "&lt;key&gt;": "sharpness"
+    },
+    "'SplC'":
+    {
+        "&lt;event&gt;": "splitChannels",
+        "&lt;key&gt;": "supplementalCategories"
+    },
+    "'Spot'":
+    {
+        "&lt;enumValue&gt;": "spotColor",
+        "&lt;key&gt;": "spot"
+    },
+    "'SprS'":
+    {
+        "&lt;typeValue&gt;":
+        {
+            "'GEft'": "sprayedStrokes"
+        },
+        "&lt;enumValue&gt;": "separationSetup",
+        "&lt;event&gt;": "sprayedStrokes"
+    },
+    "'StrL'":
+    {
+        "&lt;enumType&gt;": "strokeLocation",
+        "&lt;key&gt;": "strokeLength"
+    },
+    "'Strt'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "currentToolOptions": "saturation",
+            "fileNamingRules": "start",
+            "HSBColorClass": "saturation",
+            "hueSatAdjustment": "saturation",
+            "hueSatAdjustmentV2": "saturation",
+            "lineClass": "start",
+            "range": "start",
+            "vibrance": "saturation"
+        },
+        "&lt;eventKey&gt;":
+        {
+            "replaceColor": "saturation",
+            "variations": "saturation",
+            "vibrance": "saturation"
+        },
+        "&lt;enumValue&gt;": "saturation"
+    },
+    "'TEXT'":
+    {
+        "&lt;enumType&gt;": "textType",
+        "&lt;key&gt;": "textType"
+    },
+    "'TIFF'":
+    {
+        "&lt;class&gt;": "TIFFFormat",
+        "&lt;enumValue&gt;": "TIFF"
+    },
+    "'TglO'":
+    {
+        "&lt;enumValue&gt;": "toggleOptionsPalette",
+        "&lt;key&gt;": "toggleOthers"
+    },
+    "'TrnG'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "application": "transparencyGrid",
+            "transparencyPrefs": "transparencyGridSize"
+        },
+        "&lt;enumType&gt;": "transparencyGridSize",
+        "&lt;enumValue&gt;": "transparencyGamutPreferences"
+    },
+    "'TrnS'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "bevelEmboss": "transparencyShape",
+            "dropShadow": "transparencyShape",
+            "innerGlow": "transparencyShape",
+            "innerShadow": "transparencyShape",
+            "outerGlow": "transparencyShape"
+        },
+        "&lt;class&gt;": "transparencyStop",
+        "&lt;unknown&gt;": "transferSpec"
+    },
+    "'Trns'":
+    {
+        "&lt;enumValue&gt;": "transparent",
+        "&lt;key&gt;": "transparency"
+    },
+    "'TxtC'":
+    {
+        "&lt;classKey&gt;":
+        {
+            "'GEfc'": "textureCoverage",
+            "textLayer": "textClickPoint"
+        },
+        "&lt;eventKey&gt;":
+        {
+            "underpainting": "textureCoverage"
+        }
+    },
+    "'TxtF'":
+    {
+        "&lt;event&gt;": "textureFill",
+        "&lt;key&gt;": "textureFile"
+    },
+    "'UsrM'":
+    {
+        "&lt;enumType&gt;": "userMaskOptions",
+        "&lt;key&gt;": "userMaskEnabled"
+    },
+    "'null'":
+    {
+        "&lt;class&gt;": "null",
+        "&lt;enumValue&gt;": "null",
+        "&lt;event&gt;": "null",
+        "&lt;key&gt;": "target"
+    }
+}
+</pre>
+<hr>
+<p>
+Doc version: 1.0
+<br>
+Date: 2018-04-18
+<br>
+Copyright: © 2018 Michel MARIANI
+<br>
+Disclaimer: this information is provided 'as is' without warranty of any kind, express or implied; use it at your own risk.
+</p>
+</body>
+</html>

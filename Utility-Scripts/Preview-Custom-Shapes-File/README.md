@@ -8,7 +8,7 @@ This stand-alone script written in JavaScript is used to graphically preview a P
 
 It creates a new image document with a white background and an optional grid layer, then generates a two-dimensional table of shape thumbnails, either drawn all in one single layer or displayed as a series of shape layers in a layer group.
 
-Please refer to the [Photoshop Custom Shapes File Format](/Documentation/custom-shapes-file-format.html) document for detailed information about the structure of a custom shapes file.
+Please refer to the [Photoshop Custom Shapes File Format](/Documentation/Photoshop-Custom-Shapes-File-Format) page for detailed information about the structure of a custom shapes file.
 
 ![Preview Custom Shapes File Dialog (Mac OS X)](images/Preview-Custom-Shapes-File-Dialog-Mac-OS-X.png)
 

@@ -6,7 +6,7 @@ Description
 
 This stand-alone script written in JavaScript is used to create a work path from a custom shape contained in a Photoshop custom shapes file (.csh).
 
-Please refer to the [Photoshop Custom Shapes File Format](/Documentation/custom-shapes-file-format.html) document for detailed information about the structure of a custom shapes file.
+Please refer to the [Photoshop Custom Shapes File Format](/Documentation/Photoshop-Custom-Shapes-File-Format) page for detailed information about the structure of a custom shapes file.
 
 ![Insert Custom Shape Path Dialog (Mac OS X)](images/Insert-Custom-Shape-Path-Dialog1.png)
 

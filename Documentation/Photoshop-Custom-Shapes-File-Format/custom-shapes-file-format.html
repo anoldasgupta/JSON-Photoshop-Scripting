@@ -12,8 +12,9 @@
         margin-right: auto;
         color: black;
         background-color: white;
-        font-family: "Times", serif;
-        font-size: medium;
+        font-family: Verdana, Arial, Helvetica, sans-serif;
+        line-height: 1.5em;
+        font-size: 90%;
     }
     h1
     {
@@ -21,7 +22,7 @@
     }
     #toc
     {
-        width: 33%;
+        width: 37%;
         border: gray dotted 1px;
         color: black;
         background-color: #FBFBFB;
@@ -47,13 +48,11 @@
     }
     code
     {
-        font-family: "Monaco", monospace;
-        font-size: 90%;
+        font-family: Monaco, monospace;
     }
     pre
     {
-        font-family: "Monaco", monospace;
-        font-size: smaller;
+        font-family: Monaco, monospace;
         border: black dotted 1px;
         padding: 1em;
         color: black;
@@ -96,31 +95,32 @@
 <h1>Photoshop Custom Shapes File Format</h1>
 <div id="toc">
 <ul>
-<li><a href="custom-shapes-file-format.html#toc-contents">Contents</a></li>
+<li><a href="#toc-contents">Contents</a></li>
 <li>
-<a href="custom-shapes-file-format.html#toc-custom-shapes-file-format">Custom shapes file format</a>
+<a href="#toc-file-format">File format</a>
 <ul>
-<li><a href="custom-shapes-file-format.html#toc-custom-shapes-file">Custom shapes file</a></li>
-<li><a href="custom-shapes-file-format.html#toc-custom-shape">Custom shape</a></li>
-<li><a href="custom-shapes-file-format.html#toc-unicode-string">Unicode string</a></li>
-<li><a href="custom-shapes-file-format.html#toc-pascal-style-string">Pascal-style string</a></li>
-<li><a href="custom-shapes-file-format.html#toc-bounds-rectangle">Bounds rectangle</a></li>
-<li><a href="custom-shapes-file-format.html#toc-path-record">Path record</a></li>
-<li><a href="custom-shapes-file-format.html#toc-path-fill-rule-record">Path fill rule record</a></li>
-<li><a href="custom-shapes-file-format.html#toc-initial-fill-rule-record">Initial fill rule record</a></li>
-<li><a href="custom-shapes-file-format.html#toc-subpath-length-record">Subpath length record</a></li>
-<li><a href="custom-shapes-file-format.html#toc-subpath-bezier-knot">Subpath Bezier knot</a></li>
-<li><a href="custom-shapes-file-format.html#toc-path-point">Path point</a></li>
+<li><a href="#toc-custom-shapes-file">Custom shapes file</a></li>
+<li><a href="#toc-custom-shapes-file-header">Custom shapes file header</a></li>
+<li><a href="#toc-custom-shape">Custom shape</a></li>
+<li><a href="#toc-unicode-string">Unicode string</a></li>
+<li><a href="#toc-pascal-style-string">Pascal-style string</a></li>
+<li><a href="#toc-bounds-rectangle">Bounds rectangle</a></li>
+<li><a href="#toc-path-record">Path record</a></li>
+<li><a href="#toc-path-fill-rule-record">Path fill rule record</a></li>
+<li><a href="#toc-initial-fill-rule-record">Initial fill rule record</a></li>
+<li><a href="#toc-subpath-length-record">Subpath length record</a></li>
+<li><a href="#toc-subpath-bezier-knot">Subpath Bezier knot</a></li>
+<li><a href="#toc-path-point">Path point</a></li>
 </ul>
 </li>
-<li><a href="custom-shapes-file-format.html#toc-path-records-order">Path records order</a></li>
-<li><a href="custom-shapes-file-format.html#toc-parsing-custom-shapes-files">Parsing custom shapes files</a></li>
+<li><a href="#toc-path-records-order">Path records order</a></li>
+<li><a href="#toc-parsing-custom-shapes-files">Parsing custom shapes files</a></li>
 </ul>
 </div>
 <h2 id="toc-contents">Contents</h2>
 <p>This document provides information about the (undocumented yet) format of custom shapes files in Photoshop.</p>
-<p><strong>Note</strong>: all multi-byte values, i.e., integer numbers (including C-style 4-character constants), fixed-point numbers, and Unicode characters are coded in <a href="http://en.wikipedia.org/wiki/Big-endian">big-endian</a> format.</p>
-<h2 id="toc-custom-shapes-file-format">Custom shapes file format</h2>
+<p><strong>Note</strong>: all multi-byte values, i.e., integer numbers (including C-style 4-character constants), fixed-point numbers, and Unicode characters are coded in <a href="https://en.wikipedia.org/wiki/Big-endian">big-endian</a> format.</p>
+<h2 id="toc-file-format">File format</h2>
 <h3 id="toc-custom-shapes-file">Custom shapes file</h3>
 <table>
 <tr>
@@ -142,7 +142,7 @@
 <td>Adobe Photoshop custom shapes file; generally produced by saving a selected set of custom shapes from the Preset Manager.</td>
 </tr>
 </table>
-<br>
+<h3 id="toc-custom-shapes-file-header">Custom shapes file header</h3>
 <table>
 <tr>
 <th>Length&nbsp;(in&nbsp;bytes)</th>
@@ -167,7 +167,7 @@
 <tr>
 <td>Variable</td>
 <td>Sequence of custom shapes</td>
-<td>Each in <a href="custom-shapes-file-format.html#toc-custom-shape">Custom shape</a> format.</td>
+<td>Each in <a href="#toc-custom-shape">Custom shape</a> format.</td>
 </tr>
 </table>
 <h3 id="toc-custom-shape">Custom shape</h3>
@@ -180,7 +180,7 @@
 <tr>
 <td>Variable</td>
 <td>Custom shape name</td>
-<td><a href="custom-shapes-file-format.html#toc-unicode-string">Unicode string</a> format.</td>
+<td><a href="#toc-unicode-string">Unicode string</a> format.</td>
 </tr>
 <tr>
 <td>0 or 2</td>
@@ -199,18 +199,18 @@
 </tr>
 <tr>
 <td>1 + 36</td>
-<td>Custom shape ID (<a href="http://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a>)</td>
-<td><a href="custom-shapes-file-format.html#toc-pascal-style-string">Pascal-style string</a> format.</td>
+<td>Custom shape ID (<a href="https://en.wikipedia.org/wiki/Universally_unique_identifier">UUID</a>)</td>
+<td><a href="#toc-pascal-style-string">Pascal-style string</a> format.</td>
 </tr>
 <tr>
 <td>16</td>
 <td>Reference bounds for anchor and control points</td>
-<td><a href="custom-shapes-file-format.html#toc-bounds-rectangle">Bounds rectangle</a> format.</td>
+<td><a href="#toc-bounds-rectangle">Bounds rectangle</a> format.</td>
 </tr>
 <tr>
 <td>Variable</td>
 <td>Sequence of path records</td>
-<td>Each in <a href="custom-shapes-file-format.html#toc-path-record">Path record</a> format.</td>
+<td>Each in <a href="#toc-path-record">Path record</a> format.</td>
 </tr>
 <tr>
 <td>1 or 3</td>
@@ -313,20 +313,20 @@
 <td>
 Depending on selector:
 <ul>
-<li><a href="custom-shapes-file-format.html#toc-subpath-length-record">Subpath length record</a> format</li>
-<li><a href="custom-shapes-file-format.html#toc-subpath-bezier-knot">Subpath Bezier knot</a> format</li>
-<li><a href="custom-shapes-file-format.html#toc-subpath-bezier-knot">Subpath Bezier knot</a> format</li>
-<li><a href="custom-shapes-file-format.html#toc-subpath-length-record">Subpath length record</a> format</li>
-<li><a href="custom-shapes-file-format.html#toc-subpath-bezier-knot">Subpath Bezier knot</a> format</li>
-<li><a href="custom-shapes-file-format.html#toc-subpath-bezier-knot">Subpath Bezier knot</a> format</li>
-<li><a href="custom-shapes-file-format.html#toc-path-fill-rule-record">Path fill rule record</a> format</li>
+<li><a href="#toc-subpath-length-record">Subpath length record</a> format</li>
+<li><a href="#toc-subpath-bezier-knot">Subpath Bezier knot</a> format</li>
+<li><a href="#toc-subpath-bezier-knot">Subpath Bezier knot</a> format</li>
+<li><a href="#toc-subpath-length-record">Subpath length record</a> format</li>
+<li><a href="#toc-subpath-bezier-knot">Subpath Bezier knot</a> format</li>
+<li><a href="#toc-subpath-bezier-knot">Subpath Bezier knot</a> format</li>
+<li><a href="#toc-path-fill-rule-record">Path fill rule record</a> format</li>
 <li>Clipboard record format (not used)</li>
-<li><a href="custom-shapes-file-format.html#toc-initial-fill-rule-record">Initial fill rule record</a> format</li>
+<li><a href="#toc-initial-fill-rule-record">Initial fill rule record</a> format</li>
 </ul>
 </td>
 </tr>
 </table>
-<p>Cf. <a href="http://www.adobe.com/devnet-apps/photoshop/fileformatashtml/PhotoshopFileFormats.htm#50577409_17587">Path resource format</a> of the page <a href="http://www.adobe.com/devnet-apps/photoshop/fileformatashtml/PhotoshopFileFormats.htm">Adobe Photoshop File Formats Specification</a> for more details about the way paths are stored in a Photoshop document.</p>
+<p>Cf. <a href="https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/PhotoshopFileFormats.htm#50577409_17587">Path resource format</a> of the page <a href="https://www.adobe.com/devnet-apps/photoshop/fileformatashtml/PhotoshopFileFormats.htm">Adobe Photoshop File Formats Specification</a> for more details about the way paths are stored in a Photoshop document.</p>
 <h3 id="toc-path-fill-rule-record">Path fill rule record</h3>
 <table>
 <tr>
@@ -386,20 +386,20 @@ Depending on selector:
 <tr>
 <td>8</td>
 <td>Backward control point for the Bezier segment preceding the knot</td>
-<td><a href="custom-shapes-file-format.html#toc-path-point">Path point</a> format.</td>
+<td><a href="#toc-path-point">Path point</a> format.</td>
 </tr>
 <tr>
 <td>8</td>
 <td>Anchor point for the knot</td>
-<td><a href="custom-shapes-file-format.html#toc-path-point">Path point</a> format.</td>
+<td><a href="#toc-path-point">Path point</a> format.</td>
 </tr>
 <tr>
 <td>8</td>
 <td>Forward control point for the Bezier segment leaving the knot</td>
-<td><a href="custom-shapes-file-format.html#toc-path-point">Path point</a> format.</td>
+<td><a href="#toc-path-point">Path point</a> format.</td>
 </tr>
 </table>
-<p>Cf. <a href="http://en.wikipedia.org/wiki/Bezier_curves">Bezier curves</a>.</p>
+<p>Cf. <a href="https://en.wikipedia.org/wiki/Bezier_curves">Bezier curves</a>.</p>
 <h3 id="toc-path-point">Path point</h3>
 <table>
 <tr>
@@ -410,15 +410,15 @@ Depending on selector:
 <tr>
 <td>4</td>
 <td>Vertical component</td>
-<td>32-bit fixed-point number (signed), in <a href="http://en.wikipedia.org/wiki/Fixed_point_numbers#Notation">Q8.24</a> format.</td>
+<td>32-bit fixed-point number (signed), in <a href="https://en.wikipedia.org/wiki/Fixed_point_numbers#Notation">Q8.24</a> format.</td>
 </tr>
 <tr>
 <td>4</td>
 <td>Horizontal component</td>
-<td>32-bit fixed-point number (signed), in <a href="http://en.wikipedia.org/wiki/Fixed_point_numbers#Notation">Q8.24</a> format.</td>
+<td>32-bit fixed-point number (signed), in <a href="https://en.wikipedia.org/wiki/Fixed_point_numbers#Notation">Q8.24</a> format.</td>
 </tr>
 </table>
-<p><a href="http://en.wikipedia.org/wiki/Fixed_point_numbers">Fixed-point numbers</a> are implemented here as 32-bit integers, with 8 bits before the binary point and 24 bits after the binary point. In JavaScript, since all numbers are represented as floating-point numbers, appropriate values are simply obtained by dividing the extracted 32-bit signed integer values by 0x1000000 (2<sup>24</sup>).</p>
+<p><a href="https://en.wikipedia.org/wiki/Fixed_point_numbers">Fixed-point numbers</a> are implemented here as 32-bit integers, with 8 bits before the binary point and 24 bits after the binary point. In JavaScript, since all numbers are represented as floating-point numbers, appropriate values are simply obtained by dividing the extracted 32-bit signed integer values by 0x1000000 (2<sup>24</sup>).</p>
 <p>The resulting horizontal and vertical component values of a path point always fall between 0.0 and 1.0 (both exclusive).<br>
 [0.0,&nbsp;0.0] and [1.0,&nbsp;1.0] correspond respectively to the top-left and bottom-right corners of the bounds rectangle, which appears to have an extra "safety" margin of 1 pixel in each direction (i.e.: top, left, bottom, right).</p>
 <h2 id="toc-path-records-order">Path records order</h2>
@@ -432,16 +432,15 @@ Depending on selector:
 <li>an "open subpath length record" (selector:&nbsp;3) is followed by a sequence of either "open subpath Bezier knot, linked" (selector:&nbsp;4) or "open subpath Bezier knot, unlinked" (selector:&nbsp;5).</li>
 </ul>
 <h2 id="toc-parsing-custom-shapes-files">Parsing custom shapes files</h2>
-<p>A practical set of JavaScript functions for parsing custom shapes files is contained in the module <a href="../JSON&#32;Action&#32;Manager/jsDoc/symbols/jamShapes.html">jamShapes</a>, which is part of the <a href="../json-photoshop-scripting/json-action-manager/index.html">JSON Action Manager</a> scripting library. It is used by the following utility scripts:</p>
+<p>A practical set of JavaScript functions for parsing custom shapes files is contained in the module <code>jamShapes</code>, which is part of the <strong>JSON Action Manager</strong> scripting library. It is used by the following utility scripts:</p>
 <ul>
-<li><a href="../scripts/utility-scripts/convert-custom-shapes-file-to-svg-set/index.html">Convert Custom Shapes File to SVG Set</a>: [Photoshop CS3 or later] convert a custom shapes file (.csh) or a custom shapes preferences file (CustomShapes.psp) into a set of SVG files.</li>
-<li><a href="../scripts/utility-scripts/insert-custom-shape-path/index.html">Insert Custom Shape Path</a>: [Photoshop CS3 or later] create a work path from a custom shape contained in a custom shapes file (.csh).</li>
-<li><a href="../scripts/utility-scripts/parse-custom-shapes-file/index.html">Parse Custom Shapes File</a>: [Photoshop CS3 or later] parse a custom shapes file (.csh) or a custom shapes preferences file (CustomShapes.psp) into a JSON text file.</li>
-<li><a href="../scripts/utility-scripts/preview-custom-shapes-file/index.html">Preview Custom Shapes File</a>: [Photoshop CS3 or later] graphically preview a custom shapes file (.csh) or a custom shapes preferences file (CustomShapes.psp) in a new image document.</li>
+<li><strong>Convert Custom Shapes File to SVG Set</strong>: [Photoshop CS3 or later] convert a custom shapes file (.csh) or a custom shapes preferences file (CustomShapes.psp) into a set of SVG files.</li>
+<li><strong>Insert Custom Shape Path</strong>: [Photoshop CS3 or later] create a work path from a custom shape contained in a custom shapes file (.csh).</li>
+<li><strong>Parse Custom Shapes File</strong>: [Photoshop CS3 or later] parse a custom shapes file (.csh) or a custom shapes preferences file (CustomShapes.psp) into a JSON text file.</li>
+<li><strong>Preview Custom Shapes File</strong>: [Photoshop CS3 or later] graphically preview a custom shapes file (.csh) or a custom shapes preferences file (CustomShapes.psp) in a new image document.</li>
 </ul>
-<p>All files are open-source and licensed under <a href="http://www.gnu.org/licenses/gpl.html">GPLv3</a>; the utility scripts have been successfully tested in Photoshop CS4 on Mac OS X, but should be platform agnostic.</p>
-<br>
+<p>All files are open-source and licensed under <a href="https://www.gnu.org/licenses/gpl.html">GPLv3</a>; the utility scripts have been successfully tested in Photoshop CS4 on Mac OS X, but should be platform agnostic.</p>
 <hr>
-<p>Doc version: 2.0<br>Date: 2017-03-23<br>Copyright: © 2013-2017 Michel MARIANI<br>Disclaimer: this information is provided 'as is' without warranty of any kind, express or implied; use it at your own risk.</p>
+<p>Doc version: 2.1<br>Date: 2018-04-15<br>Copyright: © 2013-2018 Michel MARIANI<br>Disclaimer: this information is provided 'as is' without warranty of any kind, express or implied; use it at your own risk.</p>
 </body>
 </html>

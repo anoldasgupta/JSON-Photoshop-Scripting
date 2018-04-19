@@ -42,11 +42,11 @@ It is also possible to obtain instead the **actual** color components values: in
 
 ## Examples
 
-**Parsed color book file \[raw color components\]**:
+**Parsed color book file [raw color components]**:
 
 [ANPA Color (rawComponents).json](ANPA%20Color%20(rawComponents).json)
 
-**Parsed color book file \[actual color components\]**:
+**Parsed color book file [actual color components]**:
 
 [ANPA Color (actualComponents).json](ANPA%20Color%20(actualComponents).json)
 

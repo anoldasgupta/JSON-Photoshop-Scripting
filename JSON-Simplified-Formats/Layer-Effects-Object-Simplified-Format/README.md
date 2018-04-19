@@ -175,7 +175,7 @@ Defined as a JSON object:
     "offset": <em>offset</em>,
     "pattern": <em>pattern</em>,
     "phase": <em>phase</em>,
-    <strike>"scale": <em>scale</em>,</strike>
+    <s>"scale": <em>scale</em>,</s>
     "linked": <em>linked</em>
 }
 </pre>

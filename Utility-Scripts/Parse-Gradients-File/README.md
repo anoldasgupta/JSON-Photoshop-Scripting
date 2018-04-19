@@ -10,7 +10,7 @@ From a technical point of view, it shows how to take advantage of the method `Ac
 
 The utility script [Generate Gradients File](/Utility-Scripts/Generate-Gradients-File) performs the reverse operation, i.e., converts a JSON text file, containing a JSON array of gradient objects in [Gradient Object Simplified Format](/JSON-Simplified-Formats/Gradient-Object-Simplified-Format), into a Photoshop gradients file (.grd).
 
-Please refer to the [Photoshop Gradients File Format](/Documentation/gradients-file-format.html) document for detailed information about the structure of a gradients file.
+Please refer to the [Photoshop Gradients File Format](/Documentation/Photoshop-Gradients-File-Format) page for detailed information about the structure of a gradients file.
 
 ## Example
 

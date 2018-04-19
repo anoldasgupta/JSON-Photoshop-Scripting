@@ -20,6 +20,6 @@
 
   Data specification of the simplified formats used by modules of the scripting library.
 
-Latest versions of all programming tools belonging to this project, as well as [Utility Scripts](Utility-Scripts) and [Creative Scripts](Creative-Scripts) making use of them, are available from the [Downloads](Downloads) section, or individually from their respective pages.
+Latest versions of all programming tools belonging to this project, as well as [Creative Scripts](Creative-Scripts) and [Utility Scripts](Utility-Scripts) making use of them, are available from the [Downloads](Downloads) section, or individually from their respective pages.
 
 [Documentation](Documentation), [Tutorials](Tutorials) and [FAQ](FAQ) are also provided.

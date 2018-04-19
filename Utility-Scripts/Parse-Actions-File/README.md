@@ -6,7 +6,7 @@
 
 This stand-alone script written in JavaScript is used to parse a Photoshop actions file (.atn) or an actions palette file (Actions Palette.psp) into a JSON text file.
 
-Please refer to the [Photoshop Actions File Format](/Documentation/actions-file-format.html) document for detailed information about the structure of an actions file.
+Please refer to the [Photoshop Actions File Format](/Documentation/Photoshop-Actions-File-Format) page for detailed information about the structure of an actions file.
 
 ## Example
 

@@ -6,7 +6,7 @@
 
 This stand-alone script written in JavaScript is used to parse a Photoshop custom shapes file (.csh) or a custom shapes preferences file (CustomShapes.psp) into a JSON text file.
 
-Please refer to the [Photoshop Custom Shapes File Format](/Documentation/custom-shapes-file-format.html) document for detailed information about the structure of a custom shapes file.
+Please refer to the [Photoshop Custom Shapes File Format](/Documentation/Photoshop-Custom-Shapes-File-Format) page for detailed information about the structure of a custom shapes file.
 
 ## Example
 

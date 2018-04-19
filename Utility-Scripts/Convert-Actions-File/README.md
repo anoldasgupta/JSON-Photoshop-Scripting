@@ -6,7 +6,7 @@
 
 This stand-alone script written in JavaScript is used to convert a Photoshop actions file (.atn) into a folder of directly executable scripts (.js) which can be further edited; they are made up of sequential calls to the function `jamEngine.jsonPlay`.
 
-Please refer to the [Photoshop Actions File Format](/Documentation/actions-file-format.html) document for detailed information about the structure of an actions file.
+Please refer to the [Photoshop Actions File Format](/Documentation/Photoshop-Actions-File-Format) page for detailed information about the structure of an actions file.
 
 ![Convert Actions File Dialog (Mac OS X)](images/convertActionsFileDialog.png)
 
