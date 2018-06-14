@@ -5,19 +5,19 @@
 # JSON Photoshop Scripting
 
 - [JSON Project Introduction](JSON-Project-Introduction)
-<br>
+
   Introduction to the JSON Photoshop Scripting project.
 
 - [JSON Action Manager](JSON-Action-Manager)
-<br>
+
   Scripting library for Adobe Photoshop, written in JavaScript.
 
 - [JSON AM Data Format](JSON-AM-Data-Format)
-<br>
+
   Data specification of the common JSON format used by the various programming tools.
 
 - [JSON Simplified Formats](JSON-Simplified-Formats)
-<br>
+
   Data specification of the simplified formats used by modules of the scripting library.
 
 Latest versions of all programming tools belonging to this project, as well as [Creative Scripts](Creative-Scripts) and [Utility Scripts](Utility-Scripts) making use of them, are available from the [Downloads](Downloads) section, or individually from their respective pages.
